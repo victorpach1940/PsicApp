@@ -1,0 +1,51 @@
+body{
+	overflow-x:hidden;
+	padding-bottom: 50px;
+}
+
+.a{
+	color: white;
+    text-decoration:none;
+}
+
+.footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #535353;
+	margin-bottom: 0;
+}
+.separador{
+    border: 1px dashed #278e79;
+ }
+
+.menu{
+	height: 50px;
+	-webkit-box-shadow: 0px 3px 20px 0px rgba(102,102,102,1);
+	-moz-box-shadow: 0px 3px 20px 0px rgba(102,102,102,1);
+	box-shadow: 0px 3px 20px 0px rgba(102,102,102,1);
+}
+.icon-menu{
+	filter: invert(0%);
+}
+.disabled{
+	opacity: 0.5;
+}
+.parallax{
+    height: 650px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stroke{
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+#home{
+	background-image: url(http://fabian.elmejorhosting.online/MediTec/img/salud.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
