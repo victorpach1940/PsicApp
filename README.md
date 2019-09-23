@@ -1,7 +1,7 @@
 # PsicApp
 #Metodología de trabajo
 1. Siempre que vayan a comenzar a trabajar con el repositorio deberan hacer un "git pull" para descargar las ultimas modificaciones del proyecto.
-2. Cada colaborador deberá trabajar su respectivo "Issue" en una rama de forma local "git checkout -b nombre de la rama"
+2. Cada colaborador deberá trabajar su respectivo "Issue" en una rama de forma local "git checkout -b rama-nombre de usuario de github"
 3. El nombre de la rama debera tener la nomenclatura: rama-Su nombre de usuario GitHub
 4. Cuando quieran subir su parte al repositorio deberan hacerlo mediante un Pull Request mediante el comando "git push origin nombre de su rama".
 5. No deben de hacer un git push directo al repositorio porque estarian modificando la rama master lo que podria provocar conflictos en el repositorio.
