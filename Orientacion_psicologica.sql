@@ -1,3 +1,5 @@
+CREATE DATABASE TRANSFORMACIONAL;
+USE TRANSFORMACIONAL;
 
 CREATE TABLE PSICOLOGOS(
 idepsi varchar(8) not null,
@@ -24,8 +26,8 @@ edad int not null,
 sexo char not null,
 PRIMARY KEY (correo)
 )ENGINE= InnoDB;
-INSERT INTO LOGIN VALUES ('mistranjorge@gmail.com','admin1', 'jorge', 'mistran', 'mistran', '2221675282', 'no', 'no', '22', 'M');
-INSERT INTO LOGIN VALUES ('alejandro_perez30@outlook.com','admin2', 'alejandro', 'perez', 'perez', '2221548778', 'no', 'no', '21', 'M');
+INSERT INTO PACIENTES VALUES ('mistranjorge@gmail.com','admin1', 'jorge', 'mistran', 'mistran', '2221675282', 'no', 'no', '22', 'M');
+INSERT INTO PACIENTES VALUES ('alejandro_perez30@outlook.com','admin2', 'alejandro', 'perez', 'perez', '2221548778', 'no', 'no', '21', 'M');
 
 CREATE TABLE SECCIONES(
 idesec varchar(8) not null,
@@ -33,7 +35,7 @@ nomsec varchar(50) not null,
 descripcion varchar(50) not null,
 pacsec varchar(40) not null,
 FOREIGN KEY (idesec) REFERENCES PSICOLOGOS(idepsi),
-PRIMARY KEY (idsec),
+PRIMARY KEY (idesec),
 FOREIGN KEY (pacsec) REFERENCES PACIENTES(correo)
 )ENGINE= InnoDB;
 
@@ -42,7 +44,7 @@ idepreg int not null,
 pregunta varchar(50) not null,
 descripcion varchar(50) not null,
 pregsec varchar(8) not null,
-PRIMARY KEY (presec),
+PRIMARY KEY (idepreg),
 FOREIGN KEY (pregsec) REFERENCES SECCIONES(idesec)
 )ENGINE= InnoDB;
 
