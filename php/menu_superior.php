@@ -1,18 +1,23 @@
-<nav class="navbar navbar-dark bg-primary navbar-toggeable-sm sticky-top" style="background-color: #002e4b;">
-  <a class="navbar-brand text-white" href="index.php">
-    <img src="../img/mediapp.png" width="80" class="d-inline-block align-top" alt="logo temporal" style="border-radius: 10;">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <div class="navbar-nav mr-auto ml-auto text-center">
-      <a class="nav-item nav-link text-white" href="agenda.php">Informacion General</a>
-      <a class="nav-item nav-link text-white" href="casos.php">Padecimientos</a>
-      <a class="nav-item nav-link text-white" href="productos.php">Medicamentos</a>
-      <a class="nav-item nav-link text-white" href="actividades.php">Horarios</a>
-      <a class="nav-item nav-link text-white" href="responsables.php">Doctores</a>
-      <a class="nav-item nav-link text-white" href="../index.html">Salir</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">
+        <img src="../img/ico.png" height="35" width="40">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Acerca</a></li>
+        <li><a class="nav-link" href="#services">Informate</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#portfolio">Sesion privada</a></li>
+        <li><a href="#pricing">Iniciar/Registrarse</a></li>
+      </ul>
     </div>
   </div>
 </nav>
