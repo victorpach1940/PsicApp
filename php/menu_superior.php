@@ -12,10 +12,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">Acerca</a></li>
         <li><a href="#portfolio">Nosotros</a></li>
-        <li><a class="nav-link" href="#services">Informate</a></li>
+        <li><a href="#services">Informate</a></li>
         <li><a href="#contact">Contacto</a></li>
+        <li><a href="#about">Acerca</a></li>
         <li><a href="#">Sesion privada</a></li>
         <li><a href="../login/index.php">Iniciar/Registrarse</a></li>
       </ul>

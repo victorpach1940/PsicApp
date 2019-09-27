@@ -54,7 +54,7 @@
 						data:cadena,
 						success:function(r){
 							if(r==1){
-								window.location="inicio.php";
+								window.location="../php/index.php";
 							}else{
 								alertify.alert("Datos incorrectos, debes registrarte");
 							}
