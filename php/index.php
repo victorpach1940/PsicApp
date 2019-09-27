@@ -247,30 +247,30 @@
       <a href="../html/adicciones.html"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <!--<i class="fas fa-check-square"></i>-->
       <h4>Uso de drogas</h4>
-      <p>Lorem ipsum dolor sit amet..</p></a>
+      </a>
     </div>
     <div class="col-sm-4">
       <a href="../html/violenciadepareja.html"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Violencia de pareja</h4>
-      <p>Lorem ipsum dolor sit amet..</p></a>
+      </a>
     </div>
     <div class="col-sm-4">
       <a href="../html/sexualidad.html"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Sexualidad</h4>
-      <p>Lorem ipsum dolor sit amet..</p></a>
+      </a>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <a href="../html/saludmental.html"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Salud mental</h4>
-      <p>Lorem ipsum dolor sit amet..</p></a>
+     </a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Tratamientos</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      
     </div>
   </div>
 </div>
