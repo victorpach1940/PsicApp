@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="icon" href="../img/icono_page.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,6 +18,11 @@
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
+  }
+  h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'EB Garamond', sans-serif;
   }
   h2 {
     font-size: 24px;
@@ -39,7 +45,7 @@
     font-family: Montserrat, sans-serif;
   }
   #about{
-    color: black;
+    color: white;
   }
   .container-fluid {
     padding: 0px 50px;
@@ -197,18 +203,23 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 <?php require "menu_superior.php"; ?>
-<div class="jumbotron text-center">
+<!--<div class="jumbotron text-center">
   <h1>PsicApp</h1>
   <p>¡No estas solo!</p>
-</div>
+</div>-->
 <!-- Container (About Section) -->
-<div id="about" class="container" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:380px;">
+<div id="about" class="container text-center  text-white" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+  <div class="row-sm-12">
+
+    <h1>PsicApp</h1>
+  <p style="font-size: 25px;">¡No estas solo!</p>
+  </div>
     <div class="col-md-4" style="padding-top:55px;">
       <div class="card text-center">
         <img class="card-img-top" src="../img/pregunta.png" style="width: 75px; height: 75px;">
         <div class="card-body">
           <h3 class="card-title"><strong>Resuelve dudas</strong></h3>
-          <p class="card-text" style="font-color:black;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="../html/adicciones.html" class="btn btn-primary">Ir</a>
         </div>
       </div>
