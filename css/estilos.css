@@ -49,3 +49,7 @@ body{
 	width: 100%;
 	background-size: cover;
 }
+
+body{
+	background: red;
+}
