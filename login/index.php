@@ -5,7 +5,7 @@
 
 	<?php require_once "scripts.php"; ?>
 </head>
-<body style="background-color: gray">
+<body style="background-color: #84D2FF">
 <br><br><br>
 <div class="container">
 	<div class="row">
@@ -18,13 +18,13 @@
 						<img src="img/ico.png" height="200" >
 					</div>
 					<p></p>
-					<label>Usuario</label>
+					<label>Correo</label>
 					<input type="text" id="usuario" class="form-control input-sm" name="">
 					<label>Password</label>
 					<input type="password" id="password" class="form-control input-sm" name="">
 					<p></p>
 					<span class="btn btn-primary" id="entrarSistema">Entrar</span>
-					<a href="registro.php" class="btn btn-danger">Registro</a>
+					<a href="registro.php" class="btn btn-danger">Registrar</a>
 				</div>
 			</div>
 		</div>
@@ -38,10 +38,10 @@
 	$(document).ready(function(){
 		$('#entrarSistema').click(function(){
 			if($('#usuario').val()==""){
-				alertify.alert("Debes agregar el usuario");
+				alertify.alert("Debes agregar un email");
 				return false;
 			}else if($('#password').val()==""){
-				alertify.alert("Debes agregar el password");
+				alertify.alert("Debes agregar una contraseña");
 				return false;
 			}
 
@@ -56,7 +56,7 @@
 							if(r==1){
 								window.location="inicio.php";
 							}else{
-								alertify.alert("Fallo al entrar :(");
+								alertify.alert("Datos incorrectos, debes registrarte");
 							}
 						}
 					});

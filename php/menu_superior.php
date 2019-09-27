@@ -16,8 +16,8 @@
         <li><a href="#portfolio">Nosotros</a></li>
         <li><a class="nav-link" href="#services">Informate</a></li>
         <li><a href="#contact">Contacto</a></li>
-        <li><a href="">Sesion privada</a></li>
-        <li><a href="">Iniciar/Registrarse</a></li>
+        <li><a href="#">Sesion privada</a></li>
+        <li><a href="../login/index.php">Iniciar/Registrarse</a></li>
       </ul>
     </div>
   </div>
