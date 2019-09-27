@@ -255,7 +255,7 @@
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Sexualidad</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
@@ -263,12 +263,12 @@
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Salud mental</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Tratamientos</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
