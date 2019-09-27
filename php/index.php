@@ -209,7 +209,7 @@
         <div class="card-body">
           <h3 class="card-title"><strong>Resuelve dudas</strong></h3>
           <p class="card-text" style="font-color:black;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Ir</a>
+          <a href="../html/adicciones.html" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
@@ -244,28 +244,28 @@
   <div class="row slideanim">
     <div class="col-sm-4">
       <!--<span class="glyphicon glyphicon-cannabis logo-small"></span>-->
-      <i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/adicciones.html"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <!--<i class="fas fa-check-square"></i>-->
       <h4>Uso de drogas</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>Lorem ipsum dolor sit amet..</p></a>
     </div>
     <div class="col-sm-4">
-      <i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/violenciadepareja.html"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Violencia de pareja</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>Lorem ipsum dolor sit amet..</p></a>
     </div>
     <div class="col-sm-4">
-      <i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/sexualidad.html"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Sexualidad</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>Lorem ipsum dolor sit amet..</p></a>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/saludmental.html"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Salud mental</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p>Lorem ipsum dolor sit amet..</p></a>
     </div>
     <div class="col-sm-4">
       <i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
