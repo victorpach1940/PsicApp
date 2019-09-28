@@ -20,14 +20,12 @@ nombre varchar(30) not null,
 app varchar(30) not null,
 apm varchar(30) not null,
 tel varchar(10) not null,
-alergias varchar(100),
-enment varchar(100),
 edad int not null,
 sexo char not null,
 PRIMARY KEY (correo)
 )ENGINE= InnoDB;
-INSERT INTO PACIENTES VALUES ('mistranjorge@gmail.com','admin1', 'jorge', 'mistran', 'mistran', '2221675282', 'no', 'no', '22', 'M');
-INSERT INTO PACIENTES VALUES ('alejandro_perez30@outlook.com','admin2', 'alejandro', 'perez', 'perez', '2221548778', 'no', 'no', '21', 'M');
+INSERT INTO PACIENTES VALUES ('mistranjorge@gmail.com','admin1', 'jorge', 'mistran', 'mistran', '2221675282', '22', 'M');
+INSERT INTO PACIENTES VALUES ('alejandro_perez30@outlook.com','admin2', 'alejandro', 'perez', 'perez', '2221548778', '21', 'M');
 
 CREATE TABLE SECCIONES(
 idesec varchar(8) not null,
@@ -62,3 +60,15 @@ FOREIGN KEY (comsec) REFERENCES SECCIONES(idesec)
 
 ALTER TABLE COMENTARIOS
 MODIFY idecoment int(8) NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE VISITANTES(
+idvis int not null,
+sexovis varchar(1) not null,
+edadvis int not null,
+comvis varchar(8) not null,
+PRIMARY KEY (idvis),
+FOREIGN KEY (comvis) REFERENCES SECCIONES(idesec)
+)ENGINE= InnoDB;
+
+ALTER TABLE VISITANTES
+MODIFY idvis int(8) NOT NULL AUTO_INCREMENT;

@@ -1,3 +1,27 @@
+<?php
+session_start();
+//require "conn.php";
+$usuario='';
+//Si ya esta instanciada la sesion usuario
+if (isset($_SESSION['user'])) {
+	//asignar como visitante al usuario
+	if(empty($_SESSION['user'])){
+		$_SESSION['user']=$usuario='visitante';
+    $menu=1;
+	}
+	//Si la sesion usuario no es un visitantes, es decir, ya tiene una sesion iniciada
+	//obtener el id del usuario
+	elseif ($_SESSION['user']!='visitante') {
+		$usuario=$_SESSION['user'];
+    $menu=2;
+	}
+}
+//No esta instanciada la sesion usuario, por lo que se le declara como visitante
+else{
+	$_SESSION['user']=$usuario='visitante';
+  $menu=1;
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -202,7 +226,7 @@
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<?php require "menu_superior.php"; ?>
+<?php if($menu==1){ require "menu_superior.php"; } elseif($menu==2){ require 'menu_superior2.php';} ?>
 <!--<div class="jumbotron text-center">
   <h1>PsicApp</h1>
   <p>¡No estas solo!</p>
@@ -278,11 +302,17 @@
       <h4>Salud mental</h4>
      </a>
     </div>
-    <div class="col-sm-6">
-      <i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
-      <h4>Tratamientos</h4>
-      
-    </div>
+    <?php if($menu==1){ ?>
+      <div class="col-sm-6">
+      <a href="../login/index.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <h4>Tratamientos</h4></a>
+      </div>
+    <?php } elseif($menu==2){ ?>
+      <div class="col-sm-6">
+      <a href="../html/cuestionario_adicciones.html"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <h4>Tratamientos</h4></a>
+      </div>
+    <?php } ?>
   </div>
 </div>
 

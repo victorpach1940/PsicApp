@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $clave="";
-$db="meditec";
+$db="transformacional";
 
 //$host="sql313.elmejorhosting.online";
 //$user="lmjr_24233346";

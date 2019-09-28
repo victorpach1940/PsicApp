@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Registro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../img/icono_page.png">
 	<?php require_once "scripts.php"; ?>
 </head>
-<body style="background-color: #FF812A">
+<body style="background: url(http://localhost/PsicApp/img/background.jpg)center center fixed;">
 <br><br><br>
 <div class="container">
 	<div class="row">
@@ -14,12 +17,14 @@
 				<div class="panel panel-heading">Registro de usuario</div>
 				<div class="panel panel-body">
 					<form id="frmRegistro">
-						
+
 					<input type="text" class="form-control input-sm" id="nombre" name="" placeholder="Nombre">
 					<br>
-					<input type="text" class="form-control input-sm" id="apellidos" name="" placeholder="Apellidos">
+					<input type="text" class="form-control input-sm" id="apellidosp" name="" placeholder="Apellido paterno">
 					<br>
-					<input type="text" class="form-control input-sm" id="usuario" name="" placeholder="email">		
+					<input type="text" class="form-control input-sm" id="apellidosm" name="" placeholder="Apellido materno">
+					<br>
+					<input type="text" class="form-control input-sm" id="usuario" name="" placeholder="email">
 					<br>
 					<input type="text" class="form-control input-sm" id="password" name="" placeholder="password">
 					<br>
@@ -50,7 +55,10 @@
 			if($('#nombre').val()==""){
 				alertify.alert("Debes agregar un nombre");
 				return false;
-			}else if($('#apellidos').val()==""){
+			}else if($('#apellidosp').val()==""){
+				alertify.alert("Debes agregar los apellidos");
+				return false;
+			}else if($('#apellidosm').val()==""){
 				alertify.alert("Debes agregar los apellidos");
 				return false;
 			}else if($('#usuario').val()==""){
@@ -74,8 +82,9 @@
 
 
 			cadena="nombre=" + $('#nombre').val() +
-					"&apellidos=" + $('#apellidos').val() +
-					"&usuario=" + $('#usuario').val() + 
+					"&apellidosp=" + $('#apellidosp').val() +
+					"&apellidosm=" + $('#apellidosm').val() +
+					"&usuario=" + $('#usuario').val() +
 					"&password=" + $('#password').val()+
 					"&telefono=" + $('#telefono').val()+
 					"&edad=" + $('#edad').val()+
@@ -101,4 +110,3 @@
 		});
 	});
 </script>
-
