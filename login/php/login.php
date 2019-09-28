@@ -1,18 +1,18 @@
-<?php 
+<?php
 
 
 	session_start();
 	require_once "conexion.php";
 
-	$conexion=conexion();
-
+	$conn=conexion();
+	mysqli_select_db($conn,'TRANSFORMACIONAL');
 		$usuario=$_POST['usuario'];
-		$pass=sha1($_POST['password']);
+		$pass=$_POST['password'];
 
-		$sql="SELECT * from usuarios where usuario='$usuario' and password='$pass'";
-		$result=mysqli_query($conexion,$sql);
-
-		if(mysqli_num_rows($result) > 0){
+		$sql="SELECT * from PACIENTES where correo='".$usuario."' and password='".$pass."';";
+		$result=mysqli_query($conn,$sql);
+		$rows=mysqli_num_rows($result);
+		if($rows > 0){
 			$_SESSION['user']=$usuario;
 			echo 1;
 		}else{

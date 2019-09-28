@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>Login</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../img/icono_page.png">
 	<?php require_once "scripts.php"; ?>
 </head>
-<body style="background-color: #84D2FF">
+<body style="background: url(http://localhost/PsicApp/img/background.jpg)center center fixed;">
 <br><br><br>
 <div class="container">
 	<div class="row">
@@ -15,7 +17,7 @@
 				<div class="panel panel-heading">Login PsicApp</div>
 				<div class="panel panel-body">
 					<div style="text-align: center;">
-						<img src="img/ico.png" height="200" >
+						<img src="../img/login.png" height="200" >
 					</div>
 					<p></p>
 					<label>Correo</label>
@@ -24,7 +26,7 @@
 					<input type="password" id="password" class="form-control input-sm" name="">
 					<p></p>
 					<span class="btn btn-primary" id="entrarSistema">Entrar</span>
-					<a href="registro.php" class="btn btn-danger">Registrar</a>
+					<a href="registro.php" class="btn btn-success">Registrar</a>
 				</div>
 			</div>
 		</div>
@@ -45,7 +47,7 @@
 				return false;
 			}
 
-			cadena="usuario=" + $('#usuario').val() + 
+			cadena="usuario=" + $('#usuario').val() +
 					"&password=" + $('#password').val();
 
 					$.ajax({
@@ -60,6 +62,6 @@
 							}
 						}
 					});
-		});	
+		});
 	});
 </script>
