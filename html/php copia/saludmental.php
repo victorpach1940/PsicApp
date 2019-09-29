@@ -30,7 +30,7 @@
        <li><a href="saludmental.php" class="red">Salud mental</a></li>
        <li><a href="sexualidad.php">Sexualidad</a></li>
        <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
-       <li><a href="../index.html">Inicio</a></li>
+       <li><a href="../index.php">Inicio</a></li>
 
      </ul>
   </div>
@@ -95,6 +95,8 @@
 
 				<h3><b id="1">¿Qué es la salud mental?</b></h3>
 				La salud mental incluye nuestro bienestar emocional, psicológico y social. Afecta la forma en que pensamos, sentimos y actuamos cuando enfrentamos la vida. También ayuda a determinar cómo manejamos el estrés, nos relacionamos con los demás y tomamos decisiones. La salud mental es importante en todas las etapas de la vida, desde la niñez y la adolescencia hasta la adultez.</br>
+						    <img class="responsive-img" width="900" src="../img/sa1.jpg">
+
 				<b id="2"><h5>¿Qué son las enfermedades mentales?</b></h5>
 				Las enfermedades mentales son afecciones graves que pueden afectar la manera de pensar, su humor y su comportamiento. Pueden ser ocasionales o de larga duración. Pueden afectar su capacidad de relacionarse con los demás y funcionar cada día. Los problemas mentales son comunes, hay tratamientos disponibles. Las personas con problemas de salud mental pueden mejorar y muchas de ellas se recuperan por completo.</br>
 				<b id="3"><h5>¿Por qué es importante la salud mental?</b></h5>
@@ -106,11 +108,14 @@
 					<li>Ser un aporte para su comunidad</li>
 					<li>Trabajar en forma productiva</li>
 					<li>Alcanzar su potencial</li>
+				</ul>
+				<img class="responsive-img" src="../img/sa6.jpg" width="900"></br>
 				
 		</article>
 				<b id="4"><h3>¿Cuáles son las causas de una enfermedad mental?</b></h3>
 				<article align="justify">
 				Las causas de las enfermedades mentales son generalmente múltiples, y no siempre se conocen. Pueden influir en la aparición y desarrollo de las mismas factores como alteraciones en la química del cerebro u otros mecanismos biológicos, predisposición genética, factores ambientales, culturales y sociales, lesiones cerebrales, consumo de sustancias tóxicas, etc. Pero no se conoce con exactitud ni en qué grado impacta cada uno de estos factores, ni qué combinaciones se producen significativamente en cada caso.</br>
+
 				<b id="5"><h5>¿Cómo puedo mejorar mi salud mental?</b></h5>
 				Existen algunos pasos que puede seguir para mejorar su salud mental. Estos incluyen:
 				<ul>
@@ -123,6 +128,7 @@
 					<li>Meditar</li>
 					<li>Obtener ayuda profesional si lo necesita</li>
 				</ul>
+				<img class="responsive-img" src="../img/agua.jpg" width="2000"></br>
 				<b id="6"><h5>¿Qué puede afectar la salud mental?</b></h5>
 				<ul>
 					<li>La inseguridad</li>
@@ -133,6 +139,7 @@
 					<li>los deseos de vivir</li>
 				</ul>
 				También puede verse afectada por factores y experiencias personales, la interacción social, los valores culturales, experiencias familiares, escolares y laborales.</br></br>
+				<img class="responsive-img" src="../img/sa2.jpg" width="2000"></br>
 				<b id="7"><h5>Beneficios de la salud mental</b></h5>
 				<ul>
 					<li>Buena salud física, y rápida recuperación de enfermedades físicas</li>
@@ -140,6 +147,7 @@
 					<li>Estado de bienestar constante y proyectos para el futuro</li>
 					<li>Mejor la calidad de vida de los individuos</li>
 				</ul>
+				<img class="responsive-img" src="../img/sa8.jpg" width="5000"></br>
 				<b id="8"><h5>Enfermedades más frecuentes</b></h5>
 				La mayoría pueden clasificarse en las siguientes patologías:
 				<ul>
@@ -148,6 +156,7 @@
 					<li>Trastornos de la personalidad</li>
 					<li>Trastornos por ansiedad</li>
 				</ul>
+				<img class="responsive-img" src="../img/sa3.jpg" width="5000"></br>
 				<h3 id="9">Preguntas Frecuentes</h3>
 				<b>1. ¿Por qué nos sentimos solos?</b></br>
 				Hay que tener en cuenta que el ser humano es un animal social. Estamos programados geneticamente para vivir en comunidad, el apego es una necesidad básica y fundamental en nuestra primera infancia de hecho determina nuestro desarrollo emocional posterior. Sin embargo, vivimos en un mundo individualista, egoísta, competitivo, desconectado emocionalmente de los demás. Esto no ayuda, de hecho cada vez hay más gente que sufre y se sente sola en las grandes ciudades. Podemos vivir en un bloque de edificios de muchos apartamentos y no relacionarnos ni hablar con ningún vecino más allá del "buenos días" de rigor.</br>
