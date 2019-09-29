@@ -1,81 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Adicciones</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-elements/1.0.2/responsive-elements.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-nav.js/1.0.39/responsive-nav.min.js" integrity="" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="shrtcut icon" href="../img/ico.png">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
- 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-
-
 </head>
 <body>
-	<div class="container">
-	<br>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">PsicApp</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="nav-item active">
-        <a class="nav-link" href="../index1.html">Pagina Principal <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Categorias
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="adicciones.html">Adicciones</a>
-          <a class="dropdown-item" href="saludmental.html">Salud Mental</a>
-          <a class="dropdown-item" href="sexualidad.html">Sexualidad</a>
-          <a class="dropdown-item" href="violenciadepareja.html">Violencia de pareja</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="cuestionario_adicciones.html">Cuestionario de adicciones</a>
-          <a class="dropdown-item" href="cuestionario_saludmental.html">Cuestionario de salud Mental</a>
-          <a class="dropdown-item" href="cuestionario_sexualidad.html">Cuestionario de sexualidad</a>
-          <a class="dropdown-item" href="cuestionario_violenciadepareja.html">Cuestionario de violencia de pareja</a>
-        </div>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Inicio</a>
-      </li>
-      </li>
-      </li>
+<nav>
 
-    </ul>
-   
+  <div class="nav-wrapper">
+     <a href="#" class="brand-logo">PsicApp</a>
+
+	<a href="#" class="sidenav-trigger" data-target="mobile-nav" >
+		<i class="material-icons">menu</i>
+	</a>
+     <ul class="right hide-on-med-and-down">
+
+       <li><a href="adicciones.php" class="red">Adicciones</a></li>
+       <li><a href="saludmental.php">Salud mental</a></li>
+       <li><a href="sexualidad.php">Sexualidad</a></li>
+       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+       <li><a href="index.html">Inicio</a></li>
+
+     </ul>
   </div>
 </nav>
-	</header>
-	</div>
 
 
+   <ul class="sidenav" id="mobile-nav">
+   	  <li><a href="adicciones.php" class="red">Adicciones</a></li>
+       <li><a href="saludmental.php">Salud mental</a></li>
+       <li><a href="sexualidad.php">Sexualidad</a></li>
+       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+       <li><a href="index.html">Inicio</a></li>
+   </ul>
 
-<div class="container">
-	<div class="container" class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
-<h1>Adicciones</h1>
-<section class="wrapper">
-	<div class="container" align="justify">
-	<section class="main row">
+  
+  <section>
+    
+  </section>
 
-
-		<article>
+  <div class="box container white
+  ">
+  <script>
+  	$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <article align="justify">
+  <h1>Adicciones</h1>
 			<h3>Introducción</h3>
-			<p align="justify">
+
+			<p >
 				El consumo de drogas cambia el funcionamiento del cerebro y provoca conductas fuera de lo normal. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice
 						<div class="indice">
 			<p class="indice-Contenidos">Contenidos</p>
@@ -179,6 +165,7 @@
 				<li>Aprovechando el tiempo libre para la convivencia con ellos.</li>
 				<li>Expresándoles cariño y respeto</li>
 			</ol>
+			<a href="#top">Regresar al inicio</a>
 		<h3 id="8">Preguntas frecuentes</h3>
 			<b>1. ¿Si una persona pide ayuda por dónde empieza?</b><br>
 			El primer paso importante es pedir ayuda. La visita a un médico para una posible referencia al tratamiento es una forma de hacerlo. El médico puede ser llamado con antelación y le puede preguntar si él o ella se siente cómodo(a) al discutir de la prueba de detección y tratamiento del  abuso de drogas. De no ser así, solicítele una referencia con otro médico. Usted también puede contactar a un especialista en drogadicción. Se necesita mucho valor para buscar ayuda por un problema de drogadicción u otra adicción porque se espera un trabajo duro por delante. Sin embargo, el tratamiento puede funcionar, y las personas se recuperan a diario de sus adicciones.<br>
@@ -210,8 +197,60 @@
 	</div>
 		</article>
 	</section>
-</section>
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
 </body>
 </html>
+<!-- script -->
+
+
+  <script>
+     
+     $(document).ready(function(){
+          
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+              $('nav').addClass('red');
+            }else{
+              $('nav').removeClass('red');
+            }
+
+          });
+
+     });
+
+  </script>
+  <script>
+  		     $(document).ready(function(){
+  		     	$('.sidenav').sidenav();
+  		     });
+
+
+  </script>
+ 
+
+
+<!-- style -->
+<style>
+    
+    nav{
+      position: fixed;
+      background: rgba(0, 0, 0, 0.2);
+      padding:0px 20px;
+    }
+
+    section{
+      background-image: url(back.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+    }
+    .box{
+      margin-top: 20px;
+      height: 1000px;
+    }
+
+    nav li a:hover{
+      background: red;
+    }
+</style>
