@@ -2,6 +2,7 @@
 session_start();
 //require "conn.php";
 $usuario='';
+$menu=1;
 //Si ya esta instanciada la sesion usuario
 if (isset($_SESSION['user'])) {
 	//asignar como visitante al usuario
