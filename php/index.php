@@ -1,6 +1,12 @@
 <?php
 session_start();
-//require "conn.php";
+require "conn.php";
+$sql=''; $retorno=''; $globales=0; $sql1=''; $sql2=''; $r1=''; $r2=''; $mujer=0;
+$hombre=0; $edad=0; $sql3=''; $r3='';
+$sql="SELECT * FROM VISITANTES;"; $sql1="SELECT * FROM VISITANTES WHERE sexovis='F';";
+$sql2="SELECT * FROM VISITANTES WHERE sexovis='M';"; $sql3="SELECT * FROM VISITANTES WHERE edadvis BETWEEN '15' AND '24';";
+$retorno=mysqli_query($conn,$sql); $r1=mysqli_query($conn,$sql1); $r2=mysqli_query($conn,$sql2); $r3=mysqli_query($conn,$sql3);
+$globales=mysqli_num_rows($retorno); $mujer=mysqli_num_rows($r1); $hombre=mysqli_num_rows($r2); $edad=mysqli_num_rows($r3);
 $usuario='';
 $menu=1;
 //Si ya esta instanciada la sesion usuario
@@ -238,6 +244,8 @@ else{
 
     <h1>PsicApp</h1>
   <p style="font-size: 25px;">¡No estas solo!</p>
+	<p>Visitas: <span class="badge badge-primary" style="background-color: #000000;"><?php print $globales; ?> </span> Mujer: <span class="badge badge-primary" style="background-color: #F08080;"><?php print $mujer; ?></span>  Hombre: <span class="badge badge-primary" style="background-color: #6495ED;"><?php print $hombre; ?></span></p>
+	<p>Edad de 15-24: <span class="badge badge-primary" style="background-color: #008080;"><?php print $edad; ?></span></p>
   </div>
     <div class="col-md-4" style="padding-top:55px;">
       <div class="card text-center">
