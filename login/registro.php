@@ -18,21 +18,21 @@
 				<div class="panel panel-body">
 					<form id="frmRegistro">
 
-					<input type="text" class="form-control input-sm" id="nombre" name="" placeholder="Nombre">
+					<input type="text" class="form-control input-sm" id="nombre" name="" placeholder="Nombre" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="apellidosp" name="" placeholder="Apellido paterno">
+					<input type="text" class="form-control input-sm" id="apellidosp" name="" placeholder="Apellido paterno" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="apellidosm" name="" placeholder="Apellido materno">
+					<input type="text" class="form-control input-sm" id="apellidosm" name="" placeholder="Apellido materno" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="usuario" name="" placeholder="email">
+					<input type="text" class="form-control input-sm" id="usuario" name="" placeholder="email" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="password" name="" placeholder="password">
+					<input type="text" class="form-control input-sm" id="password" name="" placeholder="password" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="telefono" name="" placeholder="telefono">
+					<input type="text" class="form-control input-sm" id="telefono" name="" placeholder="telefono" required="">
 					<br>
-					<input type="text" class="form-control input-sm" id="edad" name="" placeholder="edad">
+					<input type="text" class="form-control input-sm" id="edad" name="" placeholder="edad" required="" pattern="[0-9]{2}" maxlength="2" title="Edad desde 10 años">
 					<br>
-					<input type="text" class="form-control input-sm" id="sexo" name="" placeholder="sexo">
+					<input type="text" class="form-control input-sm" id="sexo" name="" placeholder="sexo" required="" pattern="(F|M)" maxlength="1" title="F=femenino, M=masculino" placeholder="F o M">
 					<p></p>
 					<span class="btn btn-primary" id="registrarNuevo">Registrar</span>
 					</form>

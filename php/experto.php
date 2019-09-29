@@ -1,9 +1,44 @@
+<?php
+session_start();
+require "conn.php";
+$ide='';
+$sql=''; $retorno=''; $globales=0; $sql1=''; $sql2=''; $r1=''; $r2=''; $mujer=0;
+$hombre=0; $edad=0; $sql3=''; $r3=''; $slqinserta=''; $resu='';$sql4=''; $r4=''; $sexo=$_SESSION['genero']; $anios=$_SESSION['edad'];
+$sql4="SELECT max(idvis) FROM VISITANTES;"; $r4=mysqli_query($conn,$sql4);
+$ide=mysqli_fetch_row($r4); $slqinserta="INSERT INTO VISITANTES VALUES ('','$sexo','$anios','EXPERTS');"; $resu=mysqli_query($conn,$slqinserta);
+$sql="SELECT * FROM VISITANTES WHERE secvis='EXPERTS';"; $sql1="SELECT * FROM VISITANTES WHERE sexovis='F' AND secvis='EXPERTS';";
+$sql2="SELECT * FROM VISITANTES WHERE sexovis='M' AND secvis='EXPERTS';"; $sql3="SELECT * FROM VISITANTES WHERE secvis='EXPERTS' AND edadvis BETWEEN '15' AND '24';";
+$retorno=mysqli_query($conn,$sql); $r1=mysqli_query($conn,$sql1); $r2=mysqli_query($conn,$sql2); $r3=mysqli_query($conn,$sql3);
+$globales=mysqli_num_rows($retorno); $mujer=mysqli_num_rows($r1); $hombre=mysqli_num_rows($r2); $edad=mysqli_num_rows($r3);
+$usuario='';
+$menu=1;
+//Si ya esta instanciada la sesion usuario
+if (isset($_SESSION['user'])) {
+	//asignar como visitante al usuario
+	if(empty($_SESSION['user'])){
+		$_SESSION['user']=$usuario='visitante';
+    $menu=1;
+	}
+	//Si la sesion usuario no es un visitantes, es decir, ya tiene una sesion iniciada
+	//obtener el id del usuario
+	elseif ($_SESSION['user']!='visitante') {
+		$usuario=$_SESSION['user'];
+    $menu=2;
+	}
+}
+//No esta instanciada la sesion usuario, por lo que se le manda a registrar su edad y genero
+else{
+	/*$_SESSION['user']=$usuario='visitante';
+  $menu=1;*/
+	header("location: previus.php");
+}
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Salud Mental</title>
-	<link rel="shrtcut icon" href="../img/ico.png">
+	<link rel="shrtcut icon" href="../img/icono_page.png">
 
 </head>
 <body>
@@ -15,6 +50,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js" integrity="" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+<?php if ($menu==1) { ?>
 <nav>
 
   <div class="nav-wrapper">
@@ -25,13 +62,13 @@
 	</a>
      <ul class="right hide-on-med-and-down">
 
-      
+
        <li><a href="adicciones.php" >Adicciones</a></li>
        <li><a href="saludmental.php" class="red">Salud mental</a></li>
        <li><a href="sexualidad.php">Sexualidad</a></li>
        <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
-       <li><a href="../index.php">Inicio</a></li>
-
+       <li><a href="index.php">Inicio</a></li>
+			 <li><a href="../login/index.php">Inicia sesion/Registrate</a></li>
      </ul>
   </div>
 </nav>
@@ -42,16 +79,51 @@
        <li><a href="saludmental.php" class="red">Salud mental</a></li>
        <li><a href="sexualidad.php">Sexualidad</a></li>
        <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
-       <li><a href="../index.html">Inicio</a></li>
+       <li><a href="index.php">Inicio</a></li>
+			 <li><a href="../login/index.php">Inicia sesion/Registrate</a></li>
    </ul>
+<?php }elseif ($menu==2) { ?>
+	<nav>
 
-  
-  <section>
-    
+	  <div class="nav-wrapper">
+	     <a href="#" class="brand-logo">PsicApp</a>
+
+		<a href="#" class="sidenav-trigger" data-target="mobile-nav" >
+			<i class="material-icons">menu</i>
+		</a>
+	     <ul class="right hide-on-med-and-down">
+
+	       <li><a href="adicciones.php" >Adicciones</a></li>
+	       <li><a href="saludmental.php" class="red">Salud mental</a></li>
+	       <li><a href="sexualidad.php">Sexualidad</a></li>
+	       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+	       <li><a href="index.php">Inicio</a></li>
+				 <li><a href="../login/php/salir.php">Salir</a></li>
+	     </ul>
+	  </div>
+	</nav>
+
+
+	   <ul class="sidenav" id="mobile-nav">
+	   	  <li><a href="adicciones.php" >Adicciones</a></li>
+	       <li><a href="saludmental.php" class="red">Salud mental</a></li>
+	       <li><a href="sexualidad.php">Sexualidad</a></li>
+	       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+	       <li><a href="index.php">Inicio</a></li>
+				 <li><a href="../login/php/salir.php">Salir</a></li>
+	   </ul>
+	<?php } ?>
+
+  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">¿Cuando hablar con un experto?</p></strong>
   </section>
+
 
   <div class="box container white
   ">
+	<span class="badge" data-badge-caption="-Visita" style="color:white; background-color:#000000; border-radius:20px;"><?php echo $globales; ?></span>
+	<span class="badge" data-badge-caption="-Mujer" style="color:white; background-color:#F08080; border-radius:20px;"><?php echo $mujer; ?></span>
+	<span class="badge" data-badge-caption="-Hombre" style="color:white; background-color:#6495ED; border-radius:20px;"><?php echo $hombre; ?></span>
+	<span class="badge" data-badge-caption="-De 15 a 24" style="color:white; background-color:#008080; border-radius:20px;"><?php echo $edad; ?></span>
   <script>
   	$("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -60,28 +132,17 @@
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <article align="justify">
-  <h1>Salud Mental</h1>
+  <h1>¿Psicologos?</h1>
 <h3>Introducción</h3>
 			<p>
-				Las personas afectadas por un problema de salud mental, tienen más probabilidades de sufrir otras patologías como diabetes, cardiopatías y cáncer de colon y de mama.</br>
-				Por eso, a la hora de referirse a la salud mental existen muchas asociaciones entre salud mental y enfermedades crónicas que tienen un impacto significativo en las personas, en este articulo aremos referencia ala salud mental de manera Psicologica, emocional y social. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice.
+				Reconocer la vulnerabilidad suele ser la primera dificultad con la que se encuentran aquellas personas que no quieren acudir a un psicólogo.</br>
+				El psicólogo no es tu amigo, sin embargo, sí se establece un vínculo personal que es muy especial al resultar tan positivo. Un buen psicólogo se convierte en un punto de inflexión en su vida. Un psicólogo te ayuda a encauzar esa situación pero, ¿Cuándo hablar con un psicólogo? a continuación te lo explicamos.
 			<div class="indice">
 			<p class="indice-Contenidos">Contenidos</p>
 			<ol class="indice-lista">
-				<li><a href="#1">¿Qué es la salud mental?</a>
-				<ul>
-					<li><a href="#2">¿Qué son las enfermedades mentales?</a> </li>
-					<li><a href="#3">¿Por qué es importante la salud mental?</a> </li>
-				</li>
-				</ul>
-			<li><a href="#4">¿Cuáles son las causas de una enfermedad mental?</a>
-					<ul>
-					<li><a href="#5">¿Cómo puedo mejorar mi salud mental?</a> </li>
-					<li><a href="#6">¿Qué puede afectar la salud mental?</a> </li>
-					<li><a href="#7">Beneficios de la salud mental</a></li>
-					<li><a href="#8">Enfermedades más frecuentes</a></li>
-						</li>
-						</ul>
+				<li><a href="#1">¿Cuándo dar el paso de pedir ayuda?</a></li>
+				<li><a href="#2">¿De que hablo con el psicologo?</a> </li>
+				<li><a href="#3">¿Tratamientos?</a> </li>
 				<li><a href="#9">Preguntas frecuentes</a>
 						</li>
 					</li>
@@ -93,69 +154,35 @@
 
 
 
-				<h3><b id="1">¿Qué es la salud mental?</b></h3>
-				La salud mental incluye nuestro bienestar emocional, psicológico y social. Afecta la forma en que pensamos, sentimos y actuamos cuando enfrentamos la vida. También ayuda a determinar cómo manejamos el estrés, nos relacionamos con los demás y tomamos decisiones. La salud mental es importante en todas las etapas de la vida, desde la niñez y la adolescencia hasta la adultez.</br>
-						    <img class="responsive-img" width="900" src="../img/sa1.jpg">
+				<h3><b id="1">¿Cuándo dar el paso de pedir ayuda?</b></h3>
+        Cuando los días se tiñen de un color gris permanente. Nadie debe acostumbrarse a la tristeza por pura norma.
+        <br>Cuando existe un dolor del alma que pesa hasta el punto de dificultar hábitos tan cotidianos como empezar el día y levantarte de la cama. Cuanto tienes pensamientos muy negativos y emociones muy desagradables que te desestabilizan en cualquier situación.
+        <br>Cuando dentro de ti sientes que no te encuentras bien y que tú no puedes hacer frente por ti mismo a ese dolor, entonces, pide ayuda.
+						    <img class="responsive-img" width="900" src="../img/psicologo.jpg">
 
-				<b id="2"><h5>¿Qué son las enfermedades mentales?</b></h5>
-				Las enfermedades mentales son afecciones graves que pueden afectar la manera de pensar, su humor y su comportamiento. Pueden ser ocasionales o de larga duración. Pueden afectar su capacidad de relacionarse con los demás y funcionar cada día. Los problemas mentales son comunes, hay tratamientos disponibles. Las personas con problemas de salud mental pueden mejorar y muchas de ellas se recuperan por completo.</br>
-				<b id="3"><h5>¿Por qué es importante la salud mental?</b></h5>
-				La salud mental es importante porque puede ayudarle a:
-				<ul>
-					<li>Hacer frente a los problemas de la vida</li>
-					<li>Estar físicamente saludable</li>
-					<li>Tener relaciones sanas</li>
-					<li>Ser un aporte para su comunidad</li>
-					<li>Trabajar en forma productiva</li>
-					<li>Alcanzar su potencial</li>
-				</ul>
-				<img class="responsive-img" src="../img/sa6.jpg" width="900"></br>
-				
-		</article>
-				<b id="4"><h3>¿Cuáles son las causas de una enfermedad mental?</b></h3>
+				<b id="2"><h5>¿De que hablo con el psicologo?</b></h5>
 				<article align="justify">
-				Las causas de las enfermedades mentales son generalmente múltiples, y no siempre se conocen. Pueden influir en la aparición y desarrollo de las mismas factores como alteraciones en la química del cerebro u otros mecanismos biológicos, predisposición genética, factores ambientales, culturales y sociales, lesiones cerebrales, consumo de sustancias tóxicas, etc. Pero no se conoce con exactitud ni en qué grado impacta cada uno de estos factores, ni qué combinaciones se producen significativamente en cada caso.</br>
+          Lleva un diario de tu terapia. No hace falta que escribas páginas y páginas, bastará con algunos apuntes que recojan lo más importante que habéis hablado o aquello que más te ha resonado. Algunos pacientes toman notas durante la sesión, para que no se les escape nada.<br>
+          Habla abiertamente con tu terapeuta, redirígele hacia los temas que tú quieres tratar. A veces, cuando los psicólogos vemos varios caminos a tomar en la conversación, no acertamos con el que es clave ese día para el paciente. Díselo con confianza y hablad de todo aquello que sientas que no está funcionando entre vosotros.<br>
+          A no ser que ese día sientas que necesitas silencio absoluto, ten pensado el tema que quieres tratar en la sesión que vas a tener. No importa si lo que te ronda la cabeza te parece un tema poco importante. Te sorprenderá comprobar hasta dónde se puede llegar tirando de un hilo que al principio parecía insustancial.<br>
+          Por último, sobre todo si es la primera vez que estás delante de un profesional contándole tus problemas, es normal que sientas cierta vergüenza, que no tengas claro cómo contárselo o que temas la reacción que vas a escuchar por parte de esa persona. Sin embargo, recuerda que estás delante de alguien que va a acompañarte (no a condenarte), que todo lo que hables va a quedar entre vosotros y que te pase lo que te pase tu historia es importante y tiene un valor. Confía en tu psicólogo y deja que te ayude a dar los siguientes pasos.<br>
+        </article>
+				<b id="3"><h5>¿Tratamientos?</b></h5>
+				<article align="justify">
+          Un tratamiento psicológico tiene que ver con escuchar con atención lo que el paciente tiene por decir, para poder conocer y observar el mundo interior de la persona que consulta.<br>
+          El tratamiento psicologico es aquella intervencion que tiene por objetivo mejorar el estado de la persona (para que hacer terapia), teniendo en cuenta sus alteraciones (fisicas, psiquicas, conductuales, etc). Por supuesto que se consideran implicados muchos factores causales, como la genetica, cambios en el sistema nervioso, determinadas circunstancias en las relaciones entre personas y las condiciones ambientales. Por esto, no se excluye la combinacion de un tratamiento psicologico junto con uno farmacologico.<br>
+          El objetivo de un tratamiento psicologico es observar, identificar y modificar los elementos del comportamiento que generan sufrimiento. Por comportamiento se entiende:<br>
+          <ul>
+            <li>La conducta</li>
+            <li>El pensamiento</li>
+            <li>Las emociones y estados de animo</li>
+          </ul>
+          <br>
+          Dependiendo de cómo se entienda a la enfermedad y a la salud, los tratamientos son pensados de maneras distintas. Es lo que ocurre, por ejemplo, con el psicoanalisis y la teoria cognitiva. La teoria cognitiva considera que los sintomas son el trastorno mismo y es esto lo que hay que tratar. Sin embargo, desde la antigüedad el sintoma era considerado como una mera señal. De hecho, medicamente, eliminar los sintomas no constituye curar la enfermedad. Psicologicamente tampoco. Un sintoma viene a decirnos algo sobre la posicion existencial de la persona ante los grandes temas de la vida: Sexualidad, Muerte, Duelos. El sintoma nos brinda informacion sobre ello. Y la cura, no pasa por eliminar lo que se TIENE (el sintoma), sino por observar lo que se ES (las identificaciones) que es lo que determina realmente la posicion existencial, el argumento de vida de quien consulta.
+        </article>
+				</br>
 
-				<b id="5"><h5>¿Cómo puedo mejorar mi salud mental?</b></h5>
-				Existen algunos pasos que puede seguir para mejorar su salud mental. Estos incluyen:
-				<ul>
-					<li>Tener una actitud positiva</li>
-					<li>Mantenerse en buena forma física</li>
-					<li>Conectarse con los demás</li>
-					<li>Desarrollar un sentido de significado y propósito en la vida</li>
-					<li>Dormir lo suficiente</li>
-					<li>Desarrollar habilidades para enfrentar problemas</li>
-					<li>Meditar</li>
-					<li>Obtener ayuda profesional si lo necesita</li>
-				</ul>
-				<img class="responsive-img" src="../img/agua.jpg" width="2000"></br>
-				<b id="6"><h5>¿Qué puede afectar la salud mental?</b></h5>
-				<ul>
-					<li>La inseguridad</li>
-					<li>La desesperanza</li>
-					<li>El rápido cambio social</li>
-					<li>Los riesgos de violencia</li>
-					<li>Los problemas que afecten la salud física</li>
-					<li>los deseos de vivir</li>
-				</ul>
-				También puede verse afectada por factores y experiencias personales, la interacción social, los valores culturales, experiencias familiares, escolares y laborales.</br></br>
-				<img class="responsive-img" src="../img/sa2.jpg" width="2000"></br>
-				<b id="7"><h5>Beneficios de la salud mental</b></h5>
-				<ul>
-					<li>Buena salud física, y rápida recuperación de enfermedades físicas</li>
-					<li>Relaciones de calidad con las personas del entorno</li>
-					<li>Estado de bienestar constante y proyectos para el futuro</li>
-					<li>Mejor la calidad de vida de los individuos</li>
-				</ul>
-				<img class="responsive-img" src="../img/sa8.jpg" width="5000"></br>
-				<b id="8"><h5>Enfermedades más frecuentes</b></h5>
-				La mayoría pueden clasificarse en las siguientes patologías:
-				<ul>
-					<li>Esquizofrenia</li>
-					<li>Trastornos del estado de ánimo</li>
-					<li>Trastornos de la personalidad</li>
-					<li>Trastornos por ansiedad</li>
-				</ul>
+		</article>
 				<img class="responsive-img" src="../img/sa3.jpg" width="5000"></br>
 				<h3 id="9">Preguntas Frecuentes</h3>
 				<b>1. ¿Por qué nos sentimos solos?</b></br>
@@ -185,7 +212,7 @@
 					<li>Pensamientos Negativos respecto a tí mismo y a los demás. </li>
 				Lo ves todo negro, una y otra vez las preocupaciones rondan por tu cabeza. Anticipas siempre todo lo malo que puede llegar a pasar y te montas "películas negativas".</br>
 					<li>Autocrítica Destructiva.</li>
-				Tu autocrítica en lugar de motivarte y ayudarte a avanzar te machaca, te enfadas contigo mismo y te hablas mal. Esto te agota y te quita energía. 
+				Tu autocrítica en lugar de motivarte y ayudarte a avanzar te machaca, te enfadas contigo mismo y te hablas mal. Esto te agota y te quita energía.
 				</ul>
 				<b>5. ¿Qué puedes hacer si te estás autolesionando fisicamente?</b></br>
 				Existen una serie de técnicas que pueden reducir el riesgo de lesión seria o reducen al mínimo el daño causado por las autolesiones
@@ -239,20 +266,35 @@
 
 					<h4><b>¿Aun tiene más dudas?</b></h4>
 					 puede solicitar información adicional en el chat en linea de PsicApp, donde uno de nuestros expertos lo atendera.
-			
+
 	</div>
 		</article>
 	</section>
   </div>
+	<!-- WhatsHelp.io widget -->
+	<script type="text/javascript">
+	    (function () {
+	        var options = {
+	            whatsapp: "+52 1 2211116913", // WhatsApp number
+	            call_to_action: "¡Dudas o aclaraciones!", // Call to action
+	            position: "right", // Position may be 'right' or 'left'
+	        };
+	        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+	        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+	        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+	        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	    })();
+	</script>
+	<!-- /WhatsHelp.io widget -->
 </body>
 </html>
 <!-- script -->
 
 
   <script>
-     
+
      $(document).ready(function(){
-          
+
           $(window).scroll(function(){
 
             if($(window).scrollTop()>300){
@@ -273,12 +315,12 @@
 
 
   </script>
- 
+
 
 
 <!-- style -->
 <style>
-    
+
     nav{
       position: fixed;
       background: rgba(0, 0, 0, 0.2);
@@ -290,6 +332,8 @@
       background-size: cover;
       width: 100%;
       height: 800px;
+			text-align: center;
+			color: white;
     }
     .box{
       margin-top: 20px;

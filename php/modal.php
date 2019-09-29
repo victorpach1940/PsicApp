@@ -8,7 +8,7 @@
         <div class="modal-body">
           <div class="form-group">
             <label for="edad">¿Cual es tu edad?</label>
-            <input type="text" class="form-control" name="edad" required="" pattern="(5-80)" maxlength="2" title="Edad real" placeholder="5-80">
+            <input type="text" class="form-control" name="edad" required="" pattern="[0-9]{2}" maxlength="2" title="Edad desde 10 años" placeholder="10-90">
           </div>
           <div class="form-group">
             <label for="genero">¿Cual es tu genero?</label>

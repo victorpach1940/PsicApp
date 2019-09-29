@@ -1,32 +1,140 @@
+<?php
+session_start();
+require "conn.php";
+$ide='';
+$sql=''; $retorno=''; $globales=0; $sql1=''; $sql2=''; $r1=''; $r2=''; $mujer=0;
+$hombre=0; $edad=0; $sql3=''; $r3=''; $slqinserta=''; $resu='';$sql4=''; $r4=''; $sexo=$_SESSION['genero']; $anios=$_SESSION['edad'];
+$sql4="SELECT max(idvis) FROM VISITANTES;"; $r4=mysqli_query($conn,$sql4);
+$ide=mysqli_fetch_row($r4); $slqinserta="INSERT INTO VISITANTES VALUES ('','$sexo','$anios','ADICCIONES');"; $resu=mysqli_query($conn,$slqinserta);
+$sql="SELECT * FROM VISITANTES WHERE secvis='ADICCIONES';"; $sql1="SELECT * FROM VISITANTES WHERE sexovis='F' AND secvis='ADICCIONES';";
+$sql2="SELECT * FROM VISITANTES WHERE sexovis='M' AND secvis='ADICCIONES';"; $sql3="SELECT * FROM VISITANTES WHERE secvis='ADICCIONES' AND edadvis BETWEEN '15' AND '24';";
+$retorno=mysqli_query($conn,$sql); $r1=mysqli_query($conn,$sql1); $r2=mysqli_query($conn,$sql2); $r3=mysqli_query($conn,$sql3);
+$globales=mysqli_num_rows($retorno); $mujer=mysqli_num_rows($r1); $hombre=mysqli_num_rows($r2); $edad=mysqli_num_rows($r3);
+$usuario='';
+$menu=1;
+//Si ya esta instanciada la sesion usuario
+if (isset($_SESSION['user'])) {
+	//asignar como visitante al usuario
+	if(empty($_SESSION['user'])){
+		$_SESSION['user']=$usuario='visitante';
+    $menu=1;
+	}
+	//Si la sesion usuario no es un visitantes, es decir, ya tiene una sesion iniciada
+	//obtener el id del usuario
+	elseif ($_SESSION['user']!='visitante') {
+		$usuario=$_SESSION['user'];
+    $menu=2;
+	}
+}
+//No esta instanciada la sesion usuario, por lo que se le manda a registrar su edad y genero
+else{
+	/*$_SESSION['user']=$usuario='visitante';
+  $menu=1;*/
+	header("location: previus.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Adicciones</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="icon" href="../img/icono_page.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/8a020a1c5f.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-elements/1.0.2/responsive-elements.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/responsive-nav.js/1.0.39/responsive-nav.min.js" integrity="" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="shrtcut icon" href="../img/icono_page.png">
 </head>
 <body>
-<?php require 'menu_sesion.php'; ?>
-<div class="container" style="padding-top:60px;">
-	<div class="container col-xs-12 col-sm-8 col-md-9 col-lg-9">
-    <div class="container text-center" style="background:url(http://localhost/PsicApp/img/adicciones.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:350px; padding: 60px 25px; "><br><br><br>
-<h1 style="color:white;">Adicciones</h1></div>
-<section class="wrapper">
-	<div class="container" align="justify">
-	<section class="main row">
+<?php if ($menu==1) { ?>
+<nav>
 
-		<article style="background-color:Azure;">
+  <div class="nav-wrapper">
+     <a href="#" class="brand-logo">PsicApp</a>
+
+	<a href="#" class="sidenav-trigger" data-target="mobile-nav" >
+		<i class="material-icons">menu</i>
+	</a>
+     <ul class="right hide-on-med-and-down">
+
+       <li><a href="adicciones.php" class="red">Adicciones</a></li>
+       <li><a href="saludmental.php">Salud mental</a></li>
+       <li><a href="sexualidad.php">Sexualidad</a></li>
+       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+       <li><a href="index.php">Inicio</a></li>
+			 <li><a href="../login/index.php">Inicia sesion/Registrate</a></li>
+
+     </ul>
+  </div>
+</nav>
+
+
+   <ul class="sidenav" id="mobile-nav">
+   	  <li><a href="adicciones.php" class="red">Adicciones</a></li>
+       <li><a href="saludmental.php">Salud mental</a></li>
+       <li><a href="sexualidad.php">Sexualidad</a></li>
+       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+       <li><a href="index.php">Inicio</a></li>
+			 <li><a href="../login/index.php">Inicia sesion/Registrate</a></li>
+   </ul>
+<?php }elseif ($menu==2) { ?>
+	<nav>
+
+	  <div class="nav-wrapper">
+	     <a href="#" class="brand-logo">PsicApp</a>
+
+		<a href="#" class="sidenav-trigger" data-target="mobile-nav" >
+			<i class="material-icons">menu</i>
+		</a>
+	     <ul class="right hide-on-med-and-down">
+				 <li><a href="cuestionario_adicciones.php">¿Eres adicto?</a></li>
+	       <li><a href="adicciones.php" class="red">Adicciones</a></li>
+	       <li><a href="saludmental.php">Salud mental</a></li>
+	       <li><a href="sexualidad.php">Sexualidad</a></li>
+	       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+	       <li><a href="index.php">Inicio</a></li>
+				 <li><a href="../login/php/salir.php">Salir</a></li>
+
+	     </ul>
+	  </div>
+	</nav>
+
+
+	   <ul class="sidenav" id="mobile-nav">
+			 <li><a href="cuestionario_adicciones.php">¿Eres adicto?</a></li>
+	   	  <li><a href="adicciones.php" class="red">Adicciones</a></li>
+	       <li><a href="saludmental.php">Salud mental</a></li>
+	       <li><a href="sexualidad.php">Sexualidad</a></li>
+	       <li><a href="violenciadepareja.php">Violencia de pareja</a></li>
+	       <li><a href="index.php">Inicio</a></li>
+				 <li><a href="../login/php/salir.php">Salir</a></li>
+	   </ul>
+	 <?php } ?>
+
+  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">Adicciones</p></strong>
+  </section>
+  <div class="box container white
+  ">
+
+	<span class="badge" data-badge-caption="-Visita" style="color:white; background-color:#000000; border-radius:20px;"><?php echo $globales; ?></span>
+	<span class="badge" data-badge-caption="-Mujer" style="color:white; background-color:#F08080; border-radius:20px;"><?php echo $mujer; ?></span>
+	<span class="badge" data-badge-caption="-Hombre" style="color:white; background-color:#6495ED; border-radius:20px;"><?php echo $hombre; ?></span>
+	<span class="badge" data-badge-caption="-De 15 a 24" style="color:white; background-color:#008080; border-radius:20px;"><?php echo $edad; ?></span>
+  <script>
+  	$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <article align="justify">
+  <h1>Adicciones</h1>
 			<h3>Introducción</h3>
-			<p align="justify">
+
+			<p >
 				El consumo de drogas cambia el funcionamiento del cerebro y provoca conductas fuera de lo normal. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice
 						<div class="indice">
 			<p class="indice-Contenidos">Contenidos</p>
@@ -74,10 +182,12 @@
 
 			<h3 id="1">¿Que es una adiccion?</h3>
 				Se considera adicción, porque es difícil intentar dejar de consumirlas, ya que provocan alteraciones cerebrales en los mecanismos reguladores de la toma de decisiones y del control inhibitorio y porque el usuario de las mismas dedica gran parte de su tiempo en la búsqueda y consumo de ellas.
+		    <img class="responsive-img" src="../img/ad1.jpg">
 			<h5 id="2">¿Cuál es la diferencia entre adicción física y adicción psicológica?</h5>
 			<ul>
 			  <li>Adicción física, ocurre en los sitios del cerebro donde las neuronas crean la necesidad del consumo compulsivo, debido a que el cuerpo se ha acostumbrado a la droga.</li>
 			  <li>Adicción psicológica, es la necesidad de consumo de una sustancia, que se manifiesta a nivel de pensamientos o emociones, ante una situación estresante, o algún problema. Por lo tanto no existe dependencia física, debido a que no se desarrollan receptores a nivel neuronal para la acción de la sustancia adictiva.</li>
+
 
 			</ul>
 		<h5 id="3">Clasificación de las drogas</h5>
@@ -97,6 +207,7 @@
 
 		<h3 id="4">Medidas preventivas para las adicciones</h3>
 		Las adicciones pueden afectar a hombres y mujeres de cualquier edad, nivel de educación o clase social. Una adicción es cuando la persona siente el deseo incontrolable de recurrir al consumo de determinadas sustancias, por lo general químicas, ya sea de modo continúo o periódico. Es decir, la persona adicta a una sustancia no puede controlar el deseo de utilizarla. La adicción al alcohol y las drogas debe ser vista como un problema que afecta no sólo al que se intoxica con esas sustancias, sino como un conflicto de todo el grupo familiar al que pertenece el adicto.<br /><em>El cariño y la atención hacia los menores juegan un papel muy importante en la prevención de las adicciones. Si los niños y niñas crecen con amor y seguridad, si tienen confianza para comunicarse, si se sienten comprendidos y valorados, pero además en la familia no hay adicciones, será difícil que busquen el camino de las drogas.</em><br />
+ 				    <img class="responsive-img" src="../img/ad2.jpg">
 
 
 
@@ -114,6 +225,8 @@
  				<li>Dice mentiras.</li>
  				<li>Hay pequeños hurtos en casa.</li>
  			</ul>
+ 					    <img class="responsive-img" src="../img/ad3.jpg">
+
  		<h5 id="6">Recomendaciones contra las Adicciones</h5>
 			Para prevenir el fenómeno adictivo se recomienda:
 			<ol>
@@ -130,6 +243,8 @@
 				<li>Aprovechando el tiempo libre para la convivencia con ellos.</li>
 				<li>Expresándoles cariño y respeto</li>
 			</ol>
+			<img class="responsive-img" src="../img/ad4.jpg">
+			<a href="#top">Regresar al inicio</a>
 		<h3 id="8">Preguntas frecuentes</h3>
 			<b>1. ¿Si una persona pide ayuda por dónde empieza?</b><br>
 			El primer paso importante es pedir ayuda. La visita a un médico para una posible referencia al tratamiento es una forma de hacerlo. El médico puede ser llamado con antelación y le puede preguntar si él o ella se siente cómodo(a) al discutir de la prueba de detección y tratamiento del  abuso de drogas. De no ser así, solicítele una referencia con otro médico. Usted también puede contactar a un especialista en drogadicción. Se necesita mucho valor para buscar ayuda por un problema de drogadicción u otra adicción porque se espera un trabajo duro por delante. Sin embargo, el tratamiento puede funcionar, y las personas se recuperan a diario de sus adicciones.<br>
@@ -161,9 +276,63 @@
 	</div>
 		</article>
 	</section>
-</section>
-</div>
-</div>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+	<br><br><br><br>
 </body>
 </html>
+<!-- script -->
+
+
+  <script>
+
+     $(document).ready(function(){
+
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+              $('nav').addClass('red');
+            }else{
+              $('nav').removeClass('red');
+            }
+
+          });
+
+     });
+
+  </script>
+  <script>
+  		     $(document).ready(function(){
+  		     	$('.sidenav').sidenav();
+  		     });
+
+
+  </script>
+
+
+
+<!-- style -->
+<style>
+
+    nav{
+      position: fixed;
+      background: rgba(0, 0, 0, 0.2);
+      padding:0px 20px;
+    }
+
+    section{
+      background-image: url(back.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 800px;
+			text-align: center;
+			color: white;
+    }
+    .box{
+      margin-top: 20px;
+      height: 1000px;
+    }
+
+    nav li a:hover{
+      background: red;
+    }
+</style>

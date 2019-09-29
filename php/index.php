@@ -252,8 +252,8 @@ else{
         <img class="card-img-top" src="../img/pregunta.png" style="width: 75px; height: 75px;">
         <div class="card-body">
           <h3 class="card-title"><strong>Resuelve dudas</strong></h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="../html/adicciones.html" class="btn btn-primary">Ir</a>
+          <p class="card-text">¿Quieres saber que son las adicciones, salud mental, sexualidad y violencia de pareja?</p>
+          <a href="adicciones.php" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
@@ -262,8 +262,8 @@ else{
         <img class="card-img-top" src="../img/talk.png" style="width: 75px; height: 75px;">
         <div class="card-body">
           <h3 class="card-title"><strong>Habla con un experto</strong></h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Ir</a>
+          <p class="card-text">¿Sabes cuando es hora de hablar con un experto en esto?</p>
+          <a href="experto.php" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
@@ -272,8 +272,8 @@ else{
         <img class="card-img-top" src="../img/hat.png" style="width: 75px; height: 75px;">
         <div class="card-body">
           <h3 class="card-title"><strong>Sesiones privadas</strong></h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Ir</a>
+          <p class="card-text">Si ya identificaste que tienes que acudir al psicologo</p>
+          <a href="http://integramente.mx/" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
@@ -288,18 +288,18 @@ else{
   <div class="row slideanim">
     <div class="col-sm-4">
       <!--<span class="glyphicon glyphicon-cannabis logo-small"></span>-->
-      <a href="../html/adicciones.html"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="adicciones.php"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <!--<i class="fas fa-check-square"></i>-->
       <h4>Uso de drogas</h4>
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="../html/violenciadepareja.html"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="violenciadepareja.php"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Violencia de pareja</h4>
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="../html/sexualidad.html"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="sexualidad.php"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Sexualidad</h4>
       </a>
     </div>
@@ -307,7 +307,7 @@ else{
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-6">
-      <a href="../html/saludmental.html"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="saludmental.php"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Salud mental</h4>
      </a>
     </div>
@@ -318,7 +318,7 @@ else{
       </div>
     <?php } elseif($menu==2){ ?>
       <div class="col-sm-6">
-      <a href="../html/cuestionario_adicciones.html"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/cuestionario_adicciones.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
       <h4>Tratamientos</h4></a>
       </div>
     <?php } ?>
@@ -334,21 +334,21 @@ else{
       <div class="thumbnail">
         <img src="../img/mision.png" alt="familias" width="100" height="100">
         <p><strong>Misión</strong></p>
-        <p>Yes, we built Paris</p>
+        <p>Ayudar a las personas a obtener informacion acerca de temas referentes a adicciones, violencia y salud mental</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="../img/vision.png" alt="New York" width="200" height="200">
         <p><strong>Visión</strong></p>
-        <p>We built New York</p>
+        <p>Ser una forma de apoyo en las terapias psicologicas de los pacientes.</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="../img/valores.png" alt="San Francisco" width="200" height="200">
         <p><strong>Valores</strong></p>
-        <p>Yes, San Fran is ours</p>
+        <p>Confidencialidad, Respeto, Profesionalidad, Responsabildiad.</p>
       </div>
     </div>
   </div><br>
