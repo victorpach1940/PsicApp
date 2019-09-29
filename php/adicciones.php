@@ -24,7 +24,7 @@
 	<div class="container" align="justify">
 	<section class="main row">
 
-		<article style="background-color:gray;">
+		<article style="background-color:Azure;">
 			<h3>Introducción</h3>
 			<p align="justify">
 				El consumo de drogas cambia el funcionamiento del cerebro y provoca conductas fuera de lo normal. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice
