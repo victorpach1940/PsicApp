@@ -23,7 +23,7 @@ unset($_SESSION['genero']);
     <?php require 'modal.php'; ?>
     <div class="container-fluid">
       <div class="text-center" style="font-size: 60px;">
-        <img src="../img/brain.png" class="img-fluid" alt="PsicApp" style="padding-top: 20%;"><br>
+        <img src="../img/brain.png" class="img-fluid" alt="PsicApp" style="padding-top: 15%;"><br>
         Psic<span style="color:#333;"><em style="color:azure;">App</em></span><br>
         <button type="button" class="btn btn-outline-dark" name="button" data-toggle="modal" data-target="#modal">Iniciar</button>
       </div>

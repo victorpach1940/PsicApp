@@ -3,7 +3,7 @@
 	session_start();
 
 	unset($_SESSION['user']);
-
-	header("location:../../php/index.php");
+	session_destroy();
+	header("location:../../php/previus.php");
 
  ?>
