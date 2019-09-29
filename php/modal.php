@@ -8,7 +8,7 @@
         <div class="modal-body">
           <div class="form-group">
             <label for="edad">¿Cual es tu edad?</label>
-            <input type="text" class="form-control" name="edad" required="" pattern="(15|16|17|18|19|20|21|22|23|24)" maxlength="2" title="Edad real" placeholder="15-24">
+            <input type="text" class="form-control" name="edad" required="" pattern="(5-80)" maxlength="2" title="Edad real" placeholder="5-80">
           </div>
           <div class="form-group">
             <label for="genero">¿Cual es tu genero?</label>
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="modal-footer">
-            <button type="submit" class="btn btn-info" name="Listo">
+            <button type="submit" class="btn btn-info" name="Listo" value="1">
             Listo</button>
         </div>
       </form>

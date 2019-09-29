@@ -1,3 +1,8 @@
+<?php
+session_start();
+unset($_SESSION['edad']);
+unset($_SESSION['genero']);
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
