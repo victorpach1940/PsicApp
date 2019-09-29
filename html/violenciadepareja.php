@@ -28,7 +28,7 @@
        <li><a href="saludmental.php">Salud mental</a></li>
        <li><a href="sexualidad.php">Sexualidad</a></li>
        <li><a href="violenciadepareja.php" class="red">Violencia de pareja</a></li>
-       <li><a href="index.html">Inicio</a></li>
+       <li><a href="../index.html">Inicio</a></li>
 
      </ul>
   </div>
@@ -40,7 +40,7 @@
        <li><a href="saludmental.php">Salud mental</a></li>
        <li><a href="sexualidad.php">Sexualidad</a></li>
        <li><a href="violenciadepareja.php" class="red">Violencia de pareja</a></li>
-       <li><a href="index.html">Inicio</a></li>
+       <li><a href="../index.html">Inicio</a></li>
    </ul>
 
   
