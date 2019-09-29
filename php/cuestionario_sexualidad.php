@@ -211,6 +211,8 @@ else{
       background-size: cover;
       width: 100%;
       height: 800px;
+			text-align: center;
+			color: white;
     }
     .box{
       margin-top: 20px;

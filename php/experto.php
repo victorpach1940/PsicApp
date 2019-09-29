@@ -334,6 +334,7 @@ else{
       height: 800px;
 			text-align: center;
 			color: white;
+			font-size: 7%;
     }
     .box{
       margin-top: 20px;

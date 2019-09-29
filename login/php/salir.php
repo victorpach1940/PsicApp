@@ -4,6 +4,6 @@
 
 	unset($_SESSION['user']);
 	session_destroy();
-	header("location:../../php/previus.php");
+	header("location:../../php/close.php");
 
  ?>
