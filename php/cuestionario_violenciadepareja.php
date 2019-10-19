@@ -99,7 +99,7 @@ else{
 });
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <article align="justify">
+  <article align="justify"></br>
   <h1>Cuestionario de sexualidad</h1>
 			<p >
     <p align="justify">Por favor conteste las siguientes preguntas de forma honesta</p>
