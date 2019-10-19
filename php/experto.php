@@ -114,7 +114,7 @@ else{
 	   </ul>
 	<?php } ?>
 
-  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">¿Cuando hablar con un experto?</p></strong>
+  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;"></br>¿Cuando hablar con un experto?</p></strong>
   </section>
 
 
@@ -131,7 +131,7 @@ else{
 });
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <article align="justify">
+  <article align="justify"></br>
   <h1>¿Psicologos?</h1>
 <h3>Introducción</h3>
 			<p>
@@ -171,12 +171,12 @@ else{
 				<article align="justify">
           Un tratamiento psicológico tiene que ver con escuchar con atención lo que el paciente tiene por decir, para poder conocer y observar el mundo interior de la persona que consulta.<br>
           El tratamiento psicologico es aquella intervencion que tiene por objetivo mejorar el estado de la persona (para que hacer terapia), teniendo en cuenta sus alteraciones (fisicas, psiquicas, conductuales, etc). Por supuesto que se consideran implicados muchos factores causales, como la genetica, cambios en el sistema nervioso, determinadas circunstancias en las relaciones entre personas y las condiciones ambientales. Por esto, no se excluye la combinacion de un tratamiento psicologico junto con uno farmacologico.<br>
-          El objetivo de un tratamiento psicologico es observar, identificar y modificar los elementos del comportamiento que generan sufrimiento. Por comportamiento se entiende:<br>
-          <ul>
+          El objetivo de un tratamiento psicologico es observar, identificar y modificar los elementos del comportamiento que generan sufrimiento. Por comportamiento se entiende:</br>
+          <ol>
             <li>La conducta</li>
             <li>El pensamiento</li>
             <li>Las emociones y estados de animo</li>
-          </ul>
+          </ol>
           <br>
           Dependiendo de cómo se entienda a la enfermedad y a la salud, los tratamientos son pensados de maneras distintas. Es lo que ocurre, por ejemplo, con el psicoanalisis y la teoria cognitiva. La teoria cognitiva considera que los sintomas son el trastorno mismo y es esto lo que hay que tratar. Sin embargo, desde la antigüedad el sintoma era considerado como una mera señal. De hecho, medicamente, eliminar los sintomas no constituye curar la enfermedad. Psicologicamente tampoco. Un sintoma viene a decirnos algo sobre la posicion existencial de la persona ante los grandes temas de la vida: Sexualidad, Muerte, Duelos. El sintoma nos brinda informacion sobre ello. Y la cura, no pasa por eliminar lo que se TIENE (el sintoma), sino por observar lo que se ES (las identificaciones) que es lo que determina realmente la posicion existencial, el argumento de vida de quien consulta.
         </article>
@@ -276,7 +276,7 @@ else{
 	    (function () {
 	        var options = {
 	            whatsapp: "+52 1 2211116913", // WhatsApp number
-	            call_to_action: "¡Dudas o aclaraciones!", // Call to action
+	            call_to_action: "¡Comunicate con un experto!", // Call to action
 	            position: "right", // Position may be 'right' or 'left'
 	        };
 	        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
