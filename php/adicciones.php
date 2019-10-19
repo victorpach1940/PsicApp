@@ -130,7 +130,7 @@ else{
 });
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <article align="justify">
+  <article align="justify"></br>
   <h1>Adicciones</h1>
 			<h3>Introducción</h3>
 
