@@ -253,7 +253,7 @@ else{
         <div class="card-body">
           <h3 class="card-title"><strong>Resuelve dudas</strong></h3>
           <p class="card-text">¿Quieres saber que son las adicciones, salud mental, sexualidad y violencia de pareja?</p>
-          <a href="adicciones.php" class="btn btn-primary">Ir</a>
+          <a href="Categorias.php" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
