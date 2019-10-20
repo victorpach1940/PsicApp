@@ -32,7 +32,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h3>La salud mental</h3></a>
+      <a class="navbar-brand" href="#" ><h3>Detección de adicción</h3></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
@@ -65,7 +65,7 @@
 <div class="banner" class="img-fluid" alt="Responsive image">
   
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:white; font-family: 'Courgette', cursive;">¿Problema mental?</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:white; font-family: 'Courgette', cursive;">¿Como saber si tiene una adicción?</p></strong>
   </section>
 </center>
 </div>
@@ -88,21 +88,19 @@
         <div class="col-md-12">
           <a href="index.php"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
           
-          <a href="saludmental.php"><button type="button" class="btn btn-lg btn-outline-primary">Salud Mental</button></a>
+          <a href="adicciones.php"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
           
 </br></br></br></br></br>
   </center>
 
   <script>
-
-
     // Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
     var preguntas = [                                     // Pregunta Respuesta
-        ['¿Tu ser querido tiene Sentimientos de tristeza o desánimo?', 'si'],         //  [0][0]   [0][1]
-        ['¿Ha detectado Altibajos y cambios radicales de humor en la persona en cuestión?.', 'si'],                              //  [1][0]   [1][1]
-        ['¿Su ser querido tiene Alejamiento de las amistades y de las actividades?.', 'si'],                //  [2][0]   [2][1]
-        ['¿Tiene la persona exceso de enojo, hostilidad o violencia?.', 'si'],                 // ...
-        ['¿Ah notado pensamientos suicidas en la mente de su ser querido?', 'si']       // [9][0] y [9][1]
+        ['¿Su comportamiento y/o carácter ha cambiado?', 'si'],         //  [0][0]   [0][1]
+        ['¿Ha disminuido su rendimiento escolar o laboral?.', 'si'],                              //  [1][0]   [1][1]
+        ['¿Gasta usted mucho dinero y constantemente pide prestado?.', 'si'],                //  [2][0]   [2][1]
+        ['¿Se fabrica historias en su cabeza que le quitan la sensación de que el problema es grave, o le hacen sentir que todavía tiene control sobre alguna sustancia?.', 'si'],                 // ...
+        ['¿Se encuentra eufórico sin razón alguna?.', 'si']       // [9][0] y [9][1]
       ],
       pregunta, respuesta,
       formuladas = 0,
@@ -145,19 +143,19 @@
           resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
           break;
         case 1:
-          resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo n.n';
+          resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo ^.^';
           break;
         case 2:
-          resultado = 'Bajo riesgo, deberias pasar mas tiempo con esa persona y expresale tu aprecio.';
+          resultado = 'Encontramos un indice bajo de riesgo, deberias si tiene dudas, consulte la sección de adicciones .';
           break;
         case 3:
-          resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, te recomendamos la sección de salud mental';
+          resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, le recomendamos comunicarse con nosotros';
           break;
         case 4:
-          resultado = 'Alto indice de riesgo tu ser querido podria estar en profunda depresión, comunicate con uno de nuestros expertos';
+          resultado = 'Detectamos un indice alto de riesgo en cuanto adicciones se refiere, visite la sección de adicciones y comuniquese con uno de nuestros expertos, lo atenderemos con gusto.';
           break;
         case 5:
-          resultado = '¡Elevado indice de riesgo, tu ser querido podría estar incluso en el borde del suicidio, comunicate con uno de nuestros expertos urgentemente';
+          resultado = '¡Segun nuestras estadisticas usted podría padecer de una adicción. Por favor comuniquese con nosotros.';
           break;
       }
             document.getElementById('resolucion').innerHTML = resultado;
