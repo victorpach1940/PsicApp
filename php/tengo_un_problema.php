@@ -60,7 +60,8 @@
 <!--aqui viene lo chido-->
 
 
-<div class="banner" class="img-fluid" alt="Responsive image"></div>
+<div class="banner" class="img-fluid" alt="Responsive image">
+</div>
  <div class="box container white">
   <article align="justify">
 
@@ -99,7 +100,7 @@
   </div>
     <div class="col-md-2">
     </br>
-    <a href="categoria_tengo.html"><button type="button" class="btn btn-lg btn-outline-primary">Siguiente</button></a>
+    <a href="categoria_tengo.php"><button type="button" class="btn btn-lg btn-outline-primary">Siguiente</button></a>
 </div>
 </div>
 </div>

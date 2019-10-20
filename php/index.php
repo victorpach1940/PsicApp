@@ -239,6 +239,7 @@ else{
   <p>¡No estas solo!</p>
 </div>-->
 <!-- Container (About Section) -->
+<?php require 'botonA.php'; ?>
 <div id="about" class="container text-center  text-white" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <div class="row-sm-12">
 
@@ -246,6 +247,8 @@ else{
   <p style="font-size: 25px;">¡No estas solo!</p>
 	<p>Visitas: <span class="badge badge-primary" style="background-color: #000000;"><?php print $globales; ?> </span> Mujer: <span class="badge badge-primary" style="background-color: #F08080;"><?php print $mujer; ?></span>  Hombre: <span class="badge badge-primary" style="background-color: #6495ED;"><?php print $hombre; ?></span></p>
 	<p>Edad de 15-24: <span class="badge badge-primary" style="background-color: #008080;"><?php print $edad; ?></span></p>
+	<p>Region de PUEBLA: <span class="badge badge-primary" style="background-color: #008080;"><?php print $edad; ?></span></p>
+	<button type="button" class="btn btn-danger" name="button" data-toggle="modal" data-target="#modal">¡AYUDA!</button>
   </div>
     <div class="col-md-4" style="padding-top:55px;">
       <div class="card text-center">

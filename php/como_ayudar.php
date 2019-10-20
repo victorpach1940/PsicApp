@@ -4,27 +4,27 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="icon" href="../img/icono_page.png">
     <!-- Bootstrap y Fonts CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Estilos propios -->
      <style>
-     
+
       .bg-primary{
         background: rgba(0, 0, 0, 0.2) ! important;
         position: fixed;
-       width: 100%;  
+       width: 100%;
         transition: all 1s ease;
               padding:12px 20px;
 
       }
       .bg-inverse{
-             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/ 
+             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/
 
       }
-        
+
     </style>
-        
+
   </head>
   <body>
     <!-- Aquí va nuestro contenido web -->
@@ -32,19 +32,16 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h3>Cómo ayudar a alguien</h3></a>
+      <a class="navbar-brand" href="#" ><h4>Cómo ayudar a alguien</h4></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          
-          
-
+          <li><a href="#tienda" class="btn btn-primary">¡Apoyanos!</a></li>
         </ul>
-        
       </div>
     </nav>
 
-   
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -67,7 +64,7 @@
  <div class="box container white
   ">
   <article align="justify">
-                
+
       <form action="">
   <div class="form-group">
     <label for="exampleFormControlSelect1"><h2>Por favor seleccione su edad</h2></label>
@@ -78,9 +75,9 @@
      <option id="16">16</option>
      <option id="17">17</option>
      <option id="18">18</option>
-     <option id="19">18</option>
-     <option id="20">19</option>
-     <option id="21">20</option>
+     <option id="19">19</option>
+     <option id="20">20</option>
+     <option id="21">21</option>
      <option id="22">22</option>
      <option id="23">23</option>
      <option id="24">24</option>
@@ -99,11 +96,11 @@
     <div class="row">
       <div class="col-md-10">
   </br>
-    <a href="index.php"><button type="button" class="btn btn-lg btn-outline-primary">Omitir</button></a>
+    <a href="../html/indexpadres.html"><button type="button" class="btn btn-lg btn-outline-primary">Omitir</button></a>
   </div>
     <div class="col-md-2">
     </br>
-    <a href="categoria_ayuda.html"><button type="button" class="btn btn-lg btn-outline-primary">Siguiente</button></a>
+    <a href="categoria_ayuda.php"><button type="button" class="btn btn-lg btn-outline-primary">Siguiente</button></a>
 </div>
 </div>
 </div>
@@ -116,7 +113,7 @@
 
 
 <style>
-  
+
   .banner{
         background-image: url("back.jpg");
      background-size: cover;
@@ -124,7 +121,7 @@
         background-position: center center;
         background-attachment: relative;
         margin: 0 auto;
-      
+
 
 }
 
@@ -133,7 +130,7 @@
       height: 100px;
 
     }
-  
+
 
 </style>
   </body>

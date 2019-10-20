@@ -6,10 +6,10 @@
           Te sientes mal? Ve esto!
         </div>
         <div class="modal-body">
-          
+          <iframe src="https://www.youtube.com/embed/VZrUfADraX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-info" name="Listo" value="1">
+            <button type="button" class="btn btn-info" name="Listo" value="1" data-dismiss="modal">
             Listo</button>
         </div>
       </form>
