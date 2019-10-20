@@ -60,7 +60,7 @@
 
 <div class="banner" class="img-fluid" alt="Responsive image">
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoria</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoría</p></strong>
   </section>
 </center>
 </div>
