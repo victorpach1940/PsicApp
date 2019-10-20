@@ -83,9 +83,10 @@ else{
    </ul>
 
 
-  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">¿Eres adicto?</p></strong>
+   <center>
+  <section><br><br><br><br><br><br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">¿Tienes alguna adicción? </p></strong>
   </section>
-
+</center>
   <div class="box container white
   ">
 	<span class="badge" data-badge-caption="-Visita" style="color:white; background-color:#000000; border-radius:20px;"><?php echo $globales; ?></span>
