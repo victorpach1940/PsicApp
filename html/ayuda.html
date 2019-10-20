@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>PsicApp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #000000;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #045FB4">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="indexPadres.html">PsicApp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Apoyano</a></li>
+        <li><a href="#">¿Como ayudar?</a></li>
+        <li><a href="indexPadres.html">Inicio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<br>
+<br>
+<div class="container">
+  <div class="div1" >
+    <h1 class="text-primary">
+      ¿Como prevenir la violencia en parejas?
+    </h1>
+    <p>
+      Todo ello apunta a la necesidad de hacer prevención desde el inicio de la adolescencia temprana (o incluso antes) con el objetivo de educar en la promoción del buen trato y las relaciones saludables de pareja. En esta misión, será importante 
+      <ul>
+        <li> Dotarles de habilidades socioemocionales necesarias para enfrentar nuevas y compleja situaciones  con las que probablemente se van a encontrar.
+        <li>Trabajar la concienciación y la regulación emocional.
+        <li>Fomentar la empatía y el respeto hacia el otro.
+        <li>Promover conductas de apoyo hacia sus iguales, y actitudes igualitarias.
+        <li>Hacer reflexionar sobre las consecuencias de ciertos comportamientos y actitudes
+        <li>Ayudar a canalizar de forma adecuada el enfado, la ira, la tristeza, la euforia y la frustración que experimentarán en esa montaña rusa que es la adolescencia.
+      </ul>
+    </p>
+    
+  </div>
+  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">Violencia de pareja</button>
+  
+</div>
+
+<br>
+<div class="container">
+  <div class="div2">
+    <h1 class="text-primary">
+      ¿Como ayudar a reducir las Adicciones?
+    </h1>
+    <p>
+      Las adicciones pueden afectar a hombres y mujeres de cualquier edad, nivel de educación o clase social.
+      La adicción al alcohol y las drogas debe ser vista como un problema que afecta no sólo al que se intoxica con esas sustancias, sino como un conflicto de todo el grupo familiar al que pertenece el adicto.
+    </p>
+    <p>
+      El cariño y la atención hacia los menores juegan un papel muy importante en la prevención de las adicciones. Para ello algunos consejos para prevenir las adicciones son:
+    </p>
+    <ul>
+      <li>Integrar a la Familia en un ambiente de comunicación, respeto y confianza.</li>
+      <li>Establecer lazos de afecto y convivencia positiva con familiares, grupos de amigos,vecinos, maestros etc..</li>
+      <li>Reconocer a nuestros hijos los logros, habilidades y capacidades personales.</li>
+      <li>Crear el hábito del estudio, lectura y participación en actividades fuera de la escuela.</li>
+    </ul>
+  </div>
+  <button id="myButton2" class="btn btn-success btn-lg  btn-block" onclick="adi()">Adicciones</button>
+</div>
+<br>
+  <div class="container">
+  <div class="div3">
+    <h1 class="text-primary">
+      ¿Como proporcionar información acerca de sexualidad?
+    </h1>
+    <p>
+     ¿Cuándo es el momento indicado para hablar con su hijo sobre el sexo? Es conveniente comenzar a preparar el terreno para estas conversaciones mucho antes del inicio de la pubertad. Cuanto más frecuentes y francas sean las conversaciones sobre temas sexuales, más probabilidades habrá de que tales conversaciones sean más fáciles e incluso más sinceras, a medida que ambos se sientan cómodos hablando de ello. Para ello es recomendable:
+    </p>
+    <ul>
+      <li>No olvide recordarle a su hijo que siempre está de su lado</li>
+      <li>Dígale que usted lo apoya, que lo ama y que estará a su lado sin importar lo que suceda.</li>
+      <li>Empezar a hablar de cómo se exhibe la sexualidad en los medios de comunicación y, lo que es mucho más importante, cómo repercute esto en la vida real</li>
+      <li>Las consecuencias potencialmente negativas y las catástrofes que podría provocar la actividad sexual, así como el placer y los resultados positivos de la sexualidad responsable</li>
+    </ul>
+  </div>
+  <button id="myButton3" class="btn btn-success btn-lg  btn-block" onclick="sex()">Sexualidad</button>
+</div>
+<br>
+  <div class="container">
+  <div class="div4">
+    <h1 class="text-primary">
+   ¿Como proporcionar bienestar mental?
+    </h1>
+    <p>
+     La salud emocional es una parte importante de la vida. Permite desarrollar todo el potencial. Puede trabajar de forma productiva y hacer frente a las tensiones de la vida cotidiana. Ayuda a trabajar con otras personas y a contribuir con la sociedad.
+     Para ello se recomienda:
+    </p>
+    <ul>
+      <li>Ser consciente de las emociones y reacciones.</li>
+      <li>Expresar los sentimientos de manera apropiada</li>
+      <li>Piensar antes de actuar.</li>
+      <li>Manejar el estrés.</li>
+      <li>Buscar el equilibrio. </li>
+      <li>Cuidar de la salud física.</li>
+    </ul>
+  </div>
+  <button id="myButton4" class="btn btn-success btn-lg  btn-block" onclick="sal()">Salud Mental</button>
+</div>
+
+<!--zona de js-->
+<script type="text/javascript">
+  $(".div1").hide();
+  function ShowHideElement()
+  {
+    var text ="";
+
+    if ($("#myButton").text() ==="Violencia de parejas") 
+    {
+        $(".div1").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div1").hide();
+      text="Violencia de parejas";
+    }
+    $("#myButton").html(text);
+  }
+</script>
+
+<script type="text/javascript">
+  $(".div2").hide();
+  function adi()
+  {
+    var text ="";
+
+    if ($("#myButton2").text() ==="Adicciones") 
+    {
+        $(".div2").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div2").hide();
+      text="Adicciones";
+    }
+    $("#myButton2").html(text);
+  }
+  </script>
+
+<script type="text/javascript">
+  $(".div3").hide();
+  function sex()
+  {
+    var text ="";
+
+    if ($("#myButton3").text() ==="Sexualidad") 
+    {
+        $(".div3").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div3").hide();
+      text="Sexualidad";
+    }
+    $("#myButton3").html(text);
+  }
+  </script>
+
+  <script type="text/javascript">
+  $(".div4").hide();
+  function sal()
+  {
+    var text ="";
+
+    if ($("#myButton4").text() ==="Salud Mental") 
+    {
+        $(".div4").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div4").hide();
+      text="Salud Mental";
+    }
+    $("#myButton4").html(text);
+  }
+  </script>
+
+<br>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Derechos Reservados PsicApp <br> <a href="">www.PsicApp.com</a></p> 
+</footer>
+</body>
+</html>
