@@ -141,23 +141,23 @@
         function muestraResultado(){
                 var resultado;      // para guardar el mensaje con el resultado
           switch(acertadas){
-            case 0:
-              resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
+          case 0:
+              resultado = 'No hemos detectado ningun problema, puede estar tranquilo :D';
               break;
             case 1:
               resultado = 'Encontramos un indice muy bajo, quiza es solo una pequeña etapa, pero le aseguramos que puede estar tranquilo :)';
               break;
             case 2:
-              resultado = 'Bajo riesgo, puede que esa persona solo este triste temporalmente, de todas maneras le romendamos hablar siempre con un experto.';
+              resultado = 'Bajo riesgo, puede que su ser querido este triste temporalmente, de cualquier forma le recomendamos hablar siempre con uno de nuestros expertos.';
               break;
             case 3:
-              resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, puede que esa persona si este sufriendo maltrado psicologico';
+              resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, puede que la pareja de su ser querido la este maltratando psicológicamente';
               break;
             case 4:
-              resultado = 'Alto indice de riesgo tu ser querido podria estar en profunda depresión, comunicate con uno de nuestros expertos';
+              resultado = 'Alto indice de riesgo, no es normal este tipo de comportamiento, comuniquese con uno de nuestros expertos';
               break;
             case 5:
-              resultado = '¡Elevado indice de riesgo, tu ser querido podría estar incluso en el borde del suicidio, comunicate con uno de nuestros expertos urgentemente';
+              resultado = '¡Elevado indice de riesgo, , comunicate con uno de nuestros expertos urgentemente, su ser querido puede estar sufriendo de violencia psicológica o fisica';
               break;
           }
                 document.getElementById('resolucion').innerHTML = resultado;

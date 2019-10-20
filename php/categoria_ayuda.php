@@ -32,7 +32,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h3>Categorias</h3></a>
+      <a class="navbar-brand" href="#" ><h3>Categorías</h3></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
        
@@ -60,7 +60,7 @@
 
 <div class="banner" class="img-fluid" alt="Responsive image">
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoria</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoría</p></strong>
   </section>
 </center>
 </div>
@@ -70,24 +70,24 @@
   <article align="justify">
     <center>
     <p> 
-      <h1>¿Cual es el problema que a percibido?</h1></br>
+      <h1>¿Cual es el problema que a percibido en la otra persona?</h1></br>
     
       <div class="constainer-fluid">
         <div class="row">
           
         <div class="col-md-12">
-             <a href="adicciones.php"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
+             <a href="adicciones_ayudar.php"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
         </div>
         <div class="col-md-12"></br>
-            <a href="saludmental.php"><button type="button" class="btn btn-lg btn-outline-primary">Salud mental</button></a>
-        </div>
-
-        <div class="col-md-12"></br>
-         <a href="sexualidad.php"><button type="button" class="btn btn-lg btn-outline-primary">Sexualidad</button></a>
+            <a href="saludmental_ayudar.php"><button type="button" class="btn btn-lg btn-outline-primary">Salud mental</button></a>
         </div>
 
         <div class="col-md-12"></br>
-             <a href="violenciadepareja.php"><button type="button" class="btn btn-lg btn-outline-primary">Violencia de pareja</button></a></br></br></br>
+         <a href="sexualidad_ayudar.php"><button type="button" class="btn btn-lg btn-outline-primary">Sexualidad</button></a>
+        </div>
+
+        <div class="col-md-12"></br>
+             <a href="violenciadepareja_ayudar.php"><button type="button" class="btn btn-lg btn-outline-primary">Violencia de pareja</button></a></br></br></br>
         </div>
           <a href="index.php"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
       </br></br></br></br>
