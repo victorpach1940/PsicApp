@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Estilos propios -->
      <style>
-     
+
       .bg-primary{
         background: rgba(0, 0, 0, 0.2) ! important;
         position: fixed;
-       width: 100%;  
+       width: 100%;
         transition: all 1s ease;
               padding:12px 20px;
 
       }
       .bg-inverse{
-             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/ 
+             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/
 
       }
-        
+
     </style>
-        
+
   </head>
   <body>
     <!-- Aquí va nuestro contenido web -->
@@ -32,15 +32,15 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h3>Detectar adicción</h3></a>
+      <a class="navbar-brand" href="#" ><h4>Detectar adicción</h4></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-        
+
+
       </div>
     </nav>
 
-   
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -59,13 +59,13 @@
 
 
 
-    
+
 <!--aqui viene lo chido-->
 
 <div class="banner" class="img-fluid" alt="Responsive image">
-  
+
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:white; font-family: 'Courgette', cursive;">¿Como detectar una adicción en un ser querido?</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Como detectar una adicción en un ser querido?</p></strong>
   </section>
 </center>
 </div>
@@ -84,12 +84,12 @@
 
    <div class="constainer-fluid">
         <div class="row">
-          
+
         <div class="col-md-12">
-          <a href="index.php"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
-          
-          <a href="adicciones.php"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
-          
+          <a href="../html/indexpadres.html"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
+
+          <a href="../html/adicciones.html"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
+
 </br></br></br></br></br>
   </center>
 
@@ -129,7 +129,7 @@
       var e;      // simple variable auxiliar
       // se extrae una pregunta/respuesta al azar del array...
       e = preguntas.splice( numAleat(0, preguntas.length-1), 1 );
-      pregunta = e[0][0];     // se guardan la pregunta y la respuesta 
+      pregunta = e[0][0];     // se guardan la pregunta y la respuesta
       respuesta = e[0][1];
       document.getElementById('preg').innerHTML = pregunta;        // se muestra la pregunta
       document.getElementById('dato').value = '';                  // se borra lo escrito anteriormente por el usuario
@@ -170,7 +170,7 @@
 </article>
 
 <style>
-  
+
   .banner{
         background-image: url("back.jpg");
      background-size: cover;
@@ -178,7 +178,7 @@
         background-position: center center;
         background-attachment: relative;
         margin: 0 auto;
-      
+
 
 }
 
@@ -187,7 +187,7 @@
       height: 100px;
 
     }
-  
+
 
 </style>
   </body>

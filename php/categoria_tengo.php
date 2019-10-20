@@ -9,22 +9,27 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Estilos propios -->
      <style>
-     
+
       .bg-primary{
         background: rgba(0, 0, 0, 0.2) ! important;
         position: fixed;
-       width: 100%;  
+       width: 100%;
         transition: all 1s ease;
               padding:12px 20px;
 
       }
       .bg-inverse{
-             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/ 
+             background-color: #0B5394 ! important; /*cambia al color que quieras papu*/
 
       }
-        
+
     </style>
-        
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <!-- Aquí va nuestro contenido web -->
@@ -32,21 +37,16 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h3>Categorías</h3></a>
+      <a class="navbar-brand" href="#" ><h5>Categorías</h5></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       
-        
+
+
       </div>
     </nav>
 
-   
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+
     <script>
       $(window).scroll(function() {
         if ($("#menu").offset().top > 300) {
@@ -60,21 +60,21 @@
 
 <div class="banner" class="img-fluid" alt="Responsive image">
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoría</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:50px; color:#0B5394; font-family: 'Courgette', cursive;">Elige una categoría</p></strong>
   </section>
 </center>
 </div>
 
 
- <div class="box container white"> 
+ <div class="box container white">
   <article align="justify">
     <center>
-    <p> 
-      <h1>¿Cual es el problema que te as percibido a ti mismo?</h1></br>
-    
+    <p>
+      <h1>¿Cual es el problema que has percibido en ti mismo?</h1></br>
+
       <div class="constainer-fluid">
         <div class="row">
-          
+
         <div class="col-md-12">
              <a href="adicciones_tengo.php"><button type="button" class="btn btn-lg btn-outline-primary">Adicciones</button></a>
         </div>
@@ -101,7 +101,7 @@
 
 
 <style>
-  
+
   .banner{
         background-image: url("back.jpg");
      background-size: cover;
@@ -118,7 +118,7 @@
       height: 100px;
 
     }
-  
+
 
 </style>
   </body>
