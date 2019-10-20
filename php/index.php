@@ -157,12 +157,12 @@ else{
   }
   .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #337ab7;
     color: #fff;
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #337ab7;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -185,7 +185,7 @@ else{
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: #337ab7;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -288,18 +288,18 @@ else{
   <div class="row slideanim">
     <div class="col-sm-4">
       <!--<span class="glyphicon glyphicon-cannabis logo-small"></span>-->
-      <a href="adicciones.php"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="adicciones.php"><i class="fas fa-cannabis" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <!--<i class="fas fa-check-square"></i>-->
       <h4>Uso de drogas</h4>
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="violenciadepareja.php"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="violenciadepareja.php"><i class="fas fa-angry" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Violencia de pareja</h4>
       </a>
     </div>
     <div class="col-sm-4">
-      <a href="sexualidad.php"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="sexualidad.php"><i class="fas fa-kiss-wink-heart" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Sexualidad</h4>
       </a>
     </div>
@@ -307,18 +307,18 @@ else{
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-6">
-      <a href="saludmental.php"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="saludmental.php"><i class="fas fa-medkit" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Salud mental</h4>
      </a>
     </div>
     <?php if($menu==1){ ?>
       <div class="col-sm-6">
-      <a href="../login/index.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../login/index.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Tratamientos</h4></a>
       </div>
     <?php } elseif($menu==2){ ?>
       <div class="col-sm-6">
-      <a href="../html/cuestionario_adicciones.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #f4511e;"></i>
+      <a href="../html/cuestionario_adicciones.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Tratamientos</h4></a>
       </div>
     <?php } ?>
