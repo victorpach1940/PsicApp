@@ -6,7 +6,7 @@
   function frame(){
     if(loading == 80){
       clearInterval(id);
-      window.open("php/previus.php","_self");
+      window.open("php/opciones.html","_self");
     }else {
       loading=loading+1;
       if (loading == 70) {
