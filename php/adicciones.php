@@ -230,39 +230,330 @@ else{
     <img class="img-fluid" src="../img/ad4.jpg"><br>
     <a href="#top" class="btn btn-primary">Regresar al inicio</a><br>
   <h3 id="8">Preguntas frecuentes</h3>
+  <div class="container">
+    <div class="div1">
     <b>1. ¿Si una persona pide ayuda por dónde empieza?</b><br>
     El primer paso importante es pedir ayuda. La visita a un médico para una posible referencia al tratamiento es una forma de hacerlo. El médico puede ser llamado con antelación y le puede preguntar si él o ella se siente cómodo(a) al discutir de la prueba de detección y tratamiento del  abuso de drogas. De no ser así, solicítele una referencia con otro médico. Usted también puede contactar a un especialista en drogadicción. Se necesita mucho valor para buscar ayuda por un problema de drogadicción u otra adicción porque se espera un trabajo duro por delante. Sin embargo, el tratamiento puede funcionar, y las personas se recuperan a diario de sus adicciones.<br>
+  </div>
+  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Por dónde empieza?</button>
+</div>
+<div class="container">
+  <div class="div2">
     <b>2. ¿Que deberíamos buscar en un centro de tratamiento de adicciones</b><br>
     Los enfoques de tratamiento deben ser diseñados para dirigir cada patrón de abuso de las drogas del paciente y también sus problemas médicos, psiquiátricos y sociales relacionados con la droga. Algunos centros de tratamiento ofrecen programas de tratamiento ambulatorio, lo que permite que usted continúe desempeñando algunas de sus responsabilidades diarias. Sin embargo, algunas personas les van mejor con tratamiento hospitalario (residencial). Un especialista en drogadicción puede asesorar a usted o su ser querido sobre las mejores opciones.</br>
-    <b>3. Me harán dejar de consumir drogas inmediatamente?</b><br>
+  </div>
+  <button id="myButton2" class="btn btn-warning btn-lg btn-block" onclick="ShowHideElement2()">¿Que buscar?</button>
+</div>
+<div class="container">
+  <div class="div3">
+    <b>3. ¿Me harán dejar de consumir drogas inmediatamente?</b><br>
     El primer paso en el tratamiento es la desintoxicación, lo que ayuda a la persona a eliminar todas las drogas de su sistema. Esto es importante porque las drogas afectan las capacidades mentales que usted necesita para continuar en tratamiento. Cuando los pacientes suspenden el consumo de drogas, ellos pueden experimentar una variedad de síntomas del síndrome de abstinencia, incluso depresión, ansiedad y otros trastornos del estado de ánimo; inquietud; e insomnio. Los centros de tratamiento tienen mucha experiencia en ayudar a una persona sobrellevar este proceso, y mantenerlo a salvo. Dependiendo de la droga a la que usted esté adicto, también puede haber medicamentos que le harán sentir un poco mejor durante la abstinencia de drogas, lo que hace más fácil de dejar de consumirlas.<br>
+  </div>
+  <button id="myButton3" class="btn btn-info btn-lg btn-block" onclick="ShowHideElement3()">¿Desintoxicacion inmediata?</button>
+</div>
+<div class="container">
+  <div class="div4">
     <b>4. ¿La drogadicción es tratada por un médico?</b></br>
     Existen diferentes tipos de especialistas en drogadicción involucrados en la atención a las adicciones, incluso médicos, enfermera(o)s, terapeutas y trabajadores sociales, entre otros. En ciertos programas de tratamiento, varios especialistas trabajan en equipo para ayudar a que le recupere de su adicción.</br>
+  </div>
+  <button id="myButton4" class="btn btn-primary btn-lg btn-block" onclick="ShowHideElement4()">¿Medico?</button>
+</div>
+<div class="container">
+  <div class="div5">
     <b>5. ¿Qué tipo de consejería existe?</b></br>
     El tratamiento conductual, también conocido como “psicoterapia,” ayuda a los pacientes a comprometerse en el proceso de tratamiento, cambiar sus actitudes y comportamientos relacionados al abuso de las drogas, y ampliar las posibilidades de llevar una vida saludable. Estos tratamientos también pueden aumentar la eficacia de los medicamentos y ayudar a las personas a seguir en tratamiento por más tiempo. El tratamiento para el abuso de drogas y drogadicción puede darse usando diferentes enfoques de comportamiento. En PsicApp puede contactar con uno de nuestros expertos sobre los diferentes tipos de terapia y otros tratamientos conductuales.</br>
+  </div>
+  <button id="myButton5" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement5()">¿Consejeria?</button>
+</div>
+<div class="container">
+  <div class="div6">
     <b>6. ¿Existen medicamentos que pueden ayudar?</b></br>
     Hay medicamentos disponibles para tratar las adicciones al alcohol, la nicotina y los opioides (heroína y analgésicos). Otros medicamentos están disponibles para tratar posibles enfermedades mentales, como la depresión, que pueden estar contribuyendo a la adicción. Además, el medicamento que no es adictivo es prescrito a veces para ayudar con la abstinencia. Cuando el medicamento está disponible, puede ser combinado con la terapia conductual para asegurar el éxito de la mayoría de los pacientes. El proveedor del tratamiento le aconsejará a usted y a su ser querido cuales son los medicamentos apropiados y que están disponibles. Algunos centros de tratamiento siguen la filosofía de que ellos no deberían tratar la drogadicción con otras drogas, pero investigaciones demuestran que los medicamentos pueden ayudar en muchos casos</br>
+  </div>
+  <button id="myButton6" class="btn btn-warning btn-lg btn-block" onclick="ShowHideElement6()">¿Medicamentos?</button>
+</div>
+<div class="container">
+  <div class="div7">
     <b>7. ¿Qué ocurre cuando una persona ha estado en rehabilitación anteriormente?</b></br>
     Esto significa que la persona ya ha aprendido muchas de las destrezas necesarias para recuperarse de la adicción y debería intentarlo de nuevo. La recaída no debería desanimar a nadie que decida realizar otro intento. Las tasas de recaída por adicción son similares a las tasas por otras enfermedades crónicas que muchas personas padecen, como hipertensión, diabetes y asma. El tratamiento de las enfermedades crónicas implica cambiar los comportamientos profundamente arraigados, y a veces, la recaída viene incluida, pero no significa que el tratamiento fracasó. Un regreso al abuso de las drogas indica que la persona necesita comenzar el tratamiento de nuevo, o modificarlo o que pueda beneficiarse desde una perspectiva diferente.</br>
+  </div>
+  <button id="myButton7" class="btn btn-info btn-lg btn-block" onclick="ShowHideElement7()">¿Rehabilitacion anterior?</button>
+</div>
+<div class="container">
+  <div class="div8">
     <b>8. ¿Y si una persona está preocupada que otros lo descubran?</b></br>
     Una persona que esté buscando tratamiento para la adicción puede decirle a su patrón o sus amigos que necesita irse por razones médicas. Si usted habla con el médico u otro experto en medicina, las leyes de privacidad les prohíbe divulgar su información médica con cualquier persona fuera del sistema de salud sin su autorización. Además, la mayoría de los médicos especializados en tratamiento para la adicción no pueden compartir su información con nadie, hasta otros médicos, sin
     su permiso por escrito.</br>
+  </div>
+  <button id="myButton8" class="btn btn-primary btn-lg btn-block" onclick="ShowHideElement8()">¿Descubierto?</button>
+</div>
+<div class="container">
+  <div class="div9">
     <b>9. ¿Qué sucede si una persona consume drogas porque se siente deprimida y detener su consumo empeore las cosas?</b></br>
     Es muy probable que usted necesite buscar tratamiento tanto para la depresión como para la adicción. Esto sucede a menudo. Se le llama “comorbilidad,” o “morbilidad asociada” cuando usted tiene más de un problema de salud a la misma vez. Es importante que discuta todo sus síntomas y comportamientos con su médico. Hay muchas drogas que no son adictivas y que pueden ayudar contra la depresión u otras enfermedades mentales. A veces, los proveedores de cuidado de salud no se comunican entre ellos como deberían, lo que significa que usted puede ser su mejor defensor y asegurar de que todos sus proveedores de asistencia médica sepan los problemas de salud que le preocupa. Las personas que tienen problemas concurrentes deben ser tratadas por todos ellos al mismo tiempo. Nota: si usted se siente tan deprimido que ha considerado hacerse daño, puede visitar el siguiente enlace de ayuda: <a href="saludmental.html" target="_blank">Salud mental</a></li> o bien puede ponerse en contacto con uno de nuestros expertos con ayuda del chat. </br>
+  </div>
+  <button id="myButton9" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement9()">¿Depresion?</button>
+</div>
+<div class="container">
+  <div class="div10">
     <b>10. ¿Cómo una persona puede hablar con otras con problemas similares?</b></br>
     Los grupos de autoayuda pueden prolongar los efectos de tratamiento profesional. Los grupos de autoayuda más conocidos son aquellos afiliados con Alcohólicos Anónimos (AA), Narcóticos Anónimos (NA) y Cocaína Anónima (CA), todos los cuales son basados en un modelo de 12 pasos. La mayoría de los programas de tratamientos de adicción a las drogas estimulan a los pacientes a que participen en un grupo de autoayuda durante y después de un tratamiento oficial. Estos grupos en particular pueden ser muy útiles durante la recuperación ya que sirven como una constante fuente de apoyo para mantenerse libre de drogas. </br>
+  </div>
+  <button id="myButton10" class="btn btn-warning btn-lg btn-block" onclick="ShowHideElement10()">¿Hablar?</button>
+</div>
+<div class="container">
+  <div class="div11">
     <b>11. Las personas dicen que no deberíamos consumir drogas y conducir, pero ¿qué pasa si se siente bien mientras conduce?</b></br>
     Lo más responsable que una persona puede hacer es dejar de conducir mientras consume drogas. Esto puede ser un inconveniente para usted, pero podría salvar su vida y la de otros. Ciertas drogas actúan diferente en el cerebro, pero todas perjudican las habilidades necesarias para el funcionamiento seguro del vehículo. Estas incluyen las habilidades motoras, el equilibrio y la coordinación, la percepción, la atención, el tiempo de reacción y el juicio. Pequeñas cantidades de algunas drogas pueden incluso tener efectos que alteren la capacidad de manejar un vehículo. Las drogas también afectan su capacidad de diagnosticar si tiene problemas por lo que no debe confiar en su propio juicio sobre manejar un vehículo hasta que reciba una evaluación y tratamiento</br>
+  </div>
+  <button id="myButton11" class="btn btn-info btn-lg btn-block" onclick="ShowHideElement11()">¿Se siente bien?</button>
+</div>
+<div class="container">
+  <div class="div12">
     <b>12. ¿Dónde puedo encontrar información sobre drogas específicas?</b></br>
     El NIDA también tiene una página web de fácil lectura con<a href="https://www.drugabuse.gov/es/informacion-sobre-drogas" target="_blank"> información sobre una gran lista de drogas, y las más comunes están disponibles en español.</a></br>
     <b> En caso de tener dudas al respecto o no sabe que hacer si sus hijos o usted ya están ligados a las adicciones, puede solicitar información en el chat en linea de PsicApp, donde uno de nuestros expertos lo atendera.</b>
   </p>
+  </div>
+  <button id="myButton12" class="btn btn-primary btn-lg btn-block" onclick="ShowHideElement12()">¿Drogas?</button>
+</div>
+  <!--zona de js-->
+  <script type="text/javascript">
+    $(".div1").hide();
+    function ShowHideElement()
+    {
+      var text ="";
+
+      if ($("#myButton").text() ==="¿Por dónde empieza?")
+      {
+          $(".div1").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div1").hide();
+        text="¿Por dónde empieza?";
+      }
+      $("#myButton").html(text);
+    }
+  </script><!--segunda pregunta-->
+  <script type="text/javascript">
+    $(".div2").hide();
+    function ShowHideElement2()
+    {
+      var text ="";
+
+      if ($("#myButton2").text() ==="¿Que buscar?")
+      {
+          $(".div2").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div2").hide();
+        text="¿Que buscar?";
+      }
+      $("#myButton2").html(text);
+    }
+  </script><!--3 pregunta-->
+  <script type="text/javascript">
+    $(".div3").hide();
+    function ShowHideElement3()
+    {
+      var text ="";
+
+      if ($("#myButton3").text() ==="¿Desintoxicacion inmediata?")
+      {
+          $(".div3").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div3").hide();
+        text="¿Desintoxicacion inmediata?";
+      }
+      $("#myButton3").html(text);
+    }
+  </script><!--4 pregunta-->
+  <script type="text/javascript">
+    $(".div4").hide();
+    function ShowHideElement4()
+    {
+      var text ="";
+
+      if ($("#myButton4").text() ==="¿Medico?")
+      {
+          $(".div4").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div4").hide();
+        text="¿Medico?";
+      }
+      $("#myButton4").html(text);
+    }
+  </script><!--5 pregunta-->
+  <script type="text/javascript">
+    $(".div5").hide();
+    function ShowHideElement5()
+    {
+      var text ="";
+
+      if ($("#myButton5").text() ==="¿Consejeria?")
+      {
+          $(".div5").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div5").hide();
+        text="¿Consejeria?";
+      }
+      $("#myButton5").html(text);
+    }
+  </script><!--6 pregunta-->
+  <script type="text/javascript">
+    $(".div6").hide();
+    function ShowHideElement6()
+    {
+      var text ="";
+
+      if ($("#myButton6").text() ==="¿Medicamentos?")
+      {
+          $(".div6").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div6").hide();
+        text="¿Medicamentos?";
+      }
+      $("#myButton6").html(text);
+    }
+  </script><!--7 pregunta-->
+  <script type="text/javascript">
+    $(".div7").hide();
+    function ShowHideElement7()
+    {
+      var text ="";
+
+      if ($("#myButton7").text() ==="¿Rehabilitacion anterior?")
+      {
+          $(".div7").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div7").hide();
+        text="¿Rehabilitacion anterior?";
+      }
+      $("#myButton7").html(text);
+    }
+  </script><!--8 pregunta-->
+  <script type="text/javascript">
+    $(".div8").hide();
+    function ShowHideElement8()
+    {
+      var text ="";
+
+      if ($("#myButton8").text() ==="¿Descubierto?")
+      {
+          $(".div8").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div8").hide();
+        text="¿Descubierto?";
+      }
+      $("#myButton8").html(text);
+    }
+  </script><!--9 pregunta-->
+  <script type="text/javascript">
+    $(".div9").hide();
+    function ShowHideElement9()
+    {
+      var text ="";
+
+      if ($("#myButton9").text() ==="¿Depresion?")
+      {
+          $(".div9").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div9").hide();
+        text="¿Depresion?";
+      }
+      $("#myButton9").html(text);
+    }
+  </script><!--10 pregunta-->
+  <script type="text/javascript">
+    $(".div10").hide();
+    function ShowHideElement10()
+    {
+      var text ="";
+
+      if ($("#myButton10").text() ==="¿Hablar?")
+      {
+          $(".div10").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div10").hide();
+        text="¿Hablar?";
+      }
+      $("#myButton10").html(text);
+    }
+  </script><!--11 pregunta-->
+  <script type="text/javascript">
+    $(".div11").hide();
+    function ShowHideElement11()
+    {
+      var text ="";
+
+      if ($("#myButton11").text() ==="¿Se siente bien?")
+      {
+          $(".div11").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div11").hide();
+        text="¿Se siente bien?";
+      }
+      $("#myButton11").html(text);
+    }
+  </script><!--12 pregunta-->
+  <script type="text/javascript">
+    $(".div12").hide();
+    function ShowHideElement12()
+    {
+      var text ="";
+
+      if ($("#myButton12").text() ==="¿Drogas?")
+      {
+          $(".div12").show();
+          text="Ocultar";
+      }
+      else
+      {
+        $(".div12").hide();
+        text="¿Drogas?";
+      }
+      $("#myButton12").html(text);
+    }
+  </script>
     <p>
       </br></br></br>
     </p>
   </article>
+<footer class="container-fluid bg-4 text-center">
+  <p>Derechos Reservados PsicApp <br> <a href="">www.PsicApp.com</a></p>
+</footer>
 </div>
-
 
 
 <style>
