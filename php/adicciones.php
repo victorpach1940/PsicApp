@@ -550,8 +550,10 @@ else{
       </br></br></br>
     </p>
   </article>
+<footer class="container-fluid bg-4 text-center">
+  <p>Derechos Reservados PsicApp <br> <a href="">www.PsicApp.com</a></p>
+</footer>
 </div>
-
 
 
 <style>
