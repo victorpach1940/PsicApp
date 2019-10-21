@@ -234,7 +234,7 @@ else{
   				</ul>
   				<img class="img-fluid" src="../img/sa3.jpg" width="5000"></br>
     <a href="#top" class="btn btn-primary">Regresar al inicio</a><br>
-  <h3 id="8">Preguntas frecuentes</h3>
+  <h3 id="9">Preguntas frecuentes</h3>
   <div class="container">
     <div class="div1">
       <b>1. ¿Por qué nos sentimos solos?</b></br>
