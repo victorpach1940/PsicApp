@@ -19,7 +19,7 @@
 	<img src="../img/brain.png" style="padding-top: 15%;"><br>
 	<center>
 
-<a href="como_ayudar.php" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" aling="center" class="btn btn-light btn-lg">¿Cómo puedo ayudar a alguien?</a></button></br></br></br>
+<a href="como_ayudar.php" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" aling="center" class="btn btn-light btn-lg">Alguien me preocupa</a></button></br></br></br>
 
 <a href="tengo_un_problema.php" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" class="btn btn-light btn-lg">Creo tener un problema.</a>
 </button></br></br></br>
