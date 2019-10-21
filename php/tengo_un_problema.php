@@ -34,9 +34,9 @@
     <!-- Aquí va nuestro contenido web -->
     <nav id="menu" class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon bg-light"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h4>Creo tener un problema</h4></a>
+      <a class="navbar-brand" href="#" ><h4 style="color:white;">Creo tener un problema</h4></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">

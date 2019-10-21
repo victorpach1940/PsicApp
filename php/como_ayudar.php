@@ -29,10 +29,10 @@
   <body>
     <!-- Aquí va nuestro contenido web -->
     <nav id="menu" class="navbar navbar-toggleable-md navbar-inverse bg-primary fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" ><h4>Cómo ayudar a alguien</h4></a>
+      <a class="navbar-brand" href="#" ><h4 style="color:white">Cómo ayudar a alguien</h4></a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
@@ -96,7 +96,7 @@
     <div class="row">
       <div class="col-md-10">
   </br>
-    <a href="../html/indexpadres.html"><button type="button" class="btn btn-lg btn-outline-primary">Omitir</button></a>
+    <a href="../html/indexPadres.html"><button type="button" class="btn btn-lg btn-outline-primary">Omitir</button></a>
   </div>
     <div class="col-md-2">
     </br>

@@ -240,7 +240,7 @@ else{
 </div>-->
 <!-- Container (About Section) -->
 <?php require 'botonA.php'; ?>
-<div id="about" class="container text-center  text-white" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+<div id="about" class="container text-center  text-white" style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <div class="row-sm-12">
 
     <h1>PsicApp</h1>
@@ -256,7 +256,7 @@ else{
         <div class="card-body">
           <h3 class="card-title"><strong>Resuelve dudas</strong></h3>
           <p class="card-text">¿Quieres saber que son las adicciones, salud mental, sexualidad y violencia de pareja?</p>
-          <a href="Categorias.php" class="btn btn-primary">Ir</a>
+          <a href="categorias.php" class="btn btn-primary">Ir</a>
         </div>
       </div>
     </div>
