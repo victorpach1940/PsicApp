@@ -8,7 +8,7 @@ if ($_POST['Listo']==1) {
   session_start();
   $_SESSION['edad']=$edad;
   $_SESSION['genero']=$genero;
-  header("location: index.php");
+  header("location: opciones.php");
 }
 else{
   header("location: visitas.php");

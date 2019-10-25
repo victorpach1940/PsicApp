@@ -13,13 +13,11 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#tienda" class="btn btn-success">¡Apoyanos!</a></li>
-        <li><a href="tengo_un_problema.php">¿Tengo un problema?</a></li>
+        <li><a href="categoria_tengo.php">Valoracion</a></li>
         <li><a href="#portfolio">Nosotros</a></li>
         <li><a href="#services">Informate</a></li>
         <li><a href="#contact">Contacto</a></li>
-        <li><a href="#about">Acerca</a></li>
-        <li><a href="#">Sesion privada</a></li>
-        <li><a href="../login/index.php">Iniciar/Registrarse</a></li>
+        <li><a href="../login/index.php">Login/Registrate</a></li>
       </ul>
     </div>
   </div>

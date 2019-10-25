@@ -24,7 +24,11 @@
       }
 
     </style>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="shrtcut icon" href="../img/icono_page.png">
   </head>
   <body>
     <!-- Aquí va nuestro contenido web -->
@@ -43,10 +47,6 @@
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
     <script>
       $(window).scroll(function() {
         if ($("#menu").offset().top > 300) {
@@ -89,7 +89,7 @@
         <div class="col-md-12"></br>
              <a href="violenciadepareja_ayudar.php"><button type="button" class="btn btn-lg btn-outline-primary">Violencia de pareja</button></a></br></br></br>
         </div>
-          <a href="index.php"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
+          <a href="../html/indexPadres.html"><button type="button" class="btn btn-lg btn-outline-primary">Menú principal</button></a>
       </br></br></br></br>
         </div>
       </center>
