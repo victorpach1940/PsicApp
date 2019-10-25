@@ -240,7 +240,7 @@ else{
 </div>-->
 <!-- Container (About Section) -->
 <?php require 'botonA.php'; ?>
-<div id="about" class="container text-center  text-white" style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+<div id="about" class="container text-center  text-white" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <div class="row-sm-12">
 
     <h1>PsicApp</h1>
@@ -472,7 +472,7 @@ $(document).ready(function(){
     (function () {
         var options = {
             whatsapp: "+52 1 2211116913", // WhatsApp number
-            call_to_action: "¡Dudas o aclaraciones!", // Call to action
+            call_to_action: "¡Habla con un experto!", // Call to action
             position: "right", // Position may be 'right' or 'left'
         };
         var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;

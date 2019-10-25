@@ -42,7 +42,7 @@ body{
 }
 
 #home{
-	background-image: url(http://fabian.elmejorhosting.online/MediTec/img/salud.jpg) no-repeat center center fixed;
+	background-image: url(http://localhost/Psicapp/img/salud.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
