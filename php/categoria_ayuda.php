@@ -70,7 +70,7 @@
   <article align="justify">
     <center>
     <p>
-      <h1>¿Cual es el problema que a percibido en la otra persona?</h1></br>
+      <h1>Hagamos un pre diagnóstico, ¿cuál es el problema que usted a percibido en la otra persona?</h1></br>
 
       <div class="constainer-fluid">
         <div class="row">

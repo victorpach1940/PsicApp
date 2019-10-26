@@ -30,3 +30,15 @@
 </div>
 </body>
 </html>
+<!--Aqui tenemos la parte del fondo echa por el Miguelon -->
+<style>
+	
+	body{
+	background-image: url("../img/background.jpg");
+	background-repeat:no-repeat;
+	background-image:center;
+	background-size:cover; 
+	background-position: center;
+	background-attachment: fixed; 
+}
+</style>

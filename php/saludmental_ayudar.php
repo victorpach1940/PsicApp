@@ -78,7 +78,7 @@
     <center>
       <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
     <h2 id="preg"></h2>
-  <input type="text" id="dato">
+  <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
   <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
   <p id="resolucion"></p> </br>
 
@@ -99,8 +99,8 @@
     // Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
     var preguntas = [                                     // Pregunta Respuesta
         ['¿Tu ser querido tiene sentimientos de tristeza o desánimo?', 'si'],         //  [0][0]   [0][1]
-        ['¿Ha detectado Altibajos y cambios radicales de humor en la persona en cuestión?.', 'si'],                              //  [1][0]   [1][1]
-        ['¿Su ser querido tiene Alejamiento de las amistades y de las actividades?.', 'si'],                //  [2][0]   [2][1]
+        ['¿Ha detectado altibajos y cambios radicales de humor en la persona en cuestión?.', 'si'],                              //  [1][0]   [1][1]
+        ['¿Su ser querido tiene alejamiento de las amistades y de las actividades?.', 'si'],                //  [2][0]   [2][1]
         ['¿Tiene la persona exceso de enojo, hostilidad o violencia?.', 'si'],                 // ...
         ['¿Ah notado pensamientos suicidas en la mente de su ser querido?', 'si']       // [9][0] y [9][1]
       ],

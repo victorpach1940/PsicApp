@@ -78,7 +78,7 @@
         <center>
           <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
         <h2 id="preg"></h2>
-      <input type="text" id="dato">
+      <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
       <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
       <p id="resolucion"></p> </br>
 
@@ -98,10 +98,10 @@
 
         // Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
         var preguntas = [                                     // Pregunta Respuesta
-            ['¿Su ser querido esta teniendo cambios en su manera de vestir?', 'si'],         //  [0][0]   [0][1]
-            ['¿A notado que su amigo/familiar presenta síntomas depresivos y de ansiedad ?.', 'si'],                              //  [1][0]   [1][1]
+            ['¿Su ser querido está teniendo cambios en su manera de vestir?', 'si'],         //  [0][0]   [0][1]
+            ['¿Ha notado que su amigo/familiar presenta síntomas depresivos y de ansiedad ?.', 'si'],                              //  [1][0]   [1][1]
             ['¿Cuando observa su ser querido con su pareja, se muestra sumisa o sumiso explícitamente?.', 'si'],                //  [2][0]   [2][1]
-            ['¿Su conocido manifiestan un estado de ánimo triste?.', 'si'],                 // ...
+            ['¿Su conocido manifiesta un estado de ánimo triste?.', 'si'],                 // ...
             ['¿Su conocido en su forma de vestir trata de cubrir la mayor parte del cuerpo como brazos, rostro, escote y se maquilla excesivamente?', 'si']       // [9][0] y [9][1]
           ],
           pregunta, respuesta,

@@ -331,7 +331,7 @@ else{
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Nosotros</h2><br>
-  <h4>PsicApp-Transformasional</h4>
+  <h4>PsicApp-Transformacional</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -351,7 +351,7 @@ else{
       <div class="thumbnail">
         <img src="../img/valores.png" alt="San Francisco" width="200" height="200">
         <p><strong>Valores</strong></p>
-        <p>Confidencialidad, Respeto, Profesionalidad, Responsabildiad.</p>
+        <p>Confidencialidad, Respeto, Profesionalidad, Responsabilidad.</p>
       </div>
     </div>
   </div><br>
