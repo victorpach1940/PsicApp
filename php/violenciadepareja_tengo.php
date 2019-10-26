@@ -65,7 +65,7 @@
     <div class="banner" class="img-fluid" alt="Responsive image">
 
       <center>
-      <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Padece violencia de pareja?</p></strong>
+      <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Cree padecer violencia de pareja?</p></strong>
       </section>
     </center>
     </div>
@@ -78,7 +78,7 @@
         <center>
           <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
         <h2 id="preg"></h2>
-      <input type="text" id="dato">
+        <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
       <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
       <p id="resolucion"></p> </br>
 
@@ -142,22 +142,22 @@
                 var resultado;      // para guardar el mensaje con el resultado
           switch(acertadas){
             case 0:
-              resultado = 'No hemos detectado ningun problema, puede estar tranquilo :D';
+              resultado = 'No hemos detectado ningún problema, puede estar tranquilo :D';
               break;
             case 1:
-              resultado = 'Encontramos un indice muy bajo, quiza es solo una pequeña etapa, pero le aseguramos que puede estar tranquilo :)';
+              resultado = 'Encontramos un indice muy bajo, quizá es solo una pequeña etapa, pero le aseguramos que puede estar tranquilo :)';
               break;
             case 2:
               resultado = 'Bajo riesgo, puede solo este usted triste temporalmente, de cualquier forma le recomendamos hablar siempre con un experto.';
               break;
             case 3:
-              resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, puede que su pareja si la este maltratando psicológica, verbal o fisicamente';
+              resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, puede que su pareja si la este maltratando psicológica, verbal o físicamente';
               break;
             case 4:
-              resultado = 'Alto indice de riesgo, no es normal este tipo de comportamiento, comuniquese con uno de nuestros expertos';
+              resultado = 'Alto indice de riesgo, no es normal este tipo de comportamiento, comuníquese con uno de nuestros expertos';
               break;
             case 5:
-              resultado = '¡Elevado indice de riesgo, , comunicate con uno de nuestros expertos urgentemente, usted puede estar padeciendo de violencia psicológica o fisica';
+              resultado = '¡Elevado indice de riesgo, , comunicate con uno de nuestros expertos urgentemente, usted puede estar padeciendo de violencia psicológica o física';
               break;
           }
                 document.getElementById('resolucion').innerHTML = resultado;

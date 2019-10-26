@@ -78,7 +78,7 @@
           <center>
             <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
           <h2 id="preg"></h2>
-        <input type="text" id="dato">
+        <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
         <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
         <p id="resolucion"></p> </br>
 

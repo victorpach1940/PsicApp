@@ -78,7 +78,7 @@
     <center>
       <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
     <h2 id="preg"></h2>
-  <input type="text" id="dato">
+  <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
   <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
   <p id="resolucion"></p> </br>
 
@@ -95,12 +95,13 @@
 
   <script>
     // Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
+    var r="si";
     var preguntas = [                                     // Pregunta Respuesta
-        ['¿El comportamiento y/o carácter de tu conocido ha cambiado?', 'si'],         //  [0][0]   [0][1]
-        ['¿Ha disminuido el rendimiento escolar o laboral de la persona en cuestión?.', 'si'],                              //  [1][0]   [1][1]
-        ['¿La persona en cuestión gasta mucho dinero y constantemente pide prestado?.', 'si'],                //  [2][0]   [2][1]
-        ['¿Ha detectado que su conocido tiene cápsulas, tabletas o pastillas que no fueron indicados por el médico?.', 'si'],                 // ...
-        ['¿Su conocido está eufórico sin razón alguna?', 'si']       // [9][0] y [9][1]
+        ['¿El comportamiento y/o carácter de tu conocido ha cambiado?', r],         //  [0][0]   [0][1]
+        ['¿Ha disminuido el rendimiento escolar o laboral de la persona en cuestión?.', r],                              //  [1][0]   [1][1]
+        ['¿La persona en cuestión gasta mucho dinero y constantemente pide prestado?.', r],                //  [2][0]   [2][1]
+        ['¿Ha detectado que su conocido tiene cápsulas, tabletas o pastillas que no fueron indicados por el médico?.', r],                 // ...
+        ['¿Su conocido está eufórico sin razón alguna?', r]       // [9][0] y [9][1]
       ],
       pregunta, respuesta,
       formuladas = 0,

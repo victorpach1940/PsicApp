@@ -65,7 +65,7 @@
       <div class="banner" class="img-fluid" alt="Responsive image">
 
         <center>
-        <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Tiene un problema de salud sexual?</p></strong>
+        <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Tiene miedo de tener una ETS?</p></strong>
         </section>
       </center>
       </div>
@@ -78,7 +78,7 @@
           <center>
             <p><h1>Por favor responda las siguientes preguntas</h1></p></br>
           <h2 id="preg"></h2>
-        <input type="text" id="dato">
+          <input type="text" onkeyup="this.value = this.value.toLowerCase();" id="dato">
         <button class="btn btn-outline-primary" id="boton">Siguiente Pregunta</button></br>
         <p id="resolucion"></p> </br>
 
@@ -101,7 +101,7 @@
               ['¿Tiene dolor o ardor al orinar?', 'si'],         //  [0][0]   [0][1]
               ['¿Tiene usted un olor inusual en su zona genital?.', 'si'],                              //  [1][0]   [1][1]
               ['¿Padece usted de dolor en la parte baja del abdomen?.', 'si'],                //  [2][0]   [2][1]
-              ['¿Esta padeciendo fiebre?.', 'si'],                 // ...
+              ['¿Está padeciendo fiebre?.', 'si'],                 // ...
               ['¿Ah padecido de sangrado de la boca, la nariz, el ano, pene o vagina, ?', 'si']       // [9][0] y [9][1]
             ],
             pregunta, respuesta,
@@ -142,7 +142,7 @@
                   var resultado;      // para guardar el mensaje con el resultado
             switch(acertadas){
               case 0:
-                resultado = 'No hemos detectado ningun problema, puede estar tranquilo :D';
+                resultado = 'No hemos detectado ningún problema, puede estar tranquilo :D';
                 break;
               case 1:
                 resultado = 'Encontramos un indice muy bajo, pero puede que sean solo cambios hormonales, puede estar usted tranquilo n.n';
