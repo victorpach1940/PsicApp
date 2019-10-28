@@ -267,7 +267,7 @@ else{
 </div>-->
 <!-- Container (About Section) -->
 <?php require 'botonA.php'; ?>
-<div id="about" class="container text-center  text-white" style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+<div id="about" class="container text-center  text-white" style="background:url(../img/background.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <div class="row-sm-12">
 
     <h1>PsicApp</h1>

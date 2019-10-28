@@ -78,7 +78,7 @@ else{
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Menú <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active"><a href="adicciones.php" class="nav-link">Adicciones</a></li>
           <li class="nav-item active"><a href="saludmental.php" class="nav-link">Salud mental</a></li>
@@ -135,7 +135,7 @@ else{
 	<span class="badge" data-badge-caption="-De 15 a 24" style="color:white; background-color:#008080; border-radius:20px;">De 15 a 24 <?php echo $edad; ?></span>
   <article align="justify">
     <br>
-    <h1>¿Psicologos?</h1>
+    <h1>¿Psicólogos?</h1>
   <h3>Introducción</h3>
   			<p>
   				Reconocer la vulnerabilidad suele ser la primera dificultad con la que se encuentran aquellas personas que no quieren acudir a un psicólogo.</br>
@@ -163,7 +163,7 @@ else{
           <br>Cuando dentro de ti sientes que no te encuentras bien y que tú no puedes hacer frente por ti mismo a ese dolor, entonces, pide ayuda.
   						    <img class="img-fluid" width="900" src="../img/psicologo.jpg">
 
-  				<b id="2"><h5>¿De que hablo con el psicologo?</b></h5>
+  				<b id="2"><h5>¿De que hablo con el psicólogo?</b></h5>
   				<article align="justify">
             Lleva un diario de tu terapia. No hace falta que escribas páginas y páginas, bastará con algunos apuntes que recojan lo más importante que habéis hablado o aquello que más te ha resonado. Algunos pacientes toman notas durante la sesión, para que no se les escape nada.<br>
             Habla abiertamente con tu terapeuta, redirígele hacia los temas que tú quieres tratar. A veces, cuando los psicólogos vemos varios caminos a tomar en la conversación, no acertamos con el que es clave ese día para el paciente. Díselo con confianza y hablad de todo aquello que sientas que no está funcionando entre vosotros.<br>
@@ -173,15 +173,15 @@ else{
   				<b id="3"><h5>¿Tratamientos?</b></h5>
   				<article align="justify">
             Un tratamiento psicológico tiene que ver con escuchar con atención lo que el paciente tiene por decir, para poder conocer y observar el mundo interior de la persona que consulta.<br>
-            El tratamiento psicologico es aquella intervencion que tiene por objetivo mejorar el estado de la persona (para que hacer terapia), teniendo en cuenta sus alteraciones (fisicas, psiquicas, conductuales, etc). Por supuesto que se consideran implicados muchos factores causales, como la genetica, cambios en el sistema nervioso, determinadas circunstancias en las relaciones entre personas y las condiciones ambientales. Por esto, no se excluye la combinacion de un tratamiento psicologico junto con uno farmacologico.<br>
-            El objetivo de un tratamiento psicologico es observar, identificar y modificar los elementos del comportamiento que generan sufrimiento. Por comportamiento se entiende:</br>
+            El tratamiento psicológico es aquella intervención que tiene por objetivo mejorar el estado de la persona (para que hacer terapia), teniendo en cuenta sus alteraciones (físicas, psíquicas, conductuales, etc). Por supuesto que se consideran implicados muchos factores causales, como la genetica, cambios en el sistema nervioso, determinadas circunstancias en las relaciones entre personas y las condiciones ambientales. Por esto, no se excluye la combinación de un tratamiento psicológico junto con uno farmacológico.<br>
+            El objetivo de un tratamiento psicológico es observar, identificar y modificar los elementos del comportamiento que generan sufrimiento. Por comportamiento se entiende:</br>
             <ol>
               <li>La conducta</li>
               <li>El pensamiento</li>
               <li>Las emociones y estados de animo</li>
             </ol>
             <br>
-            Dependiendo de cómo se entienda a la enfermedad y a la salud, los tratamientos son pensados de maneras distintas. Es lo que ocurre, por ejemplo, con el psicoanalisis y la teoria cognitiva. La teoria cognitiva considera que los sintomas son el trastorno mismo y es esto lo que hay que tratar. Sin embargo, desde la antigüedad el sintoma era considerado como una mera señal. De hecho, medicamente, eliminar los sintomas no constituye curar la enfermedad. Psicologicamente tampoco. Un sintoma viene a decirnos algo sobre la posicion existencial de la persona ante los grandes temas de la vida: Sexualidad, Muerte, Duelos. El sintoma nos brinda informacion sobre ello. Y la cura, no pasa por eliminar lo que se TIENE (el sintoma), sino por observar lo que se ES (las identificaciones) que es lo que determina realmente la posicion existencial, el argumento de vida de quien consulta.
+            Dependiendo de cómo se entienda a la enfermedad y a la salud, los tratamientos son pensados de maneras distintas. Es lo que ocurre, por ejemplo, con el psicoanálisis y la teoría cognitiva. La teoría cognitiva considera que los síntomas son el trastorno mismo y es esto lo que hay que tratar. Sin embargo, desde la antigüedad el síntoma era considerado como una mera señal. De hecho, médicamente, eliminar los síntomas no constituye curar la enfermedad. Psicológicamente tampoco. Un síntoma viene a decirnos algo sobre la posición existencial de la persona ante los grandes temas de la vida: Sexualidad, Muerte, Duelos. El síntoma nos brinda información sobre ello. Y la cura, no pasa por eliminar lo que se TIENE (el síntoma), sino por observar lo que se ES (las identificaciones) que es lo que determina realmente la posicion existencial, el argumento de vida de quien consulta.
           </article>
   				</br>
 
@@ -192,7 +192,7 @@ else{
   <div class="container">
     <div class="div1">
       <b>1. ¿Por qué nos sentimos solos?</b></br>
-      Hay que tener en cuenta que el ser humano es un animal social. Estamos programados geneticamente para vivir en comunidad, el apego es una necesidad básica y fundamental en nuestra primera infancia de hecho determina nuestro desarrollo emocional posterior. Sin embargo, vivimos en un mundo individualista, egoísta, competitivo, desconectado emocionalmente de los demás. Esto no ayuda, de hecho cada vez hay más gente que sufre y se sente sola en las grandes ciudades. Podemos vivir en un bloque de edificios de muchos apartamentos y no relacionarnos ni hablar con ningún vecino más allá del "buenos días" de rigor.</br>
+      Hay que tener en cuenta que el ser humano es un animal social. Estamos programados genéticamente para vivir en comunidad, el apego es una necesidad básica y fundamental en nuestra primera infancia de hecho determina nuestro desarrollo emocional posterior. Sin embargo, vivimos en un mundo individualista, egoísta, competitivo, desconectado emocionalmente de los demás. Esto no ayuda, de hecho cada vez hay más gente que sufre y se sente sola en las grandes ciudades. Podemos vivir en un bloque de edificios de muchos apartamentos y no relacionarnos ni hablar con ningún vecino más allá del "buenos días" de rigor.</br>
   </div>
   <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Sentirse solo?</button>
 </div>
@@ -240,7 +240,7 @@ else{
 </div>
 <div class="container">
   <div class="div5">
-    <b>5. ¿Qué puedes hacer si te estás autolesionando fisicamente?</b></br>
+    <b>5. ¿Qué puedes hacer si te estás autolesionando físicamente?</b></br>
     Existen una serie de técnicas que pueden reducir el riesgo de lesión seria o reducen al mínimo el daño causado por las autolesiones
     <ol>
       <li>Para e intenta descubrir qué tendría que cambiar para no sentir más el deseo de dañarte.</li>
@@ -306,7 +306,7 @@ else{
   <div class="div9">
     <b>9. ¿De qué manera impacta el género en la Salud Mental?</b></br>
     La mayoría de las enfermedades en salud mental  son más frecuentes en mujeres. Existen diversas hipótesis para explicar este fenómeno: diferencias hormonales, presencia de embarazo, parto y puerperio, diferencias culturales y multiplicidad de roles, que han cambiado de manera precipitada este último siglo.</br></br>
-    Actualmente se sabe que todas ellas contribuyen a que las mujeres estén más expuestas a patologías mentales, aunque algunas enfermedades de alta carga genética, como la Esquizofrenia o el Trastorno Bipolar,  no presentan diferencias de prevalencia entre géneros.</br>
+    Actualmente se sabe que todas ellas contribuyen a que las mujeres estén más expuestas a patologías mentales, aunque algunas enfermedades de alta carga genética, como la Esquizofrenia o el Trastorno Bipolar,  no presentan diferencias de prevalencía entre géneros.</br>
   </div>
   <button id="myButton9" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement9()">¿Impacto?</button>
 </div><!--

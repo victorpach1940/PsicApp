@@ -106,7 +106,7 @@
 </nav>
   <!-- Primer Container -->
   <!-- style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg   --- usa este para subir al host-->
-<div class="container-fluid text-center" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+<div class="container-fluid text-center" style="background:url(../img/background.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <h1 class="margin">¡Gracias por su apoyo!<br> ¿Cómo desea apoyarnos?</h1>
   <img src="../img/store.png" class="img-responsive rounded" style="display:inline" alt="Bird" width="200" height="200"><br>
   <p style="color: black;">Adquiere artículos de nuestra tienda!</p>
