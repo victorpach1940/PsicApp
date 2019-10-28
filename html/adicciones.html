@@ -215,16 +215,16 @@
       El primer paso importante es pedir ayuda. La visita a un médico para una posible referencia al tratamiento es una forma de hacerlo. El médico puede ser llamado con antelación y le puede preguntar si él o ella se siente cómodo(a) al discutir de la prueba de detección y tratamiento del  abuso de drogas. De no ser así, solicítele una referencia con otro médico. Usted también puede contactar a un especialista en drogadicción. Se necesita mucho valor para buscar ayuda por un problema de drogadicción u otra adicción porque se espera un trabajo duro por delante. Sin embargo, el tratamiento puede funcionar, y las personas se recuperan a diario de sus adicciones.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Si una persona pide ayuda por dónde empieza?</button>
+  <button id="bt1" class="btn btn-success btn-lg btn-block" onclick="primero()">¿Si una persona pide ayuda por dónde empieza?</button>
 </div>
 <br>
 <script type="text/javascript">
   $(".div1").hide();
-  function ShowHideElement()
+  function primero()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="¿Si una persona pide ayuda por dónde empieza?") 
+    if ($("#bt1").text() ==="¿Si una persona pide ayuda por dónde empieza?") 
     {
         $(".div1").show();
         text="Ocultar";
@@ -234,41 +234,21 @@
       $(".div1").hide();
       text="¿Si una persona pide ayuda por dónde empieza?";
     }
-    $("#myButton").html(text);
+    $("#bt1").html(text);
   }
 </script>
 <!--aqui termina tanto texto como instruccion que debera hacer la primera pregunta-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="container">
   <div class="div2" >
     <h4>
-      2. ¿Que deberíamos buscar en un centro de tratamiento de adicciones?
+      2. ¿Que buscar en un centro de tratamiento de adicciones?
     </h4>
     <p>
       Los enfoques de tratamiento deben ser diseñados para dirigir cada patrón de abuso de las drogas del paciente y también sus problemas médicos, psiquiátricos y sociales relacionados con la droga. Algunos centros de tratamiento ofrecen programas de tratamiento ambulatorio, lo que permite que usted continúe desempeñando algunas de sus responsabilidades diarias. Sin embargo, algunas personas les van mejor con tratamiento hospitalario (residencial). Un especialista en drogadicción puede asesorar a usted o su ser querido sobre las mejores opciones.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="segundo()">¿Que deberíamos buscar en un centro de tratamiento de adicciones?</button>
+  <button id="bt2" class="btn btn-success btn-lg btn-block" onclick="segundo()">¿Que buscar en un centro de tratamiento de adicciones?</button>
 </div>
 <br>
 <script type="text/javascript">
@@ -277,7 +257,7 @@
   {
     var text ="";
 
-    if ($("#myButton").text() ==="¿Que deberíamos buscar en un centro de tratamiento de adicciones?") 
+    if ($("#bt2").text() ==="¿Que buscar en un centro de tratamiento de adicciones?") 
     {
         $(".div2").show();
         text="Ocultar";
@@ -285,15 +265,13 @@
     else
     {
       $(".div2").hide();
-      text="¿Que deberíamos buscar en un centro de tratamiento de adicciones?";
+      text="¿Que buscar en un centro de tratamiento de adicciones?";
     }
-    $("#myButton").html(text);
+    $("#bt2").html(text);
   }
 </script>
-
-
 <div class="container">
-  <div class="div1" >
+  <div class="div3" >
     <h4>
       3. ¿Me harán dejar de consumir drogas inmediatamente?
     </h4>
@@ -302,30 +280,30 @@
     </p> 
   </div>
   <br>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Me harán dejar de consumir drogas inmediatamente?</button>
+  <button id="bt3" class="btn btn-success btn-lg btn-block" onclick="tercero()">¿Me harán dejar de consumir drogas inmediatamente?</button>
 </div>	
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div3").hide();
+  function tercero()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas2") 
+    if ($("#bt3").text() ==="¿Me harán dejar de consumir drogas inmediatamente?") 
     {
-        $(".div1").show();
+        $(".div3").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas2";
+      $(".div3").hide();
+      text="¿Me harán dejar de consumir drogas inmediatamente?";
     }
-    $("#myButton").html(text);
+    $("#bt3").html(text);
   }
 </script>
-
+<br>
 <div class="container">
-  <div class="div1" >
+  <div class="div4" >
     <h4>
       4. ¿La drogadicción es tratada por un médico?
     </h4>
@@ -333,31 +311,31 @@
       El primer paso en el tratamiento es la desintoxicación, lo que ayuda a la persona a eliminar todas las drogas de su sistema. Esto es importante porque las drogas afectan las capacidades mentales que usted necesita para continuar en tratamiento. Cuando los pacientes suspenden el consumo de drogas, ellos pueden experimentar una variedad de síntomas del síndrome de abstinencia, incluso depresión, ansiedad y otros trastornos del estado de ánimo; inquietud; e insomnio. Los centros de tratamiento tienen mucha experiencia en ayudar a una persona sobrellevar este proceso, y mantenerlo a salvo. Dependiendo de la droga a la que usted esté adicto, también puede haber medicamentos que le harán sentir un poco mejor durante la abstinencia de drogas, lo que hace más fácil de dejar de consumirlas.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿La drogadicción es tratada por un médico?</button>
+  <button id="bt4" class="btn btn-success btn-lg btn-block" onclick="cuarto()">¿La drogadicción es tratada por un médico?</button>
 </div>
 <br>
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div4").hide();
+  function cuarto()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas1") 
+    if ($("#bt4").text() ==="¿La drogadicción es tratada por un médico?") 
     {
-        $(".div1").show();
+        $(".div4").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas1";
+      $(".div4").hide();
+      text="¿La drogadicción es tratada por un médico?";
     }
-    $("#myButton").html(text);
+    $("#bt4").html(text);
   }
 </script>
 
 <div class="container">
-  <div class="div1" >
+  <div class="div5" >
     <h4>
       5. ¿Qué tipo de consejería existe?
     </h4>
@@ -365,32 +343,32 @@
       El tratamiento conductual, también conocido como “psicoterapia,” ayuda a los pacientes a comprometerse en el proceso de tratamiento, cambiar sus actitudes y comportamientos relacionados al abuso de las drogas, y ampliar las posibilidades de llevar una vida saludable. Estos tratamientos también pueden aumentar la eficacia de los medicamentos y ayudar a las personas a seguir en tratamiento por más tiempo. El tratamiento para el abuso de drogas y drogadicción puede darse usando diferentes enfoques de comportamiento. En PsicApp puede contactar con uno de nuestros expertos sobre los diferentes tipos de terapia y otros tratamientos conductuales.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Qué tipo de consejería existe?</button>
+  <button id="bt5" class="btn btn-success btn-lg btn-block" onclick="quinto()">¿Qué tipo de consejería existe?</button>
 </div>	
 <br>	
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div5").hide();
+  function quinto()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt5").text() ==="¿Qué tipo de consejería existe?") 
     {
-        $(".div1").show();
+        $(".div5").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div5").hide();
+      text="¿Qué tipo de consejería existe?";
     }
-    $("#myButton").html(text);
+    $("#bt5").html(text);
   }
 </script>	
 			
 		
 <div class="container">
-  <div class="div1" >
+  <div class="div6" >
     <h4>
       6. ¿Existen medicamentos que pueden ayudar?
     </h4>
@@ -398,31 +376,31 @@
    Hay medicamentos disponibles para tratar las adicciones al alcohol, la nicotina y los opioides (heroína y analgésicos). Otros medicamentos están disponibles para tratar posibles enfermedades mentales, como la depresión, que pueden estar contribuyendo a la adicción. Además, el medicamento que no es adictivo es prescrito a veces para ayudar con la abstinencia. Cuando el medicamento está disponible, puede ser combinado con la terapia conductual para asegurar el éxito de la mayoría de los pacientes. El proveedor del tratamiento le aconsejará a usted y a su ser querido cuales son los medicamentos apropiados y que están disponibles. Algunos centros de tratamiento siguen la filosofía de que ellos no deberían tratar la drogadicción con otras drogas, pero investigaciones demuestran que los medicamentos pueden ayudar en muchos casos</br>
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Existen medicamentos que pueden ayudar?</button>
+  <button id="bt6" class="btn btn-success btn-lg btn-block" onclick="sexto()">¿Existen medicamentos que pueden ayudar?</button>
 </div>	
 <br>
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div6").hide();
+  function sexto()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt6").text() ==="¿Existen medicamentos que pueden ayudar?") 
     {
-        $(".div1").show();
+        $(".div6").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div6").hide();
+      text="¿Existen medicamentos que pueden ayudar?";
     }
-    $("#myButton").html(text);
+    $("#bt6").html(text);
   }
 </script>	
 		
 <div class="container">
-  <div class="div1" >
+  <div class="div7" >
     <h4>
       7. ¿Qué ocurre cuando una persona ha estado en rehabilitación anteriormente?
     </h4>
@@ -430,31 +408,31 @@
 Esto significa que la persona ya ha aprendido muchas de las destrezas necesarias para recuperarse de la adicción y debería intentarlo de nuevo. La recaída no debería desanimar a nadie que decida realizar otro intento. Las tasas de recaída por adicción son similares a las tasas por otras enfermedades crónicas que muchas personas padecen, como hipertensión, diabetes y asma. El tratamiento de las enfermedades crónicas implica cambiar los comportamientos profundamente arraigados, y a veces, la recaída viene incluida, pero no significa que el tratamiento fracasó. Un regreso al abuso de las drogas indica que la persona necesita comenzar el tratamiento de nuevo, o modificarlo o que pueda beneficiarse desde una perspectiva diferente.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Existen medicamentos que pueden ayudar?</button>
+  <button id="bt7" class="btn btn-success btn-lg btn-block" onclick="septimo()">¿Existen medicamentos que pueden ayudar?</button>
 </div>	
 <br>
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div7").hide();
+  function septimo()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt7").text() ==="¿Existen medicamentos que pueden ayudar?") 
     {
-        $(".div1").show();
+        $(".div7").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div7").hide();
+      text="¿Existen medicamentos que pueden ayudar?";
     }
-    $("#myButton").html(text);
+    $("#bt7").html(text);
   }
 </script>
 
 <div class="container">
-  <div class="div1" >
+  <div class="div8" >
     <h4>
       8. ¿Y si una persona está preocupada que otros lo descubran?
     </h4>
@@ -462,71 +440,71 @@ Esto significa que la persona ya ha aprendido muchas de las destrezas necesarias
     	Una persona que esté buscando tratamiento para la adicción puede decirle a su patrón o sus amigos que necesita irse por razones médicas. Si usted habla con el médico u otro experto en medicina, las leyes de privacidad les prohíbe divulgar su información médica con cualquier persona fuera del sistema de salud sin su autorización. Además, la mayoría de los médicos especializados en tratamiento para la adicción no pueden compartir su información con nadie, hasta otros médicos, sin su permiso por escrito.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Y si una persona está preocupada que otros lo descubran?</button>
+  <button id="bt8" class="btn btn-success btn-lg btn-block" onclick="octavo()">¿Y si una persona está preocupada que otros lo descubran?</button>
 </div>	
 <br>
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div8").hide();
+  function octavo()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt8").text() ==="¿Y si una persona está preocupada que otros lo descubran?") 
     {
-        $(".div1").show();
+        $(".div8").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div8").hide();
+      text="¿Y si una persona está preocupada que otros lo descubran?";
     }
-    $("#myButton").html(text);
+    $("#bt8").html(text);
   }
 </script>			
 
 <div class="container">
-  <div class="div1" >
+  <div class="div9" >
     <h4>
-     9. ¿Qué sucede si una persona consume drogas porque se siente deprimida y detener su consumo empeore las cosas?
+     9. ¿Como dejar de consumir drogas
     </h4>
     <p>
     	Es muy probable que usted necesite buscar tratamiento tanto para la depresión como para la adicción. Esto sucede a menudo. Se le llama “comorbilidad,” o “morbilidad asociada” cuando usted tiene más de un problema de salud a la misma vez. Es importante que discuta todo sus síntomas y comportamientos con su médico. Hay muchas drogas que no son adictivas y que pueden ayudar contra la depresión u otras enfermedades mentales. A veces, los proveedores de cuidado de salud no se comunican entre ellos como deberían, lo que significa que usted puede ser su mejor defensor y asegurar de que todos sus proveedores de asistencia médica sepan los problemas de salud que le preocupa. Las personas que tienen problemas concurrentes deben ser tratadas por todos ellos al mismo tiempo. Nota: si usted se siente tan deprimido que ha considerado hacerse daño, puede visitar el siguiente enlace de ayuda: <a href="saludmental.html" target="_blank">Salud mental</a></li> o bien puede ponerse en contacto con uno de nuestros expertos con ayuda del chat. 
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Qué sucede si una persona consume drogas porque se siente deprimida y detener su consumo empeore las cosas?</button>
+  <button id="bt9" class="btn btn-success btn-lg btn-block" onclick="noveno()">¿Como dejar de consumir drogas</button>
 </div>		
 <br>		
 <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div9").hide();
+  function noveno()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt9").text() ==="¿Como dejar de consumir drogas") 
     {
-        $(".div1").show();
+        $(".div9").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div9").hide();
+      text="¿Como dejar de consumir drogas";
     }
-    $("#myButton").html(text);
+    $("#bt9").html(text);
   }
 </script>
 
 <div class="container">
-  <div class="div1" >
+  <div class="div10" >
     <h4>
-     10. ¿Cómo una persona puede hablar con otras con problemas similares?
+     10. ¿Cómo una persona puede comunicar su problemas?
     </h4>
     <p>
     	Los grupos de autoayuda pueden prolongar los efectos de tratamiento profesional. Los grupos de autoayuda más conocidos son aquellos afiliados con Alcohólicos Anónimos (AA), Narcóticos Anónimos (NA) y Cocaína Anónima (CA), todos los cuales son basados en un modelo de 12 pasos. La mayoría de los programas de tratamientos de adicción a las drogas estimulan a los pacientes a que participen en un grupo de autoayuda durante y después de un tratamiento oficial. Estos grupos en particular pueden ser muy útiles durante la recuperación ya que sirven como una constante fuente de apoyo para mantenerse libre de drogas.
     </p> 
   </div>
-  <button id="myButton" class="btn btn-success btn-lg btn-block" onclick="ShowHideElement()">¿Cómo una persona puede hablar con otras con problemas similares?</button>
+  <button id="bt10" class="btn btn-success btn-lg btn-block" onclick="decimo()">¿Cómo una persona puede comunicar su problemas?</button>
 </div>
 	<br>		
 			
@@ -543,22 +521,22 @@ Esto significa que la persona ya ha aprendido muchas de las destrezas necesarias
   </div>-->
   <!--seccion de jquery en los botones de ocultar y mostar-->
   <script type="text/javascript">
-  $(".div1").hide();
-  function ShowHideElement()
+  $(".div10").hide();
+  function decimo()
   {
     var text ="";
 
-    if ($("#myButton").text() ==="Violencia de parejas") 
+    if ($("#bt10").text() ==="¿Cómo una persona puede comunicar su problemas?") 
     {
-        $(".div1").show();
+        $(".div10").show();
         text="Ocultar";
     }
     else
     {
-      $(".div1").hide();
-      text="Violencia de parejas";
+      $(".div10").hide();
+      text="¿Cómo una persona puede comunicar su problemas?";
     }
-    $("#myButton").html(text);
+    $("#bt10").html(text);
   }
 </script>
 </body>
