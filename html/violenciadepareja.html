@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Violencia de pareja</title>
 	<link rel="shrtcut icon" href="../img/ico.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -241,15 +245,110 @@
                                             <img class="responsive-img" src="../img/vi5.jpg" width="5000"></br>
 
       <b> <h3 id="18">Preguntas mas frecuentes</b></h3>
-      <b>¿Puede un hombre ser víctima de violencia de género?</b></br>
+<div class="container">
+  <div class="div1" >
+    <h4>
+      1. ¿Puede un hombre ser víctima de violencia de género?
+    </h4>
+    <p>
       No, solo lo es la mujer. Así lo establece la ley de Protección Integral contra la Violencia de Género. Hay que diferencia el concepto de violencia de género del de violencia doméstica. Este último abarca la violencia ejercida entre los integrantes del núcleo familiar. Es decir: violencia sobre el cónyuge, descendientes (hijos), ascendientes (padres, abuelos...) o hermanos. O bien sobre los menores que convivan o se hallen bajo la tutela o protección de esa persona.</br>
 
-      Por tanto: un hombre no puede ser víctima de violencia de género, pero sí de violencia doméstica. Otra diferencia clave entre ambos conceptos es que la penalidad es mayor en los casos de violencia de género y tienen Juzgados propios.</br>
+      Por tanto: un hombre no puede ser víctima de violencia de género, pero sí de violencia doméstica. Otra diferencia clave entre ambos conceptos es que la penalidad es mayor en los casos de violencia de género y tienen Juzgados propios.
+    </p> 
+  </div>
+  <button id="bt1" class="btn btn-success btn-lg btn-block" onclick="primero()">¿Puede un hombre ser víctima de violencia de género?</button>
+</div>
+<br>
+<script type="text/javascript">
+  $(".div1").hide();
+  function primero()
+  {
+    var text ="";
+
+    if ($("#bt1").text() ==="¿Puede un hombre ser víctima de violencia de género?") 
+    {
+        $(".div1").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div1").hide();
+      text="¿Puede un hombre ser víctima de violencia de género?";
+    }
+    $("#bt1").html(text);
+  }
+</script>
+<!--aqui termina tanto texto como instruccion que debera hacer la primera pregunta-->
+
+<div class="container">
+  <div class="div2" >
+    <h4>
+      2. ¿Qué es la orden de protección y cómo se logra?
+    </h4>
+    <p>
+      Se trata de la Orden de protección de las víctimas de violencia tanto de género como doméstica. Es una resolución judicial que proporciona medidas cautelares de protección a la persona que sufre violencia de género. La puede solicitar cualquier persona que sufra violencia de cualquier tipo. Este es el formulario para poder solicitar la protección. Tanto la solicitud como su tramitación es gratuita.</br>
+    </p> 
+  </div>
+  <button id="bt2" class="btn btn-success btn-lg btn-block" onclick="segundo()">¿Qué es la orden de protección y cómo se logra?</button>
+</div>
+<br>
+<script type="text/javascript">
+  $(".div2").hide();
+  function segundo()
+  {
+    var text ="";
+
+    if ($("#bt2").text() ==="¿Qué es la orden de protección y cómo se logra?") 
+    {
+        $(".div2").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div2").hide();
+      text="¿Qué es la orden de protección y cómo se logra?";
+    }
+    $("#bt2").html(text);
+  }
+</script>
+<div class="container">
+  <div class="div3" >
+    <h4>
+      3. ¿Se puede optar a un abogado de oficio?
+    </h4>
+    <p>
+      Sí, cualquier persona que sufra violencia de género puede solicitar un abogado de oficio, independientemente de sus ingresos económicos. Aunque si la sentencia penal resulta absolutoria o de archivo (no se considera "culpable" al agresor), se perderá el derecho al abogado de oficio cuando se superen los límites económicos establecidos por la ley.
+    </p> 
+  </div>
+  <button id="bt3" class="btn btn-success btn-lg btn-block" onclick="tercero()">¿Se puede optar a un abogado de oficio?</button>
+</div>  
+<script type="text/javascript">
+  $(".div3").hide();
+  function tercero()
+  {
+    var text ="";
+
+    if ($("#bt3").text() ==="¿Se puede optar a un abogado de oficio?") 
+    {
+        $(".div3").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div3").hide();
+      text="¿Se puede optar a un abogado de oficio?";
+    }
+    $("#bt3").html(text);
+  }
+</script>
+
+
+     <!--
       <b>¿Qué es la orden de protección y cómo se logra?</b></br>
       Se trata de la Orden de protección de las víctimas de violencia tanto de género como doméstica. Es una resolución judicial que proporciona medidas cautelares de protección a la persona que sufre violencia de género. La puede solicitar cualquier persona que sufra violencia de cualquier tipo. Este es el formulario para poder solicitar la protección. Tanto la solicitud como su tramitación es gratuita.</br>
       <b>¿Se puede optar a un abogado de oficio?</b></br>
       Sí, cualquier persona que sufra violencia de género puede solicitar un abogado de oficio, independientemente de sus ingresos económicos. Aunque si la sentencia penal resulta absolutoria o de archivo (no se considera "culpable" al agresor), se perderá el derecho al abogado de oficio cuando se superen los límites económicos establecidos por la ley.</br>
-      </p>
+      </p>-->
 
       <b><h4>¿Tiene más dudas?</b></h4>
            puede solicitar información en el chat en linea de PsicApp, donde uno de nuestros expertos lo atendera.
