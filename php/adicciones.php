@@ -125,7 +125,7 @@ else{
 <!--aqui viene lo chido-->
 
 <div class="banner" class="img-fluid" alt="Responsive image">
-  <section><br><br><br><br><br><br><br><strong><p style="font-size:70px; font-family: 'Courgette', cursive; color:white;">Adicciones</p></strong>
+  <section><center><br><br></br></br><br><br><br><br><strong></br><p style="font-size:70px; font-family: 'Courgette', cursive; color:white;"></br>Adicciones</p></strong></center>
   </section>
 </div>
  <div class="box container white
@@ -144,7 +144,7 @@ else{
   						<div class="indice">
   			<p class="indice-Contenidos">Contenidos</p>
   			<ol class="indice-lista">
-  				<li><a href="#1">¿Que es una adiccion?</a>
+  				<li><a href="#1">¿Que es una adicción?</a>
   				<ul>
   					<li><a href="#2">¿Cuál es la diferencia entre adicción física y adicción psicológica?</a> </li>
   					<li><a href="#3">Clasificación de las drogas</a> </li>
@@ -164,7 +164,7 @@ else{
   			</ol>
       </ul>
     </div>
-    <h3 id="1">¿Que es una adiccion?</h3>
+    <h3 id="1">¿Que es una adicción?</h3>
       Se considera adicción, porque es difícil intentar dejar de consumirlas, ya que provocan alteraciones cerebrales en los mecanismos reguladores de la toma de decisiones y del control inhibitorio y porque el usuario de las mismas dedica gran parte de su tiempo en la búsqueda y consumo de ellas.
       <img class="img-fluid" src="../img/ad1.jpg">
     <h5 id="2">¿Cuál es la diferencia entre adicción física y adicción psicológica?</h5>
@@ -312,10 +312,11 @@ else{
   <div class="div12">
     <b>12. ¿Dónde puedo encontrar información sobre drogas específicas?</b></br>
     El NIDA también tiene una página web de fácil lectura con<a href="https://www.drugabuse.gov/es/informacion-sobre-drogas" target="_blank"> información sobre una gran lista de drogas, y las más comunes están disponibles en español.</a></br>
-    <b> En caso de tener dudas al respecto o no sabe que hacer si sus hijos o usted ya están ligados a las adicciones, puede solicitar información en el chat en linea de PsicApp, donde uno de nuestros expertos lo atendera.</b>
-  </p>
+    
   </div>
   <button id="myButton12" class="btn btn-primary btn-lg btn-block" onclick="ShowHideElement12()">¿Drogas?</button>
+  </br><b> En caso de tener dudas al respecto o no sabe que hacer si sus hijos o usted ya están ligados a las adicciones, puede solicitar información en el chat en linea de PsicApp, donde uno de nuestros expertos lo atendera.</b>
+  </p>
 </div>
   <!--zona de js-->
   <script type="text/javascript">

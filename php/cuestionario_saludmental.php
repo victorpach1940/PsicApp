@@ -38,7 +38,7 @@ else{
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cuestionario de salud mental</title>
+	<title>Test de salud mental</title>
 </head>
 <body>
 	<header>
@@ -62,10 +62,10 @@ else{
 	</a>
      <ul class="right hide-on-med-and-down">
 
-       <li><a href="cuestionario_adicciones.php" >Cuestionario Adicciones</a></li>
-       <li><a href="cuestionario_saludmental.php"class="red">Cuestionario Salud mental</a></li>
-       <li><a href="cuestionario_sexualidad.php">Cuestionario Sexualidad</a></li>
-       <li><a href="cuestionario_violenciadepareja.php">Cuestionario Violencia de pareja</a></li>
+       <li><a href="cuestionario_adicciones.php" >Test adicciones</a></li>
+       <li><a href="cuestionario_saludmental.php"class="red">Test salud mental</a></li>
+       <li><a href="cuestionario_sexualidad.php">Test sexualidad</a></li>
+       <li><a href="cuestionario_violenciadepareja.php">Test violencia de pareja</a></li>
        <li><a href="index.php">Inicio</a></li>
 			 <li><a href="../login/php/salir.php">Salir</a></li>
      </ul>
@@ -74,16 +74,16 @@ else{
 
 
    <ul class="sidenav" id="mobile-nav">
-   	   <li><a href="cuestionario_adicciones.php" >Cuestionario Adicciones</a></li>
-       <li><a href="cuestionario_saludmental.php" class="red">Cuestionario Salud mental</a></li>
-       <li><a href="cuestionario_sexualidad.php" >Cuestionario Sexualidad</a></li>
-       <li><a href="cuestionario_violenciadepareja.php">Cuestionario Violencia de pareja</a></li>
+   	   <li><a href="cuestionario_adicciones.php" >Test adicciones</a></li>
+       <li><a href="cuestionario_saludmental.php" class="red">Test salud mental</a></li>
+       <li><a href="cuestionario_sexualidad.php" >Test sexualidad</a></li>
+       <li><a href="cuestionario_violenciadepareja.php">Test violencia de pareja</a></li>
        <li><a href="index.php">Inicio</a></li>
 			 <li><a href="../login/php/salir.php">Salir</a></li>
    </ul>
 
 
-  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">¿Salud mental?</p></strong>
+  <section><br><br><br><br><br><br><br><strong><p style="font-size:90px; font-family: 'Courgette', cursive;">Test de seguimiento</p></strong>
   </section>
 
   <div class="box container white
@@ -100,63 +100,40 @@ else{
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <article align="justify"></br>
-  <h1>Cuestionario de Salud Mental</h1>
+  <h1>Test de salud mental</h1>
 			<p >
     <p align="justify">Por favor conteste las siguientes preguntas de forma honesta</p>
     <form method="POST" align="justify" id="cuestionario2">
-    <ol>
-      <li>¿Eres arrogante?</li>
-      <textarea name="respuesta1" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Discuten demasiado tus padres o tutores?</li>
-      <textarea name="respuesta2" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te cansas con frecuencia?</li>
-      <textarea name="respuesta3" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te asustas con facilidad?</li>
-      <textarea name="respuesta4" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes menos energía de la que crees que deberías tener? </li>
-      <textarea name="respuesta5" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te sientes frustrado(a) con facilidad? </li>
-      <textarea name="respuesta6" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Amenazas a otros con hacerles daño?</li>
-      <textarea name="respuesta7" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te sientes solo (a) la mayor parte del tiempo?</li>
-      <textarea name="respuesta8" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Dices groserías o vulgaridades?</li>
-      <textarea name="respuesta9" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Escuchas cuidadosamente cuando alguien te habla?</li>
-      <textarea name="respuesta10" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Son tus amigos (as) del agrado de tus padres o tutores?</li>
-      <textarea name="respuesta11" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Se niegan tus padres o tutores a hablarte cuando se enfadan contigo?</li>
-      <textarea name="respuesta12" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Actúas impulsivamente y sin pensar en las consecuencias que tendrán tus actos?</li>
-      <textarea name="respuesta13" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes amigos que causan daño o destrucción intencionalmente?</li>
-      <textarea name="respuesta14" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Participas en muchas actividades en compañía de tus padres o tutores? </li>
-      <textarea name="respuesta15" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>Te sientes nervioso (a) la mayor parte del tiempo?</li>
-      <textarea name="respuesta16" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has estado ausente o llegado tarde a tu trabajo o escuela con frecuencia?</li>
-      <textarea name="respuesta17" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Sientes que la gente está en contra tuya?</li>
-      <textarea name="respuesta18" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Peleas con frecuencia?</li>
-      <textarea name="respuesta19" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes mal genio? </li>
-      <textarea name="respuesta20" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te dice la gente que eres descuidado (a)?</li>
-      <textarea name="respuesta21" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has amenazado alguna vez a alguien con un arma?</li>
-      <textarea name="respuesta22" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Pierdes el hilo del pensamiento con mucha frecuencia?</li>
-      <textarea name="respuesta23" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te consideras tímido?</li>
-      <textarea name="respuesta24" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Crees que tus amigos o conocidos son mejores que tu?</li>
-      <textarea name="respuesta25" rows="10" cols="40" placeholder="Escribe aquí tus respuestas"></textarea>
+    
 
-    </ol>
+
+ <table>
+      <?php 
+      include("conect.php");
+
+      $sql= "SELECT *FROM pregunta WHERE id>10 AND id<=20 ";
+      $resultado=mysqli_query($conect,$sql);
+
+      while ($mostrar=mysqli_fetch_array($resultado)) {
+?>
+
+        <tr>
+          <td><?php echo $mostrar['id'] ?></td>
+          <td><?php echo $mostrar['pregunta'] ?></td>
+    </tr>
+    <?php 
+  }
+     ?>
+  
+
+     <?php 
+    $insert="INSERT INTO RESPUESTAS VALUES()"
+
+
+
+      ?>
+     </table>
+
 <input type="submit" value="Enviar respuestas">
 </form>
 
