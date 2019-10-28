@@ -267,7 +267,7 @@ else{
 </div>-->
 <!-- Container (About Section) -->
 <?php require 'botonA.php'; ?>
-<div id="about" class="container text-center  text-white" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+<div id="about" class="container text-center  text-white" style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
   <div class="row-sm-12">
 
     <h1>PsicApp</h1>
@@ -348,7 +348,7 @@ else{
       </div>
     <?php } elseif($menu==2){ ?>
       <div class="col-sm-6">
-      <a href="../html/cuestionario_adicciones.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
+      <a href="../php/cuestionario_adicciones.php"><i class="fas fa-stethoscope" style="font-size: 40px; margin-bottom: 20px; color: #337ab7;"></i>
       <h4>Tratamientos</h4></a>
       </div>
     <?php } ?>

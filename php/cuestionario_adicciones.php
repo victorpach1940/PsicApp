@@ -106,30 +106,46 @@ else{
     <p align="justify">Por favor conteste las siguientes preguntas de forma honesta</p>
       <table>
       <?php 
-      include("conect.php");
+
+
+      require("conn.php");
 
       $sql= "SELECT *FROM pregunta WHERE id<=10";
-      $resultado=mysqli_query($conect,$sql);
+      $resultado=mysqli_query($conn,$sql);
+?>
 
+<?php 
       while ($mostrar=mysqli_fetch_array($resultado)) {
+
+
+
 ?>
 
         <tr>
           <td><?php echo $mostrar['id'] ?></td>
           <td><?php echo $mostrar['pregunta'] ?></td>
+          <tr><td><input type="text" size="40"  name="respuesta" id="<?php print $sql; ?>"></td></tr>
     </tr>
+
     <?php 
   }
      ?>
      </table>
 
-<form method="POST" align="justify" name="test1" action="p_adicciones.php">
-    
 
 
-<input type="submit" value="Enviar al psicólogo">
 </form>
+<form method="POST" align="justify" name="test1" action="p_adicciones.php">
 
+
+<input type="submit" value="Enviar al psicólogo"></br>
+
+</br></br>
+<script>
+  
+
+
+</script>
 
 		</p>
 	</div>

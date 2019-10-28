@@ -80,12 +80,12 @@ else{
           <li class="nav-item active">
             <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active"><a href="adicciones.php" class="nav-link">Adicciones</a></li>
-          <li class="nav-item active"><a href="saludmental.php" class="nav-link">Salud mental</a></li>
-          <li class="nav-item active"><a href="sexualidad.php" class="nav-link">Sexualidad</a></li>
-          <li class="nav-item active"><a href="violenciadepareja.php" class="nav-link">Violencia de pareja</a></li>
-          <li class="nav-item active"><a href="index.php" class="nav-link">Inicio</a></li>
-   			 <li class="nav-item active"><a href="../login/index.php" class="nav-link">Inicia/Registrate</a></li>
+          <li class="nav-item active"><a href="adicciones.php" class="nav-link" style="color:white;">Adicciones</a></li>
+          <li class="nav-item active"><a href="saludmental.php" class="nav-link" style="color:white;">Salud mental</a></li>
+          <li class="nav-item active"><a href="sexualidad.php" class="nav-link" style="color:white;">Sexualidad</a></li>
+          <li class="nav-item active"><a href="violenciadepareja.php" class="nav-link" style="color:white;">Violencia de pareja</a></li>
+          <li class="nav-item active"><a href="index.php" class="nav-link" style="color:white;">Inicio</a></li>
+   			 <li class="nav-item active"><a href="../login/index.php" class="nav-link" style="color:white;">Inicia/Registrate</a></li>
         </ul>
 
       </div>
@@ -99,13 +99,13 @@ else{
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="cuestionario_violenciadepareja.php">¿Violencia de pareja?</a></li>
-        <li class="nav-item active"><a href="adicciones.php">Adicciones</a></li>
-        <li class="nav-item active"><a href="saludmental.php">Salud mental</a></li>
-        <li class="nav-item active"><a href="sexualidad.php">Sexualidad</a></li>
-        <li class="nav-item active"><a href="violenciadepareja.php">Violencia de pareja</a></li>
-        <li class="nav-item active"><a href="index.php">Inicio</a></li>
-        <li class="nav-item active"><a href="../login/php/salir.php">Salir</a></li>
+        <li class="nav-item active"><a href="cuestionario_violenciadepareja.php" style="color:white;">¿Violencia de pareja?</a></li>
+        <li class="nav-item active"><a href="adicciones.php" style="color:white;">Adicciones</a></li>
+        <li class="nav-item active"><a href="saludmental.php" style="color:white;">Salud mental</a></li>
+        <li class="nav-item active"><a href="sexualidad.php" style="color:white;">Sexualidad</a></li>
+        <li class="nav-item active"><a href="violenciadepareja.php" style="color:white;">Violencia de pareja</a></li>
+        <li class="nav-item active"><a href="index.php" style="color:white;">Inicio</a></li>
+        <li class="nav-item active"><a href="../login/php/salir.php" style="color:white;">Salir</a></li>
       </ul>
 
     </div>
