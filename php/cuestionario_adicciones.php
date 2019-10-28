@@ -62,10 +62,10 @@ else{
 	</a>
      <ul class="right hide-on-med-and-down">
 
-       <li><a href="cuestionario_adicciones.php" class="red">Cuestionario Adicciones</a></li>
-       <li><a href="cuestionario_saludmental.php">Cuestionario Salud mental</a></li>
-       <li><a href="cuestionario_sexualidad.php">Cuestionario Sexualidad</a></li>
-       <li><a href="cuestionario_violenciadepareja.php">Cuestionario Violencia de pareja</a></li>
+       <li><a href="cuestionario_adicciones.php" class="red">Test Adicciones</a></li>
+       <li><a href="cuestionario_saludmental.php">Test salud mental</a></li>
+       <li><a href="cuestionario_sexualidad.php">Test sexualidad</a></li>
+       <li><a href="cuestionario_violenciadepareja.php">Test violencia de pareja</a></li>
        <li><a href="index.php">Inicio</a></li>
 			 <li><a href="../login/php/salir.php">Salir</a></li>
      </ul>
@@ -74,17 +74,17 @@ else{
 
 
    <ul class="sidenav" id="mobile-nav">
-   	   <li><a href="cuestionario_adicciones.php" class="red">Cuestionario Adicciones</a></li>
-       <li><a href="cuestionario_saludmental.php">Cuestionario Salud mental</a></li>
-       <li><a href="cuestionario_sexualidad.php" >Cuestionario Sexualidad</a></li>
-       <li><a href="cuestionario_violenciadepareja.php">Cuestionario Violencia de pareja</a></li>
+   	   <li><a href="cuestionario_adicciones.php" class="red">Test adicciones</a></li>
+       <li><a href="cuestionario_saludmental.php">Test salud mental</a></li>
+       <li><a href="cuestionario_sexualidad.php" >Test sexualidad</a></li>
+       <li><a href="cuestionario_violenciadepareja.php">Test violencia de pareja</a></li>
        <li><a href="index.php">Inicio</a></li>
 			 <li><a href="../login/php/salir.php">Salir</a></li>
    </ul>
 
 
    <center>
-  <section><br><br><br><br><br><br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">¿Tienes alguna adicción? </p></strong>
+  <section><br><br><br><br><br><br></br><strong><p style="font-size:90px; color:#0B5394; font-family: 'Courgette', cursive;">Test de seguimiento </p></strong>
   </section>
 </center>
   <div class="box container white
@@ -101,75 +101,33 @@ else{
 </script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <article align="justify"></br>
-  <h1>Cuestionario de adicciones</h1>
+  <h1><center>Test de adicciones</h1></center>
 			<p >
     <p align="justify">Por favor conteste las siguientes preguntas de forma honesta</p>
-    <form method="POST" align="justify" id="cuestionario1">
-    <ol>
-      <li>¿Con qué frecuencia consume alguna bebida alcohólica?</li>
-      <textarea name="respuesta1" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Cuántas consumiciones de bebidas alcohólicas suele realizar en un día de consumo normal? </li>
-      <textarea name="respuesta2" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con qué frecuencia toma 6 o más bebidas alcohólicas en una sola ocasión de
-      consumo?</li>
-      <textarea name="respuesta3" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con qué frecuencia en el curso del último año ha sido incapaz de parar de
-      beber una vez había empezado? </li>
-      <textarea name="respuesta4" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con qué frecuencia en el curso del último año ha necesitado beber en ayunas
-      para recuperarse después de haber bebido mucho el día anterior? </li>
-      <textarea name="respuesta5" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con qué frecuencia en el curso del último año ha tenido remordimientos o sentimientos de culpa después de haber bebido? </li>
-      <textarea name="respuesta6" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con qué frecuencia en el curso del último año no ha podido recordar lo que
-      sucedió la noche anterior porque había estado bebiendo? </li>
-      <textarea name="respuesta7" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Usted o alguna otra persona han resultado heridos porque usted había bebido? </li>
-      <textarea name="respuesta8" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Algún familiar, amigo, médico o profesional sanitario han mostrado preocupación
-      por su consumo de bebidas alcohólicas o le han indicado que deje de beber?
-      </li>
-      <textarea name="respuesta9" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has tenido dificultades porque consumes drogas o bebidas alcohólicas en la escuela?</li>
-      <textarea name="respuesta10" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Se aburren tus amigos en las fiestas donde no sirven bebidas alcohólicas?</li>
-      <textarea name="respuesta11" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Discuten demasiado tus padres o tutores? </li>
-      <textarea name="respuesta12" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Amenazas a otros con hacerles daño?</li>
-      <textarea name="respuesta13" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Te has hecho daño o le has hecho daño a otra persona accidentalmente, estando
-      bajo los efectos del alcohol o drogas?</li>
-      <textarea name="respuesta14" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Sueles perderte actividades o acontecimientos porque has gastado demasiado dinero
-      en drogas o bebidas alcohólicas?
-      </li>
-      <textarea name="respuesta15" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Sueles consumir drogas?</li>
-      <textarea name="respuesta16" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tus amigos llevan drogas a las fiestas? </li>
-      <textarea name="respuesta17" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Con que frecuencia consumes drogas</li>
-      <textarea name="respuesta18" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has comenzado a consumir mayores cantidades de drogas o alcohol para obtener el
-      efecto que deseas?</li>
-      <textarea name="respuesta19" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿A veces te vas de las fiestas porque en ellas no hay bebidas alcohólicas o drogas?</li>
-      <textarea name="respuesta20" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes dificultades para dormir?</li>
-      <textarea name="respuesta21" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has golpeado incluso herir gravemente a alguien con tal de obtener tu dosis de drogas o bebidas alhoolicas? </li>
-      <textarea name="respuesta22" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes amigos que han golpeado o amenazado a alguien sin razón?</li>
-      <textarea name="respuesta23" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Has robado para obtener el consumo de tus bebidas alcoholicas o drogas??</li>
-      <textarea name="respuesta24" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
-      <li>¿Tienes amigos que han robado? </li>
-      <textarea name="respuesta25" rows="10" cols="65" placeholder="Escribe aquí tus respuestas"></textarea>
+      <table>
+      <?php 
+      include("conect.php");
 
-    </ol>
+      $sql= "SELECT *FROM pregunta WHERE id<=10";
+      $resultado=mysqli_query($conect,$sql);
 
-<input type="submit" value="Enviar respuestas">
+      while ($mostrar=mysqli_fetch_array($resultado)) {
+?>
+
+        <tr>
+          <td><?php echo $mostrar['id'] ?></td>
+          <td><?php echo $mostrar['pregunta'] ?></td>
+    </tr>
+    <?php 
+  }
+     ?>
+     </table>
+
+<form method="POST" align="justify" name="test1" action="p_adicciones.php">
+    
+
+
+<input type="submit" value="Enviar al psicólogo">
 </form>
 
 
@@ -234,5 +192,9 @@ else{
 
     nav li a:hover{
       background: red;
+    }
+
+    article{
+      font-size: 18px;
     }
 </style>
