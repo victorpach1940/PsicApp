@@ -15,8 +15,8 @@
         <li><a href="#"><?php print $usuario; ?></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#tienda" class="btn btn-success">¡Apoyanos!</a></li>
-        <li><a href="tengo_un_problema.php">¿Tengo un problema?</a></li>
+        <li><a href="https://psicapp.webnode.mx/" class="btn btn-success">¡Apoyanos!</a></li>
+        <li><a href="tengo_un_problema.php">Valoracion</a></li>
         <li><a href="#contact">Contacto</a></li>
         <li><a href="#portfolio">Nosotros</a></li>
         <li><a href="#services">Informate</a></li>

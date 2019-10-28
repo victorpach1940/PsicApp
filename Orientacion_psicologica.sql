@@ -73,6 +73,7 @@ CREATE TABLE VISITANTES(
 idvis int not null,
 sexovis varchar(1) not null,
 edadvis int not null,
+estado varchar(20) not null,
 secvis varchar(50),
 PRIMARY KEY (idvis)
 )ENGINE= InnoDB;
