@@ -1,5 +1,9 @@
 
-
+<!-- $host="sql313.elmejorhosting.online";
+		$usu="lmjr_24233346";
+		$clave="lalo789";
+		$db="lmjr_24233346_TRANSFORMACIONAL";
+	-->
 <?php
 	function conexion()
 	{
