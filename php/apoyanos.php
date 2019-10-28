@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>PsicApp</title>
+  <title>¡APOYANOS!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="shrtcut icon" href="../img/icono_page.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="shrtcut icon" href="../img/icono_page.png">
   <style>
   body {
     font: 400 15px Lato, sans-serif;
@@ -94,71 +94,63 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="indexPadres.html">Padres</a>
+      <a class="navbar-brand" href="apoyanos.php"><img src="../img/apoya.png" style="height:35px;"></a>
+      <h5>Apoyanos</h5>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Apoyanos</a></li>
-        <li><a href="../php/categoria_ayuda.php">Hacer valoración</a></li>
-        <li><a href="ayuda.html">Consejos</a></li>
-        <li><a href="../php/categorias.php">Temas</a></li>
-        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html">Regresar</a></li>
       </ul>
     </div>
   </div>
 </nav>
   <!-- Primer Container -->
-<div class="container-fluid bg-1 text-center">
-  <h1 class="margin">¿Como Ayudar?</h1>
-  <img src="../img/imgindex.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>¡El dialogo y la confianza es lo mas importante!</h3>
-</div>
-
-<!-- Segundo Container -->
-<div class="container-fluid bg-2 ">
-  <div class="row">
-    <div class="col-sm-8">
-  <h3 class="margin">¿Como detectar alguien con problemas?</h3>
-  <p>
-    Los problemas Psicológicos producen síntomas que son observables para la persona afectada o las personas de su entorno.
-    En la mayoría de los casos, los síntomas van acompañados de angustia e interferencia con las funciones personales.
-  </p>
-  <p>Entre los cuales algunas detecciones son:</p>
-  <ul>
-    <li><p>Aislamiento</p></li>
-    <li><p>Falta de apetitio</p></li>
-    <li><p>Baja productiidad en la escuela</p></li>
-    <li><p>Dormir en exceso</p></li>
-  </ul>
-  </div>
-  <div class="col-sm-4">
-    <img src="../img/problemas.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Bird" width="350" height="350">
-  </div>
-  </div>
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
-  <h3 class="margin">¿Qué puedo hacer yo como Padre?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Tener una frecuente comunicación llena de confianza</p>
-      <img src="../img/hijos.jpg" class="img-responsive margin" style="width:100%" alt="Comunicacion">
-    </div>
-    <div class="col-sm-4">
-      <p>Platicar con nuestros hijo a la hora que van a descansar.</p>
-      <img src="../img/dormir.jpg" class="img-responsive margin" style="width:100%" alt="Dormir">
-    </div>
-    <div class="col-sm-4">
-      <p>Mantener una buena alimentación y bridarle una atención en especial</p>
-      <img src="../img/comida.jpg" class="img-responsive margin" style="width:100%"  alt="Alimentacion">
+<div class="container-fluid text-center" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
+  <h1 class="margin">¡Gracias por su apoyo!<br> ¿Como desea apoyarnos?</h1>
+  <img src="../img/store.png" class="img-responsive rounded" style="display:inline" alt="Bird" width="200" height="200"><br>
+  <p>Adquiere articulos de nuestra tienda!</p>
+  <a href="https://psicapp.webnode.mx/"><button type="button" name="button" class="btn btn-warning">Ir a la tienda</button></a><br><br>
+  <img src="../img/donar.png" class="img-responsive rounded" style="display:inline" alt="Bird" width="250" height="250"><br>
+  <p>Realiza una donación de la cantidad que gustes</p>
+  <div class="div1">
+    <div class="jumbotron">
+      <img src="../img/gracias.gif" class="img-responsive rounded" style="display:inline" width="450" height="300"><br>
+      <form class="" action="donar.php" method="post">
+        <div class="form-group col-md-12">
+          <label for="cantidad" class="display-4" style="color: black;"><br>Ingresa la cantidad a donar</label>
+          <hr class="my-4">
+          <input type="text" name="precio" class="form-control" placeholder="$0.0" required pattern="[0-9]+">
+        </div>
+        <button type="submit" name="button" class="btn btn-success">Confirmar</button>
+      </form>
     </div>
   </div>
+  <button type="button" name="button" class="btn btn-danger" id="myButton" onclick="ShowHideElement()">Quiero donar</button>
 </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
   <p>Derechos Reservados PsicApp <br> <a href="">www.PsicApp.com</a></p>
 </footer>
+<!--zona de js-->
+<script type="text/javascript">
+  $(".div1").hide();
+  function ShowHideElement()
+  {
+    var text ="";
+
+    if ($("#myButton").text() ==="Quiero donar")
+    {
+        $(".div1").show();
+        text="Ocultar";
+    }
+    else
+    {
+      $(".div1").hide();
+      text="Quiero donar";
+    }
+    $("#myButton").html(text);
+  }
+</script>
 </body>
 </html>
