@@ -118,15 +118,17 @@ else{
         <tr>
           <td><?php echo $mostrar['id'] ?></td>
           <td><?php echo $mostrar['pregunta'] ?></td>
+          <tr><td><input type="text" size="40"  name="respuesta" id="<?php print $sql; ?>"></td></tr>
+
     </tr>
     <?php 
   }
      ?>
      </table>
-
+</form>
+<form method="POST" align="justify" name="test4" action="p_violenciadepareja.php">
 
 <input type="submit" value="Enviar respuestas">
-</form>
 
 
 		</p>
@@ -190,5 +192,8 @@ else{
 
     nav li a:hover{
       background: red;
+    }
+     article{
+      font-size: 18px;
     }
 </style>
