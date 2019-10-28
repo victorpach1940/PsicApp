@@ -142,19 +142,19 @@
             var resultado;      // para guardar el mensaje con el resultado
       switch(acertadas){
         case 0:
-          resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
+          resultado = 'No hemos detectado ningún problema, puedes estar tranquilo :D';
           break;
         case 1:
-          resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo n.n';
+          resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo :)';
           break;
         case 2:
-          resultado = 'Bajo riesgo, deberias pasar mas tiempo con esa persona y expresale tu aprecio.';
+          resultado = 'Bajo riesgo, deberías pasar mas tiempo con esa persona y expresarle tu aprecio.';
           break;
         case 3:
           resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, te recomendamos la sección de salud mental';
           break;
         case 4:
-          resultado = 'Alto indice de riesgo tu ser querido podria estar en profunda depresión, comunicate con uno de nuestros expertos';
+          resultado = 'Alto indice de riesgo tu ser querido podría estar en profunda depresión, comunicate con uno de nuestros expertos';
           break;
         case 5:
           resultado = '¡Elevado indice de riesgo, tu ser querido podría estar incluso en el borde del suicidio, comunicate con uno de nuestros expertos urgentemente';
@@ -196,4 +196,4 @@
 </html>
   </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

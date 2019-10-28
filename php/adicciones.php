@@ -297,7 +297,7 @@ else{
 <div class="container">
   <div class="div10">
     <b>10. ¿Cómo una persona puede hablar con otras con problemas similares?</b></br>
-    Los grupos de autoayuda pueden prolongar los efectos de tratamiento profesional. Los grupos de autoayuda más conocidos son aquellos afiliados con Alcohólicos Anónimos (AA), Narcóticos Anónimos (NA) y Cocaína Anónima (CA), todos los cuales son basados en un modelo de 12 pasos. La mayoría de los programas de tratamientos de adicción a las drogas estimulan a los pacientes a que participen en un grupo de autoayuda durante y después de un tratamiento oficial. Estos grupos en particular pueden ser muy útiles durante la recuperación ya que sirven como una constante fuente de apoyo para mantenerse libre de drogas. </br>
+    Los grupos de autoayuda pueden prolongar los efectos de tratamiento profesional. Los grupos de autoayuda más conocidos son aquellos afiliados con Alcohólicos Anónimos (AA), Narcóticos Anónimos (NA) y Cocaína Anónima (CA), todos los cuales son basados en un modelo de 12 pasos. La mayoría de los programas de tratamientos de adicción a las drogas estimulan a los pacientes a que participen en un grupo de auto ayuda durante y después de un tratamiento oficial. Estos grupos en particular pueden ser muy útiles durante la recuperación ya que sirven como una constante fuente de apoyo para mantenerse libre de drogas. </br>
   </div>
   <button id="myButton10" class="btn btn-warning btn-lg btn-block" onclick="ShowHideElement10()">¿Hablar?</button>
 </div>

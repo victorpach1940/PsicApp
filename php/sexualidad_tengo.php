@@ -145,19 +145,19 @@
                 resultado = 'No hemos detectado ningún problema, puede estar tranquilo :D';
                 break;
               case 1:
-                resultado = 'Encontramos un indice muy bajo, pero puede que sean solo cambios hormonales, puede estar usted tranquilo n.n';
+                resultado = 'Encontramos un indice muy bajo, pero puede que sean solo cambios hormonales, puede estar usted tranquilo';
                 break;
               case 2:
-                resultado = 'Bajo riesgo, puede que usted necesite hablar con un experto, recomendamos ponerse en contacto con nosotros donde sin pena podra expresarnos sus problemas.';
+                resultado = 'Bajo riesgo, puede que usted necesite hablar con un experto, recomendamos ponerse en contacto con nosotros donde sin pena podrá expresarnos sus problemas.';
                 break;
               case 3:
                 resultado = 'Algo no esta bien, necesita hablar con un experto, si no conoce alguno o tiene pena, recomendamos que se ponga en contacto con nuestros expertos.';
                 break;
               case 4:
-                resultado = 'Alto indice de riesgo usted podría estar en serios problemas, puede despejar aun mas sus dudas visitanto el tema de sexualidad y comunicandose con uno de nuestros expertos ';
+                resultado = 'Alto indice de riesgo usted podría estar en serios problemas, puede despejar aun mas sus dudas visitanto el tema de sexualidad y comunicándose con uno de nuestros expertos ';
                 break;
               case 5:
-                resultado = '¡Elevado indice de riesgo, necesita atencion de un ginecólogo, podría estar realmente en problemas de salud sexual, nuestros expertos lo pueden ayudar a como buscar ayuda ';
+                resultado = '¡Elevado indice de riesgo, necesita atención de un ginecólogo, podría estar realmente en problemas de salud sexual, nuestros expertos lo pueden ayudar a como buscar ayuda ';
                 break;
             }
                   document.getElementById('resolucion').innerHTML = resultado;
@@ -196,4 +196,4 @@
       </html>
         </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

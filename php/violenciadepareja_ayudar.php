@@ -142,10 +142,10 @@
                 var resultado;      // para guardar el mensaje con el resultado
           switch(acertadas){
           case 0:
-              resultado = 'No hemos detectado ningun problema, puede estar tranquilo :D';
+              resultado = 'No hemos detectado ningún problema, puede estar tranquilo :D';
               break;
             case 1:
-              resultado = 'Encontramos un indice muy bajo, quiza es solo una pequeña etapa, pero le aseguramos que puede estar tranquilo :)';
+              resultado = 'Encontramos un indice muy bajo, quizá es solo una pequeña etapa, pero le aseguramos que puede estar tranquilo :)';
               break;
             case 2:
               resultado = 'Bajo riesgo, puede que su ser querido este triste temporalmente, de cualquier forma le recomendamos hablar siempre con uno de nuestros expertos.';
@@ -154,10 +154,10 @@
               resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, puede que la pareja de su ser querido la este maltratando psicológicamente';
               break;
             case 4:
-              resultado = 'Alto indice de riesgo, no es normal este tipo de comportamiento, comuniquese con uno de nuestros expertos';
+              resultado = 'Alto indice de riesgo, no es normal este tipo de comportamiento, comuníquese con uno de nuestros expertos';
               break;
             case 5:
-              resultado = '¡Elevado indice de riesgo, , comunicate con uno de nuestros expertos urgentemente, su ser querido puede estar sufriendo de violencia psicológica o fisica';
+              resultado = '¡Elevado indice de riesgo, , comunicate con uno de nuestros expertos urgentemente, su ser querido puede estar sufriendo de violencia psicológica o física';
               break;
           }
                 document.getElementById('resolucion').innerHTML = resultado;
@@ -196,4 +196,4 @@
     </html>
       </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

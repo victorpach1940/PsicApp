@@ -105,19 +105,20 @@
   </div>
 </nav>
   <!-- Primer Container -->
+  <!-- style="background:url(http://fabian.elmejorhosting.online/PsicApp/img/fondo.jpg   --- usa este para subir al host-->
 <div class="container-fluid text-center" style="background:url(http://localhost/PsicApp/img/fondo.jpg) no-repeat center center fixed; display: table; height: 90%; position: relative; width: 100%; background-size: cover; width:100%; height:550px; padding: 60px 25px; ">
-  <h1 class="margin">¡Gracias por su apoyo!<br> ¿Como desea apoyarnos?</h1>
+  <h1 class="margin">¡Gracias por su apoyo!<br> ¿Cómo desea apoyarnos?</h1>
   <img src="../img/store.png" class="img-responsive rounded" style="display:inline" alt="Bird" width="200" height="200"><br>
-  <p>Adquiere articulos de nuestra tienda!</p>
+  <p style="color: black;">Adquiere artículos de nuestra tienda!</p>
   <a href="https://psicapp.webnode.mx/"><button type="button" name="button" class="btn btn-warning">Ir a la tienda</button></a><br><br>
   <img src="../img/donar.png" class="img-responsive rounded" style="display:inline" alt="Bird" width="250" height="250"><br>
-  <p>Realiza una donación de la cantidad que gustes</p>
+  <p > Realiza una donación voluntaria con la cantidad que gustes</p>
   <div class="div1">
     <div class="jumbotron">
       <img src="../img/gracias.gif" class="img-responsive rounded" style="display:inline" width="450" height="300"><br>
       <form class="" action="donar.php" method="post">
         <div class="form-group col-md-12">
-          <label for="cantidad" class="display-4" style="color: black;"><br>Ingresa la cantidad a donar</label>
+          <label for="cantidad" class="display-4" style="color: black;"><br>Ingrese la cantidad a donar</label>
           <hr class="my-4">
           <input type="text" name="precio" class="form-control" placeholder="$0.0" required pattern="[0-9]+">
         </div>

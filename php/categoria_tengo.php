@@ -70,7 +70,7 @@
   <article align="justify">
     <center>
     <p>
-      <h1>Vamos a ayudarte ¿Cual es el problema que crees haber percibido en ti mismo?</h1></br>
+      <h1>Vamos a ayudarte ¿Cuál es el problema que crees haber percibido en ti mismo?</h1></br>
 
       <div class="constainer-fluid">
         <div class="row">
