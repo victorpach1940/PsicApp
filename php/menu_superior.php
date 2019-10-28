@@ -6,13 +6,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">
+      <a class="navbar-brand" href="previus.php">
         <img src="../img/ico.png" height="35" width="40">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#tienda" class="btn btn-success">¡Apoyanos!</a></li>
+        <li><a href="https://psicapp.webnode.mx/" class="btn btn-success">¡Apoyanos!</a></li>
         <li><a href="categoria_tengo.php">Valoracion</a></li>
         <li><a href="#portfolio">Nosotros</a></li>
         <li><a href="#services">Informate</a></li>
