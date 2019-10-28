@@ -142,22 +142,22 @@
                   var resultado;      // para guardar el mensaje con el resultado
             switch(acertadas){
               case 0:
-                resultado = 'No hemos detectado ningun problema, puede estar tranquilo :D';
+                resultado = 'No hemos detectado ningún problema, puede estar tranquilo :D';
                 break;
               case 1:
                 resultado = 'Encontramos un indice muy bajo, pero puede que sean cambios hormonales, puede estar tranquilo n.n';
                 break;
               case 2:
-                resultado = 'Bajo riesgo, puede que su amigo necesite hablar con un experto, recomendamos hablarle de Psicapp a su ser querido, donde el sin pena podra expresarnos sus problemas.';
+                resultado = 'Bajo riesgo, puede que su amigo necesite hablar con un experto, recomendamos hablarle de Psicapp a su ser querido, donde el sin pena podrá expresarnos sus problemas.';
                 break;
               case 3:
-                resultado = 'Algo no esta bien, su amigo necesita hablar con un experto, recomendamos hablarle de Psicapp a su ser querido, donde el sin pena podra expresarnos sus problemas.';
+                resultado = 'Algo no esta bien, su amigo necesita hablar con un experto, recomendamos hablarle de Psicapp a su ser querido, donde el sin pena podrá expresarnos sus problemas.';
                 break;
               case 4:
-                resultado = 'Alto indice de riesgo su ser querido podría estar en serios problemas, puede despejar aun mas sus dudas visitanto el tema de sexualidad y comunicandose con uno de nuestros expertos ';
+                resultado = 'Alto indice de riesgo su ser querido podría estar en serios problemas, puede despejar aun mas sus dudas visitanto el tema de sexualidad y comunicándose con uno de nuestros expertos ';
                 break;
               case 5:
-                resultado = '¡Elevado indice de riesgo, tu ser querido necesita atencion de un ginecólogo, podría estar realmente en problemas de salud sexual, nuestros expertos lo pueden orientar ';
+                resultado = '¡Elevado indice de riesgo, tu ser querido necesita atención de un ginecólogo, podría estar realmente en problemas de salud sexual, nuestros expertos lo pueden orientar ';
                 break;
             }
                   document.getElementById('resolucion').innerHTML = resultado;
@@ -196,4 +196,4 @@
       </html>
         </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

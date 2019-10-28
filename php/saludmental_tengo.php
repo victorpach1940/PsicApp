@@ -65,7 +65,7 @@
 <div class="banner" class="img-fluid" alt="Responsive image">
 
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Padece algun problema mental?</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Padece algún problema mental?</p></strong>
   </section>
 </center>
 </div>
@@ -142,13 +142,13 @@
             var resultado;      // para guardar el mensaje con el resultado
       switch(acertadas){
         case 0:
-          resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
+          resultado = 'No hemos detectado ningún problema, puedes estar tranquilo :D';
           break;
         case 1:
           resultado = 'Encontramos un indice muy bajo, pero ¡animo!, te aseguramos que puedes estar tranquilo :)';
           break;
         case 2:
-          resultado = 'Bajo riesgo, deberias dormir un poco mas para tener mas energia emocional.';
+          resultado = 'Bajo riesgo, deberías dormir un poco mas para tener mas energía emocional.';
           break;
         case 3:
           resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, te recomendamos la sección de salud mental';
@@ -196,4 +196,4 @@
 </html>
   </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

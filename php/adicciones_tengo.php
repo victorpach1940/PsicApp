@@ -65,7 +65,7 @@
 <div class="banner" class="img-fluid" alt="Responsive image">
 
   <center>
-  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Como saber si tiene una adicción?</p></strong>
+  <section><br><br><br><br><br><br></br></br></br></br></br><strong><p style="font-size:70px; color:white; font-family: 'Courgette', cursive;">¿Cómo saber si tiene una adicción?</p></strong>
   </section>
 </center>
 </div>
@@ -140,13 +140,13 @@
             var resultado;      // para guardar el mensaje con el resultado
       switch(acertadas){
         case 0:
-          resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
+          resultado = 'No hemos detectado ningún problema, puedes estar tranquilo :D';
           break;
         case 1:
           resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo ^.^';
           break;
         case 2:
-          resultado = 'Encontramos un indice bajo de riesgo, deberias si tiene dudas, consulte la sección de adicciones .';
+          resultado = 'Encontramos un indice bajo de riesgo, deberías si tiene dudas, consulte la sección de adicciones .';
           break;
         case 3:
           resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, le recomendamos comunicarse con nosotros';
@@ -155,7 +155,7 @@
           resultado = 'Detectamos un indice alto de riesgo en cuanto adicciones se refiere, visite la sección de adicciones y comuniquese con uno de nuestros expertos, lo atenderemos con gusto.';
           break;
         case 5:
-          resultado = '¡Segun nuestras estadisticas usted podría padecer de una adicción. Por favor comuniquese con nosotros.';
+          resultado = '¡Según nuestras estadísticas usted podría padecer de una adicción. Por favor comuníquese con nosotros.';
           break;
       }
             document.getElementById('resolucion').innerHTML = resultado;
@@ -194,4 +194,4 @@
 </html>
   </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.

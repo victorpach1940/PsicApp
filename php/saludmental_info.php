@@ -78,7 +78,7 @@ else{
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Menú <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active"><a href="adicciones.php" class="nav-link">Adicciones</a></li>
           <li class="nav-item active"><a href="saludmental.php" class="nav-link">Salud mental</a></li>
@@ -140,7 +140,7 @@ else{
   <h3>Introducción</h3>
   			<p>
   				Las personas afectadas por un problema de salud mental, tienen más probabilidades de sufrir otras patologías como diabetes, cardiopatías y cáncer de colon y de mama.</br>
-  				Por eso, a la hora de referirse a la salud mental existen muchas asociaciones entre salud mental y enfermedades crónicas que tienen un impacto significativo en las personas, en este articulo aremos referencia ala salud mental de manera Psicologica, emocional y social. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice.
+  				Por eso, a la hora de referirse a la salud mental existen muchas asociaciones entre salud mental y enfermedades crónicas que tienen un impacto significativo en las personas, en este articulo aremos referencia ala salud mental de manera Psicológica, emocional y social. En PsicApp nuestros usuarios y pacientes son muy importantes a continuación le proporcionamos el siguiente indice.
   			<div class="indice">
   			<p class="indice-Contenidos">Contenidos</p>
   			<ol class="indice-lista">
@@ -286,7 +286,7 @@ else{
 </div>
 <div class="container">
   <div class="div5">
-    <b>5. ¿Qué puedes hacer si te estás autolesionando fisicamente?</b></br>
+    <b>5. ¿Qué puedes hacer si te estás autolesionando físicamente?</b></br>
     Existen una serie de técnicas que pueden reducir el riesgo de lesión seria o reducen al mínimo el daño causado por las autolesiones
     <ol>
       <li>Para e intenta descubrir qué tendría que cambiar para no sentir más el deseo de dañarte.</li>

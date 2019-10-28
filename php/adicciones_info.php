@@ -144,7 +144,7 @@ else{
   						<div class="indice">
   			<p class="indice-Contenidos">Contenidos</p>
   			<ol class="indice-lista">
-  				<li><a href="#1">¿Que es una adiccion?</a>
+  				<li><a href="#1">¿Que es una adicción?</a>
   				<ul>
   					<li><a href="#2">¿Cuál es la diferencia entre adicción física y adicción psicológica?</a> </li>
   					<li><a href="#3">Clasificación de las drogas</a> </li>
@@ -189,7 +189,7 @@ else{
     </ul>
     A la lista se suman las “nuevas drogas o drogas de diseño” creadas con fines recreativos, entre las que se encuentran: feniletilaminas, arilhexilaminas, opiáceos, derivados del fentanilo, la meperidina y la metacualona.
 
-  <h3 id="4">Medidas preventivas para las adicciones</h3>
+  <h3 id="4">Medidas preventivas para las adicciónes</h3>
   Las adicciones pueden afectar a hombres y mujeres de cualquier edad, nivel de educación o clase social. Una adicción es cuando la persona siente el deseo incontrolable de recurrir al consumo de determinadas sustancias, por lo general químicas, ya sea de modo continúo o periódico. Es decir, la persona adicta a una sustancia no puede controlar el deseo de utilizarla. La adicción al alcohol y las drogas debe ser vista como un problema que afecta no sólo al que se intoxica con esas sustancias, sino como un conflicto de todo el grupo familiar al que pertenece el adicto.<br /><em>El cariño y la atención hacia los menores juegan un papel muy importante en la prevención de las adicciones. Si los niños y niñas crecen con amor y seguridad, si tienen confianza para comunicarse, si se sienten comprendidos y valorados, pero además en la familia no hay adicciones, será difícil que busquen el camino de las drogas.</em><br />
           <img class="img-fluid" src="../img/ad2.jpg">
 

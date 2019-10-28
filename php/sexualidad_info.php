@@ -78,7 +78,7 @@ else{
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Menú <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active"><a href="adicciones.php" class="nav-link">Adicciones</a></li>
           <li class="nav-item active"><a href="saludmental.php" class="nav-link">Salud mental</a></li>
@@ -184,7 +184,7 @@ else{
   				<b id="2"><h5>Etapas del desarrollo de la sexualidad</b></h5>
 
   				<ul>
-  					<li>Adolescencia temprana (11-13 años): Durante esta etapa, que se caracteriza por la velocidad de los cambios físicos en el adolescente, el joven se encuentra aún lejos del deseo sexual adulto, por lo que se presenta como una fase de autoexploración (a menudo a través de la masturbación), debido a los nuevos cambios físicos y psíquicos que experimenta (como la aparición de los primeros impulsos sexuales y de la espermarquia o primera eyaculación), y también de exploración del contacto con el otro sexo.</li>
+  					<li>Adolescencia temprana (11-13 años): Durante esta etapa, que se caracteriza por la velocidad de los cambios físicos en el adolescente, el joven se encuentra aún lejos del deseo sexual adulto, por lo que se presenta como una fase de auto exploración (a menudo a través de la masturbación), debido a los nuevos cambios físicos y psíquicos que experimenta (como la aparición de los primeros impulsos sexuales y de la espermarquia o primera eyaculación), y también de exploración del contacto con el otro sexo.</li>
   					<li>Adolescencia media (14-17 años): El adolescente ya está casi completamente desarrollado, sus órganos sexuales están listos para la reproducción y el deseo sexual se incrementa. En esta fase se desarrolla una sensación de invulnerabilidad y fortaleza que inducen al joven a comportarse de una forma narcisista. Se empieza a buscar el contacto habitual con el otro sexo y pueden llegar las primeras relaciones sexuales. El adolescente no sólo responde a sus impulsos sexuales, sino también a su narcisismo, es decir, pone a prueba la propia capacidad de atraer al otro. También se considera que durante esta etapa se produce el auge de las fantasías románticas.Las relaciones sociales fuera del entorno familiar, especialmente con amigos, empiezan a tener preponderancia, por lo que el adolescente contrapone los valores y la educación sexual recibida de sus padres con la de sus amigos (en muchas ocasiones llenas de mitos derivados de la poca o nula experiencia sexual), lo que puede acarrear riesgos, si a esto se suma que el adolescente aún no ha desarrollado del todo el pensamiento abstracto y en algunas ocasiones le cuesta pensar en las consecuencias de sus actos. Además, al no haber desarrollado por completo el pensamiento adulto, el adolescente utiliza los sentidos para expresar sus emociones</li>
   					<li>Adolescencia tardía (17-21 años): El adolescente se ha desarrollado por completo, física y psíquicamente. La capacidad de pensar en abstracto y de ser consciente de las consecuencias futuras de los actos hace que el joven pueda mantener relaciones sexuales maduras y seguras. El deseo ya no sólo responde a un estímulo o pulsión sexual, sino que el adolescente, ya adulto, comienza a buscar otros valores en sus relaciones sociales, como la confianza o la reciprocidad.</li>
   				</ul>

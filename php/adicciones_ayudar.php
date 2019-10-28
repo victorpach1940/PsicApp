@@ -141,13 +141,13 @@
             var resultado;      // para guardar el mensaje con el resultado
       switch(acertadas){
         case 0:
-          resultado = 'No hemos detectado ningun problema, puedes estar tranquilo :D';
+          resultado = 'No hemos detectado ningún problema, puedes estar tranquilo :D';
           break;
         case 1:
           resultado = 'Encontramos un indice muy bajo, pero te aseguramos que puedes estar tranquilo ^.^';
           break;
         case 2:
-          resultado = 'Encontramos un indice bajo de riesgo, deberias vigilar mas ala persona en cuestión .';
+          resultado = 'Encontramos un indice bajo de riesgo, deberías vigilar mas ala persona en cuestión .';
           break;
         case 3:
           resultado = 'Algo no esta bien, detectamos un riesgo de nivel medio, te recomendamos visitar la sección de adicciones';
@@ -195,4 +195,4 @@
 </html>
   </body>
 </html>
-© 2019 Instituto Tecnólogico de Puebla, PsicApp.
+© 2019 Instituto Tecnológico de Puebla, PsicApp.
