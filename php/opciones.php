@@ -22,7 +22,7 @@
 <a href="categoria_tengo.php" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" class="btn btn-light btn-lg">Creo tener un problema.</a>
 </button></br></br></br>
 
-<a href="https://psicapp.webnode.mx/" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" class="btn btn-light btn-lg">Apoya al centro de integración juvenil, A.C.</a>
+<a href="apoyanos.php" style="text-decoration:none;color:black;"><button type="button" style="width: 330px; margin: 0 auto;" class="btn btn-light btn-lg">Apoya al centro de integración juvenil, A.C.</a>
 </button></br></br></br>
 
 	</center>
